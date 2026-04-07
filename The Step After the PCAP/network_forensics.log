@@ -1,0 +1,6666 @@
+============== Forensic Network Analyser v1.1 - Full Flow Report ==============
+PCAP analyzed: compromised_host_traffic_20260405.pcap
+Analysis period: 2026-04-05 00:00:00 - ~03:45:00 UTC
+
+Notable IOC:
+Repeated TLS JA3 hash observed in multiple flows to the same IP address.
+The times seem to be out of order.
+===============================================================================
+
+--- Flow Record #0218 ---
+Timestamp: 2026-04-05 05:21:46 UTC
+Src IP: 192.168.148.245
+Dst IP: 4.189.186.5
+Src Port: 20812
+Dst Port: 58764
+Protocol: UDP
+Bytes Transferred: 4313
+Duration (s): 4.11
+TLS JA3 Hash: 3feddbbda35edb55dc9d932320d3f3e1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0144 ---
+Timestamp: 2026-04-05 03:28:42 UTC
+Src IP: 192.168.22.31
+Dst IP: 37.202.205.178
+Src Port: 39726
+Dst Port: 64067
+Protocol: TCP
+Bytes Transferred: 1582
+Duration (s): 0.42
+TLS JA3 Hash: 6a6c37df88cbfcf84e338ff740312f05
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0250 ---
+Timestamp: 2026-04-05 06:04:11 UTC
+Src IP: 192.168.199.226
+Dst IP: 124.250.210.176
+Src Port: 16415
+Dst Port: 1899
+Protocol: UDP
+Bytes Transferred: 2394
+Duration (s): 2.59
+TLS JA3 Hash: d1a8adcedc818f7a19ed7563a400c2ab
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0088 ---
+Timestamp: 2026-04-05 02:08:33 UTC
+Src IP: 192.168.146.219
+Dst IP: 14.236.37.75
+Src Port: 45043
+Dst Port: 4415
+Protocol: UDP
+Bytes Transferred: 1004
+Duration (s): 1.07
+TLS JA3 Hash: fab473926afea94bad50a77d8b4afeeb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0023 ---
+Timestamp: 2026-04-05 00:36:21 UTC
+Src IP: 10.0.168.172
+Dst IP: 32.210.181.224
+Src Port: 44627
+Dst Port: 61678
+Protocol: UDP
+Bytes Transferred: 621
+Duration (s): 4.85
+TLS JA3 Hash: 9b364f73bb387d080589ab054c24026c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0314 ---
+Timestamp: 2026-04-05 07:34:20 UTC
+Src IP: 10.0.193.8
+Dst IP: 10.254.221.213
+Src Port: 31544
+Dst Port: 27029
+Protocol: TCP
+Bytes Transferred: 308
+Duration (s): 2.93
+TLS JA3 Hash: 1289f680867e01df719b2bef5bb4abd5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0434 ---
+Timestamp: 2026-04-05 10:39:33 UTC
+Src IP: 192.168.239.58
+Dst IP: 154.77.180.27
+Src Port: 39543
+Dst Port: 63677
+Protocol: TLS
+Bytes Transferred: 2262
+Duration (s): 3.5
+TLS JA3 Hash: 5a3f3554fc877e550b9443c5ca8c6606
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0101 ---
+Timestamp: 2026-04-05 02:25:39 UTC
+Src IP: 192.168.112.102
+Dst IP: 64.83.199.213
+Src Port: 25820
+Dst Port: 14457
+Protocol: UDP
+Bytes Transferred: 848
+Duration (s): 2.17
+TLS JA3 Hash: 7898d625493ee8f6a041053984e07240
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0446 ---
+Timestamp: 2026-04-05 11:02:03 UTC
+Src IP: 192.168.48.241
+Dst IP: 45.76.123.45
+Src Port: 1542
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1724
+Duration (s): 1.34
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: OAEDO
+------------------------------------------------------------
+
+--- Flow Record #0133 ---
+Timestamp: 2026-04-05 03:12:15 UTC
+Src IP: 10.0.30.72
+Dst IP: 45.76.123.45
+Src Port: 28432
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1519
+Duration (s): 0.93
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 38HYF
+------------------------------------------------------------
+
+--- Flow Record #0234 ---
+Timestamp: 2026-04-05 05:45:48 UTC
+Src IP: 10.0.61.134
+Dst IP: 25.126.104.27
+Src Port: 32071
+Dst Port: 1616
+Protocol: TLS
+Bytes Transferred: 3835
+Duration (s): 2.01
+TLS JA3 Hash: 39cf578e3d4054756ff993fb8cc3edd4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0353 ---
+Timestamp: 2026-04-05 08:30:06 UTC
+Src IP: 192.168.75.243
+Dst IP: 162.199.80.91
+Src Port: 63030
+Dst Port: 49172
+Protocol: UDP
+Bytes Transferred: 2580
+Duration (s): 4.34
+TLS JA3 Hash: 15c7ba59602fc9d89073b758a4e1a191
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0247 ---
+Timestamp: 2026-04-05 06:00:57 UTC
+Src IP: 192.168.11.209
+Dst IP: 189.107.220.133
+Src Port: 19259
+Dst Port: 37693
+Protocol: TLS
+Bytes Transferred: 2775
+Duration (s): 0.59
+TLS JA3 Hash: 95398fe759837843650160f0b69de4e9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0388 ---
+Timestamp: 2026-04-05 09:18:28 UTC
+Src IP: 192.168.72.193
+Dst IP: 78.253.74.68
+Src Port: 9187
+Dst Port: 40389
+Protocol: TCP
+Bytes Transferred: 3713
+Duration (s): 1.66
+TLS JA3 Hash: 16980dc2ff24810ce4382e8d37a5cc8d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0365 ---
+Timestamp: 2026-04-05 08:47:54 UTC
+Src IP: 10.0.87.47
+Dst IP: 58.178.167.173
+Src Port: 11458
+Dst Port: 5649
+Protocol: UDP
+Bytes Transferred: 3198
+Duration (s): 0.17
+TLS JA3 Hash: ae38c42524ace187d90541a17d8949a2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0329 ---
+Timestamp: 2026-04-05 07:57:46 UTC
+Src IP: 192.168.102.63
+Dst IP: 37.8.116.232
+Src Port: 29796
+Dst Port: 16576
+Protocol: UDP
+Bytes Transferred: 3470
+Duration (s): 2.39
+TLS JA3 Hash: eb6e4d17439b1becd29bf1f2ba695034
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0333 ---
+Timestamp: 2026-04-05 08:02:31 UTC
+Src IP: 10.0.42.204
+Dst IP: 189.4.76.139
+Src Port: 29108
+Dst Port: 32287
+Protocol: TCP
+Bytes Transferred: 1444
+Duration (s): 4.96
+TLS JA3 Hash: 0f5149bb2159a3121065cf3892942e85
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0032 ---
+Timestamp: 2026-04-05 00:44:27 UTC
+Src IP: 192.168.21.111
+Dst IP: 155.92.150.83
+Src Port: 7747
+Dst Port: 5248
+Protocol: UDP
+Bytes Transferred: 2621
+Duration (s): 1.6
+TLS JA3 Hash: d5ebe1bd812cb504e1427bbc14ebbe24
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0381 ---
+Timestamp: 2026-04-05 09:09:28 UTC
+Src IP: 192.168.51.131
+Dst IP: 11.209.231.27
+Src Port: 17178
+Dst Port: 3532
+Protocol: UDP
+Bytes Transferred: 2077
+Duration (s): 1.73
+TLS JA3 Hash: 19b8f96c53600d5bbedd8f0630a66c5e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0357 ---
+Timestamp: 2026-04-05 08:35:39 UTC
+Src IP: 192.168.227.156
+Dst IP: 23.13.197.40
+Src Port: 45910
+Dst Port: 29861
+Protocol: TCP
+Bytes Transferred: 2824
+Duration (s): 4.71
+TLS JA3 Hash: 63568ab1d5d3ffd468913790e6a97f4d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0109 ---
+Timestamp: 2026-04-05 02:38:44 UTC
+Src IP: 192.168.194.187
+Dst IP: 219.43.57.190
+Src Port: 4598
+Dst Port: 15929
+Protocol: TLS
+Bytes Transferred: 1409
+Duration (s): 4.36
+TLS JA3 Hash: 90a39ef0a6668f40c18519681e02c8b3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0120 ---
+Timestamp: 2026-04-05 02:51:58 UTC
+Src IP: 192.168.197.120
+Dst IP: 121.118.114.37
+Src Port: 57456
+Dst Port: 58701
+Protocol: TLS
+Bytes Transferred: 2313
+Duration (s): 4.57
+TLS JA3 Hash: c5aaef02f3bfe59b43c3a29ecd775fc2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0065 ---
+Timestamp: 2026-04-05 01:37:00 UTC
+Src IP: 192.168.51.232
+Dst IP: 166.227.65.24
+Src Port: 60339
+Dst Port: 55528
+Protocol: UDP
+Bytes Transferred: 1203
+Duration (s): 0.31
+TLS JA3 Hash: e15dcf0cd5b6588e4179fdf128c4d670
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0311 ---
+Timestamp: 2026-04-05 07:30:25 UTC
+Src IP: 192.168.100.194
+Dst IP: 163.202.9.131
+Src Port: 51194
+Dst Port: 18982
+Protocol: UDP
+Bytes Transferred: 392
+Duration (s): 3.38
+TLS JA3 Hash: d216167f0b2b5c64098bc568a6a8c39e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0298 ---
+Timestamp: 2026-04-05 07:12:31 UTC
+Src IP: 10.0.29.209
+Dst IP: 100.61.114.196
+Src Port: 42199
+Dst Port: 2307
+Protocol: TLS
+Bytes Transferred: 4669
+Duration (s): 0.46
+TLS JA3 Hash: fc9ce7f8bef4eb7495c85b0d941ed7c4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0041 ---
+Timestamp: 2026-04-05 01:02:17 UTC
+Src IP: 10.0.172.203
+Dst IP: 76.98.89.157
+Src Port: 57132
+Dst Port: 41860
+Protocol: UDP
+Bytes Transferred: 3703
+Duration (s): 2.62
+TLS JA3 Hash: 2c354fa708c7e8a908b713e95c939b77
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0102 ---
+Timestamp: 2026-04-05 02:27:50 UTC
+Src IP: 10.0.215.80
+Dst IP: 202.255.190.119
+Src Port: 46698
+Dst Port: 51867
+Protocol: TCP
+Bytes Transferred: 2905
+Duration (s): 0.49
+TLS JA3 Hash: 418c2f568c037ce716e36fc9a5138f96
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0313 ---
+Timestamp: 2026-04-05 07:33:20 UTC
+Src IP: 10.0.5.243
+Dst IP: 71.0.155.114
+Src Port: 26020
+Dst Port: 47760
+Protocol: TLS
+Bytes Transferred: 1506
+Duration (s): 0.58
+TLS JA3 Hash: b66db28d0913948e630f50327e880f24
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0417 ---
+Timestamp: 2026-04-05 10:09:36 UTC
+Src IP: 10.0.135.167
+Dst IP: 140.100.126.203
+Src Port: 59826
+Dst Port: 10317
+Protocol: UDP
+Bytes Transferred: 1153
+Duration (s): 1.57
+TLS JA3 Hash: a961ed7e73003fb5432be28a56b85de8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0319 ---
+Timestamp: 2026-04-05 07:44:13 UTC
+Src IP: 10.0.67.190
+Dst IP: 155.12.224.128
+Src Port: 25054
+Dst Port: 52058
+Protocol: TLS
+Bytes Transferred: 3722
+Duration (s): 0.2
+TLS JA3 Hash: b3df18dd2228bfc74305256eb8f25d31
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0262 ---
+Timestamp: 2026-04-05 06:18:19 UTC
+Src IP: 10.0.120.220
+Dst IP: 45.76.123.45
+Src Port: 17062
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1966
+Duration (s): 1.32
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: ZRENU
+------------------------------------------------------------
+
+--- Flow Record #0212 ---
+Timestamp: 2026-04-05 05:10:52 UTC
+Src IP: 192.168.134.97
+Dst IP: 33.108.205.159
+Src Port: 4693
+Dst Port: 14347
+Protocol: UDP
+Bytes Transferred: 1704
+Duration (s): 4.13
+TLS JA3 Hash: 2efacc51bd68332ba079532609661782
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0159 ---
+Timestamp: 2026-04-05 03:49:39 UTC
+Src IP: 192.168.190.180
+Dst IP: 114.248.241.6
+Src Port: 57371
+Dst Port: 29460
+Protocol: TLS
+Bytes Transferred: 2187
+Duration (s): 1.09
+TLS JA3 Hash: c1a03ddf91fcff710da28df3fbed0596
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0053 ---
+Timestamp: 2026-04-05 01:21:00 UTC
+Src IP: 192.168.134.124
+Dst IP: 90.243.49.113
+Src Port: 48340
+Dst Port: 45664
+Protocol: UDP
+Bytes Transferred: 2812
+Duration (s): 0.43
+TLS JA3 Hash: 130a35755ade7c55dc06edc0668235ba
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0496 ---
+Timestamp: 2026-04-05 12:16:43 UTC
+Src IP: 192.168.42.148
+Dst IP: 174.7.242.50
+Src Port: 62857
+Dst Port: 53057
+Protocol: TLS
+Bytes Transferred: 4962
+Duration (s): 0.97
+TLS JA3 Hash: 25f34da67e2e0d985c9506727a9039bd
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0007 ---
+Timestamp: 2026-04-05 00:10:19 UTC
+Src IP: 10.0.237.13
+Dst IP: 143.127.62.117
+Src Port: 9762
+Dst Port: 52522
+Protocol: UDP
+Bytes Transferred: 4551
+Duration (s): 4.94
+TLS JA3 Hash: aede5fe878f78e2978aa2447c462ddae
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0184 ---
+Timestamp: 2026-04-05 04:29:15 UTC
+Src IP: 192.168.254.27
+Dst IP: 45.76.123.45
+Src Port: 7233
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1318
+Duration (s): 0.72
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 9SXME
+------------------------------------------------------------
+
+--- Flow Record #0158 ---
+Timestamp: 2026-04-05 03:48:52 UTC
+Src IP: 10.0.40.192
+Dst IP: 155.132.54.112
+Src Port: 36044
+Dst Port: 1175
+Protocol: TCP
+Bytes Transferred: 3435
+Duration (s): 0.67
+TLS JA3 Hash: 5fecf9bc92440630606f47d629e4fd03
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0229 ---
+Timestamp: 2026-04-05 05:41:35 UTC
+Src IP: 10.0.95.86
+Dst IP: 117.72.6.171
+Src Port: 32127
+Dst Port: 28045
+Protocol: UDP
+Bytes Transferred: 370
+Duration (s): 0.97
+TLS JA3 Hash: 8250bf0f7f3109754339aefb8f8be0b9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0256 ---
+Timestamp: 2026-04-05 06:11:37 UTC
+Src IP: 10.0.0.83
+Dst IP: 20.26.70.131
+Src Port: 53926
+Dst Port: 28816
+Protocol: UDP
+Bytes Transferred: 4064
+Duration (s): 1.7
+TLS JA3 Hash: 37cccfb9a26584def83db50bebd66cb5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0414 ---
+Timestamp: 2026-04-05 10:06:03 UTC
+Src IP: 10.0.220.101
+Dst IP: 51.156.96.184
+Src Port: 15751
+Dst Port: 37196
+Protocol: UDP
+Bytes Transferred: 3016
+Duration (s): 0.14
+TLS JA3 Hash: c5e645c4d329486d4aa8431f3d4792c8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0459 ---
+Timestamp: 2026-04-05 11:21:43 UTC
+Src IP: 192.168.39.200
+Dst IP: 9.16.171.200
+Src Port: 52956
+Dst Port: 15496
+Protocol: UDP
+Bytes Transferred: 3592
+Duration (s): 3.64
+TLS JA3 Hash: 2b6d00aefa013f74a00e6e261e55236c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0393 ---
+Timestamp: 2026-04-05 09:28:08 UTC
+Src IP: 192.168.250.210
+Dst IP: 163.86.188.252
+Src Port: 18373
+Dst Port: 62128
+Protocol: TLS
+Bytes Transferred: 1632
+Duration (s): 1.62
+TLS JA3 Hash: 37a8b811d89b9ea4623464e9f2eec679
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0168 ---
+Timestamp: 2026-04-05 04:05:45 UTC
+Src IP: 192.168.234.227
+Dst IP: 5.137.51.64
+Src Port: 51026
+Dst Port: 36354
+Protocol: TLS
+Bytes Transferred: 1228
+Duration (s): 1.59
+TLS JA3 Hash: de264b57de10e9501f88cb6915292c34
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0336 ---
+Timestamp: 2026-04-05 08:09:00 UTC
+Src IP: 192.168.198.3
+Dst IP: 162.184.175.205
+Src Port: 41320
+Dst Port: 24447
+Protocol: UDP
+Bytes Transferred: 222
+Duration (s): 0.61
+TLS JA3 Hash: 664a8c6d1e9e19a0d2fde7a7e89178c8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0444 ---
+Timestamp: 2026-04-05 10:57:40 UTC
+Src IP: 192.168.147.143
+Dst IP: 49.21.168.124
+Src Port: 21020
+Dst Port: 43697
+Protocol: TLS
+Bytes Transferred: 4714
+Duration (s): 1.26
+TLS JA3 Hash: f83bd704eb01061bcc3b60bc9386e9de
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0407 ---
+Timestamp: 2026-04-05 09:54:17 UTC
+Src IP: 192.168.158.158
+Dst IP: 45.183.177.195
+Src Port: 50178
+Dst Port: 15967
+Protocol: UDP
+Bytes Transferred: 4845
+Duration (s): 1.77
+TLS JA3 Hash: 1bc211df00cd12cef817f846699b700c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0342 ---
+Timestamp: 2026-04-05 08:17:15 UTC
+Src IP: 10.0.139.148
+Dst IP: 204.96.252.141
+Src Port: 16615
+Dst Port: 3891
+Protocol: UDP
+Bytes Transferred: 1928
+Duration (s): 3.1
+TLS JA3 Hash: c69b4cd9873d8f03c684537417712c46
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0047 ---
+Timestamp: 2026-04-05 01:08:56 UTC
+Src IP: 10.0.77.3
+Dst IP: 56.233.191.16
+Src Port: 41514
+Dst Port: 41795
+Protocol: TLS
+Bytes Transferred: 4158
+Duration (s): 3.33
+TLS JA3 Hash: 00d00890d5334768b8c2bce779212ccc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0210 ---
+Timestamp: 2026-04-05 05:07:45 UTC
+Src IP: 192.168.86.36
+Dst IP: 206.125.196.108
+Src Port: 37025
+Dst Port: 32579
+Protocol: TLS
+Bytes Transferred: 4572
+Duration (s): 2.51
+TLS JA3 Hash: 7c2d727b060bf431bb49e4d7671434c0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0284 ---
+Timestamp: 2026-04-05 06:57:00 UTC
+Src IP: 10.0.116.250
+Dst IP: 118.56.61.141
+Src Port: 47731
+Dst Port: 19380
+Protocol: TCP
+Bytes Transferred: 3047
+Duration (s): 1.6
+TLS JA3 Hash: d25c64706b41b75b53574d681c9cdfea
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0501 ---
+Timestamp: 2026-04-05 12:22:42 UTC
+Src IP: 10.0.19.98
+Dst IP: 104.237.208.73
+Src Port: 39382
+Dst Port: 4830
+Protocol: TCP
+Bytes Transferred: 3254
+Duration (s): 2.95
+TLS JA3 Hash: f54185c55d40cdc2ed56bc476afcefe5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0048 ---
+Timestamp: 2026-04-05 01:11:22 UTC
+Src IP: 192.168.164.3
+Dst IP: 180.87.42.128
+Src Port: 56423
+Dst Port: 28437
+Protocol: TLS
+Bytes Transferred: 2913
+Duration (s): 2.87
+TLS JA3 Hash: 3176f812815a064c2957cac42b13d72a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0343 ---
+Timestamp: 2026-04-05 08:18:30 UTC
+Src IP: 192.168.148.1
+Dst IP: 167.107.56.213
+Src Port: 46651
+Dst Port: 902
+Protocol: UDP
+Bytes Transferred: 1076
+Duration (s): 1.77
+TLS JA3 Hash: e443badc8e646cb67ff8d180de511e96
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0090 ---
+Timestamp: 2026-04-05 02:11:00 UTC
+Src IP: 10.0.189.60
+Dst IP: 11.105.184.100
+Src Port: 31804
+Dst Port: 60156
+Protocol: UDP
+Bytes Transferred: 580
+Duration (s): 0.3
+TLS JA3 Hash: a3885ccb28c7cbbff04e57286455b37d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0179 ---
+Timestamp: 2026-04-05 04:20:31 UTC
+Src IP: 192.168.85.146
+Dst IP: 162.200.195.53
+Src Port: 63197
+Dst Port: 25601
+Protocol: TCP
+Bytes Transferred: 4578
+Duration (s): 1.99
+TLS JA3 Hash: f3ae925351f0562c96792e1b05adc534
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0150 ---
+Timestamp: 2026-04-05 03:37:54 UTC
+Src IP: 192.168.66.221
+Dst IP: 151.28.251.137
+Src Port: 25580
+Dst Port: 45851
+Protocol: TCP
+Bytes Transferred: 2792
+Duration (s): 2.77
+TLS JA3 Hash: f784bfb901178c9b37ec0c8927965ead
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0215 ---
+Timestamp: 2026-04-05 05:17:55 UTC
+Src IP: 192.168.235.175
+Dst IP: 45.76.123.45
+Src Port: 56391
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1296
+Duration (s): 0.71
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: GYR3X
+------------------------------------------------------------
+
+--- Flow Record #0420 ---
+Timestamp: 2026-04-05 10:15:45 UTC
+Src IP: 192.168.209.114
+Dst IP: 59.97.89.1
+Src Port: 19854
+Dst Port: 23829
+Protocol: UDP
+Bytes Transferred: 2019
+Duration (s): 3.93
+TLS JA3 Hash: 747dd2b1fc21e15cf356c130f34c3b75
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0266 ---
+Timestamp: 2026-04-05 06:27:01 UTC
+Src IP: 192.168.204.50
+Dst IP: 147.133.155.158
+Src Port: 34712
+Dst Port: 35335
+Protocol: TCP
+Bytes Transferred: 600
+Duration (s): 1.93
+TLS JA3 Hash: f6d8581c5980d60d488ea3770a729eda
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0309 ---
+Timestamp: 2026-04-05 07:25:57 UTC
+Src IP: 10.0.14.167
+Dst IP: 165.215.40.95
+Src Port: 31494
+Dst Port: 50843
+Protocol: TCP
+Bytes Transferred: 3859
+Duration (s): 3.17
+TLS JA3 Hash: 5ea38e86e954a031afb4ac0dac5a19a1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0024 ---
+Timestamp: 2026-04-05 00:38:13 UTC
+Src IP: 192.168.41.95
+Dst IP: 80.166.43.227
+Src Port: 4471
+Dst Port: 10197
+Protocol: TCP
+Bytes Transferred: 607
+Duration (s): 3.4
+TLS JA3 Hash: 8edfed863bd39f917c10696489a30fd5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0335 ---
+Timestamp: 2026-04-05 08:08:09 UTC
+Src IP: 192.168.172.142
+Dst IP: 45.76.123.45
+Src Port: 32037
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1024
+Duration (s): 0.75
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 3AQ6L
+------------------------------------------------------------
+
+--- Flow Record #0500 ---
+Timestamp: 2026-04-05 12:22:05 UTC
+Src IP: 192.168.146.116
+Dst IP: 104.30.127.157
+Src Port: 25712
+Dst Port: 42535
+Protocol: UDP
+Bytes Transferred: 206
+Duration (s): 0.75
+TLS JA3 Hash: 97ca491bb7d82eb807c843bef7b8cd46
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0465 ---
+Timestamp: 2026-04-05 11:31:59 UTC
+Src IP: 192.168.166.95
+Dst IP: 178.132.168.129
+Src Port: 10298
+Dst Port: 49757
+Protocol: TLS
+Bytes Transferred: 2731
+Duration (s): 0.84
+TLS JA3 Hash: 06802b6a78dd0eac898cde4131480424
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0061 ---
+Timestamp: 2026-04-05 01:29:47 UTC
+Src IP: 192.168.224.69
+Dst IP: 188.60.15.86
+Src Port: 53918
+Dst Port: 28137
+Protocol: UDP
+Bytes Transferred: 4491
+Duration (s): 0.41
+TLS JA3 Hash: 2feb1f5b5833701071fbc451d7a7da82
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0059 ---
+Timestamp: 2026-04-05 01:28:55 UTC
+Src IP: 192.168.36.193
+Dst IP: 32.196.179.247
+Src Port: 29164
+Dst Port: 20612
+Protocol: TCP
+Bytes Transferred: 2229
+Duration (s): 1.46
+TLS JA3 Hash: 2790966c917fc37f20ba4cdb5f202086
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0057 ---
+Timestamp: 2026-04-05 01:25:43 UTC
+Src IP: 192.168.118.163
+Dst IP: 171.183.32.204
+Src Port: 36048
+Dst Port: 26065
+Protocol: TCP
+Bytes Transferred: 3719
+Duration (s): 4.14
+TLS JA3 Hash: f8a9a4fa113e035ee0d649582b82b51c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0155 ---
+Timestamp: 2026-04-05 03:43:35 UTC
+Src IP: 10.0.75.32
+Dst IP: 90.47.104.223
+Src Port: 19643
+Dst Port: 11840
+Protocol: TCP
+Bytes Transferred: 4367
+Duration (s): 4.13
+TLS JA3 Hash: 605d27f3a093cb3a402efe80a1ea4619
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0096 ---
+Timestamp: 2026-04-05 02:19:48 UTC
+Src IP: 10.0.97.128
+Dst IP: 189.102.120.189
+Src Port: 16887
+Dst Port: 57197
+Protocol: UDP
+Bytes Transferred: 1893
+Duration (s): 1.22
+TLS JA3 Hash: 7b4332f01fbaf8f58c741df1bc5e3ea0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0455 ---
+Timestamp: 2026-04-05 11:18:15 UTC
+Src IP: 192.168.11.250
+Dst IP: 96.63.19.49
+Src Port: 44885
+Dst Port: 36715
+Protocol: TLS
+Bytes Transferred: 210
+Duration (s): 0.76
+TLS JA3 Hash: 6084fd6d43888e37a60d1dfc80558e8a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0445 ---
+Timestamp: 2026-04-05 11:00:10 UTC
+Src IP: 10.0.245.234
+Dst IP: 185.9.60.136
+Src Port: 31963
+Dst Port: 10617
+Protocol: UDP
+Bytes Transferred: 486
+Duration (s): 0.25
+TLS JA3 Hash: 6db317899841cf8adcb591c443abdf4a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0440 ---
+Timestamp: 2026-04-05 10:50:40 UTC
+Src IP: 192.168.42.211
+Dst IP: 45.76.123.45
+Src Port: 15909
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1696
+Duration (s): 1.36
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: EVB9O
+------------------------------------------------------------
+
+--- Flow Record #0025 ---
+Timestamp: 2026-04-05 00:38:51 UTC
+Src IP: 192.168.181.59
+Dst IP: 129.181.36.102
+Src Port: 57500
+Dst Port: 48631
+Protocol: TCP
+Bytes Transferred: 3773
+Duration (s): 0.19
+TLS JA3 Hash: 2adcd93c0a5eb2d37dc2c9a7a5236bb4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0141 ---
+Timestamp: 2026-04-05 03:24:18 UTC
+Src IP: 10.0.144.96
+Dst IP: 200.248.210.88
+Src Port: 61376
+Dst Port: 59690
+Protocol: TCP
+Bytes Transferred: 1039
+Duration (s): 1.17
+TLS JA3 Hash: 763de2340fb9b4ea5903744794642d32
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0385 ---
+Timestamp: 2026-04-05 09:13:12 UTC
+Src IP: 192.168.139.45
+Dst IP: 45.76.123.45
+Src Port: 4092
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1168
+Duration (s): 0.99
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: FF5E8
+------------------------------------------------------------
+
+--- Flow Record #0036 ---
+Timestamp: 2026-04-05 00:52:57 UTC
+Src IP: 192.168.37.25
+Dst IP: 13.148.196.222
+Src Port: 41353
+Dst Port: 27403
+Protocol: TCP
+Bytes Transferred: 1508
+Duration (s): 4.09
+TLS JA3 Hash: a65fef9f02ce76b119ff903d48bcb1c1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0462 ---
+Timestamp: 2026-04-05 11:27:16 UTC
+Src IP: 192.168.194.180
+Dst IP: 74.211.130.123
+Src Port: 37462
+Dst Port: 28047
+Protocol: TLS
+Bytes Transferred: 3651
+Duration (s): 0.72
+TLS JA3 Hash: ec1089e807e231f942d911c6c46a788d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0461 ---
+Timestamp: 2026-04-05 11:24:53 UTC
+Src IP: 192.168.234.240
+Dst IP: 171.8.139.79
+Src Port: 49645
+Dst Port: 53956
+Protocol: UDP
+Bytes Transferred: 4086
+Duration (s): 4.43
+TLS JA3 Hash: c065dba374fd2e9048bbb3c14333a25d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0119 ---
+Timestamp: 2026-04-05 02:48:58 UTC
+Src IP: 10.0.140.30
+Dst IP: 4.52.105.139
+Src Port: 23982
+Dst Port: 36004
+Protocol: UDP
+Bytes Transferred: 2420
+Duration (s): 0.79
+TLS JA3 Hash: 97529ae140f13c12dc5eb9a62e42e3e9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0432 ---
+Timestamp: 2026-04-05 10:36:31 UTC
+Src IP: 192.168.189.149
+Dst IP: 143.132.249.44
+Src Port: 16424
+Dst Port: 1904
+Protocol: TCP
+Bytes Transferred: 2418
+Duration (s): 3.61
+TLS JA3 Hash: 4149e202e55491b1ed8e3ffa8d3581cb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0484 ---
+Timestamp: 2026-04-05 11:57:27 UTC
+Src IP: 192.168.58.254
+Dst IP: 87.145.168.204
+Src Port: 48073
+Dst Port: 44758
+Protocol: TCP
+Bytes Transferred: 2051
+Duration (s): 4.29
+TLS JA3 Hash: 96676597c5d400b73488251eaca41347
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0123 ---
+Timestamp: 2026-04-05 02:56:44 UTC
+Src IP: 192.168.107.221
+Dst IP: 117.217.92.117
+Src Port: 34409
+Dst Port: 27796
+Protocol: TLS
+Bytes Transferred: 3886
+Duration (s): 1.99
+TLS JA3 Hash: 75d0f78db11fb3f248e227f291a0fefa
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0287 ---
+Timestamp: 2026-04-05 07:00:01 UTC
+Src IP: 192.168.171.69
+Dst IP: 27.249.192.156
+Src Port: 35035
+Dst Port: 57043
+Protocol: TLS
+Bytes Transferred: 3334
+Duration (s): 0.31
+TLS JA3 Hash: 33337bdc1bee1cd0650a39d0e8bbb78e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0299 ---
+Timestamp: 2026-04-05 07:15:16 UTC
+Src IP: 192.168.242.104
+Dst IP: 108.213.235.188
+Src Port: 30666
+Dst Port: 29091
+Protocol: UDP
+Bytes Transferred: 3997
+Duration (s): 1.88
+TLS JA3 Hash: ac467666bedb96c4f3e9d166a5cd5e06
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0509 ---
+Timestamp: 2026-04-05 12:38:09 UTC
+Src IP: 192.168.179.246
+Dst IP: 203.29.70.236
+Src Port: 43004
+Dst Port: 58681
+Protocol: TCP
+Bytes Transferred: 854
+Duration (s): 2.27
+TLS JA3 Hash: 29c2a78dfcd4d57ac0b704c2904bfe06
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0200 ---
+Timestamp: 2026-04-05 04:51:18 UTC
+Src IP: 10.0.109.1
+Dst IP: 45.76.123.45
+Src Port: 21000
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 2005
+Duration (s): 1.19
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: COSFO
+------------------------------------------------------------
+
+--- Flow Record #0205 ---
+Timestamp: 2026-04-05 04:58:38 UTC
+Src IP: 192.168.16.204
+Dst IP: 178.97.203.127
+Src Port: 45896
+Dst Port: 34896
+Protocol: TLS
+Bytes Transferred: 814
+Duration (s): 0.91
+TLS JA3 Hash: ccc8650560e897983571791484817630
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0140 ---
+Timestamp: 2026-04-05 03:23:37 UTC
+Src IP: 10.0.141.127
+Dst IP: 18.185.246.145
+Src Port: 29602
+Dst Port: 56908
+Protocol: UDP
+Bytes Transferred: 4099
+Duration (s): 4.87
+TLS JA3 Hash: 3b08514ae4b518bdb19926535aa98b3b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0166 ---
+Timestamp: 2026-04-05 04:02:14 UTC
+Src IP: 192.168.171.160
+Dst IP: 105.198.119.231
+Src Port: 26936
+Dst Port: 22217
+Protocol: TLS
+Bytes Transferred: 575
+Duration (s): 4.79
+TLS JA3 Hash: e8250932616f0350867e2ac1f0ad5d0a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0269 ---
+Timestamp: 2026-04-05 06:32:34 UTC
+Src IP: 192.168.21.154
+Dst IP: 147.209.11.84
+Src Port: 40988
+Dst Port: 16381
+Protocol: TCP
+Bytes Transferred: 4863
+Duration (s): 3.16
+TLS JA3 Hash: 2b0c65eb75f6a49206ee7e75e3a57e20
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0312 ---
+Timestamp: 2026-04-05 07:30:37 UTC
+Src IP: 192.168.248.167
+Dst IP: 172.207.104.48
+Src Port: 8409
+Dst Port: 2731
+Protocol: UDP
+Bytes Transferred: 1074
+Duration (s): 3.74
+TLS JA3 Hash: 66969be178609065a6fcaec5ff972300
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0022 ---
+Timestamp: 2026-04-05 00:33:54 UTC
+Src IP: 192.168.126.183
+Dst IP: 114.37.41.83
+Src Port: 40889
+Dst Port: 9722
+Protocol: TCP
+Bytes Transferred: 1233
+Duration (s): 1.45
+TLS JA3 Hash: ac9ed336de7daecd3ada8b4f2222d3b4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0001 ---
+Timestamp: 2026-04-05 00:00:00 UTC
+Src IP: 192.168.222.187
+Dst IP: 14.50.31.104
+Src Port: 48748
+Dst Port: 22237
+Protocol: TCP
+Bytes Transferred: 2236
+Duration (s): 1.04
+TLS JA3 Hash: e4d58e72e310275dff6c15c0c8e9df46
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0056 ---
+Timestamp: 2026-04-05 01:25:15 UTC
+Src IP: 192.168.43.158
+Dst IP: 45.76.123.45
+Src Port: 4914
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1521
+Duration (s): 1.27
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: IG8F1
+------------------------------------------------------------
+
+--- Flow Record #0430 ---
+Timestamp: 2026-04-05 10:34:47 UTC
+Src IP: 192.168.173.206
+Dst IP: 169.202.14.9
+Src Port: 37210
+Dst Port: 51870
+Protocol: TLS
+Bytes Transferred: 2770
+Duration (s): 3.58
+TLS JA3 Hash: 48c142fe92e86196a147b1558dca5ea5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0296 ---
+Timestamp: 2026-04-05 07:09:51 UTC
+Src IP: 192.168.30.41
+Dst IP: 203.250.34.47
+Src Port: 36212
+Dst Port: 21456
+Protocol: TCP
+Bytes Transferred: 2301
+Duration (s): 4.78
+TLS JA3 Hash: c999833c62f641ff3371c5227dbe4e16
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0413 ---
+Timestamp: 2026-04-05 10:03:11 UTC
+Src IP: 192.168.136.56
+Dst IP: 31.14.134.64
+Src Port: 56214
+Dst Port: 63266
+Protocol: TLS
+Bytes Transferred: 4633
+Duration (s): 4.12
+TLS JA3 Hash: 2cc54263df01bcbdce1c7c42cbb19989
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0326 ---
+Timestamp: 2026-04-05 07:53:19 UTC
+Src IP: 192.168.89.93
+Dst IP: 98.10.251.112
+Src Port: 48483
+Dst Port: 29185
+Protocol: UDP
+Bytes Transferred: 932
+Duration (s): 2.24
+TLS JA3 Hash: b78b8f55761cb172521828e494d857d9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0267 ---
+Timestamp: 2026-04-05 06:29:24 UTC
+Src IP: 192.168.239.143
+Dst IP: 4.175.174.82
+Src Port: 23723
+Dst Port: 53912
+Protocol: UDP
+Bytes Transferred: 1443
+Duration (s): 2.36
+TLS JA3 Hash: f65c8c12fb26b99aee045bdd09f7c4c3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0433 ---
+Timestamp: 2026-04-05 10:39:19 UTC
+Src IP: 192.168.138.224
+Dst IP: 113.78.240.162
+Src Port: 10745
+Dst Port: 22249
+Protocol: TLS
+Bytes Transferred: 725
+Duration (s): 0.98
+TLS JA3 Hash: a1acc9847f76e25342213e17bd12e1f9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0209 ---
+Timestamp: 2026-04-05 05:05:06 UTC
+Src IP: 192.168.46.110
+Dst IP: 136.171.92.174
+Src Port: 28892
+Dst Port: 9845
+Protocol: TLS
+Bytes Transferred: 2670
+Duration (s): 3.16
+TLS JA3 Hash: 9b38fb82044a4cef23d842a45cbafdfd
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0448 ---
+Timestamp: 2026-04-05 11:05:49 UTC
+Src IP: 10.0.229.117
+Dst IP: 79.137.241.59
+Src Port: 51138
+Dst Port: 23995
+Protocol: TLS
+Bytes Transferred: 1959
+Duration (s): 1.85
+TLS JA3 Hash: 49e93e3b9e68961a7f07636d22675d1f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0330 ---
+Timestamp: 2026-04-05 08:00:14 UTC
+Src IP: 10.0.12.131
+Dst IP: 56.190.12.115
+Src Port: 27462
+Dst Port: 21892
+Protocol: TLS
+Bytes Transferred: 3970
+Duration (s): 1.8
+TLS JA3 Hash: a9b13efd124cae84462c8c7119046d6d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0283 ---
+Timestamp: 2026-04-05 06:54:36 UTC
+Src IP: 192.168.218.9
+Dst IP: 192.197.24.204
+Src Port: 13993
+Dst Port: 64195
+Protocol: TCP
+Bytes Transferred: 317
+Duration (s): 0.8
+TLS JA3 Hash: 175ca0ffb6ce6e8e38aa58afe3a82bd0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0310 ---
+Timestamp: 2026-04-05 07:28:12 UTC
+Src IP: 10.0.67.128
+Dst IP: 45.76.123.45
+Src Port: 7725
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1350
+Duration (s): 1.12
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: I65FD
+------------------------------------------------------------
+
+--- Flow Record #0113 ---
+Timestamp: 2026-04-05 02:43:29 UTC
+Src IP: 192.168.247.13
+Dst IP: 49.149.225.102
+Src Port: 58983
+Dst Port: 19960
+Protocol: UDP
+Bytes Transferred: 3979
+Duration (s): 0.92
+TLS JA3 Hash: 914ee2354cdae05e6e28a5323eb2c5cc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0480 ---
+Timestamp: 2026-04-05 11:51:38 UTC
+Src IP: 192.168.213.95
+Dst IP: 167.250.218.156
+Src Port: 8933
+Dst Port: 63486
+Protocol: UDP
+Bytes Transferred: 1073
+Duration (s): 2.17
+TLS JA3 Hash: 195b398c71b53d065505d0385c8f21d0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0180 ---
+Timestamp: 2026-04-05 04:22:53 UTC
+Src IP: 192.168.191.18
+Dst IP: 100.105.66.223
+Src Port: 14503
+Dst Port: 20301
+Protocol: UDP
+Bytes Transferred: 4089
+Duration (s): 0.88
+TLS JA3 Hash: 96e8604e2c7afee129eb9c5d75dec53c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0242 ---
+Timestamp: 2026-04-05 05:54:49 UTC
+Src IP: 192.168.237.61
+Dst IP: 34.7.143.205
+Src Port: 45758
+Dst Port: 62323
+Protocol: UDP
+Bytes Transferred: 900
+Duration (s): 4.99
+TLS JA3 Hash: 9ac18b88039a85ee0e0e1bf6d128a2e5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0064 ---
+Timestamp: 2026-04-05 01:36:50 UTC
+Src IP: 192.168.198.54
+Dst IP: 45.76.123.45
+Src Port: 56892
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1205
+Duration (s): 1.35
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 6B9M8
+------------------------------------------------------------
+
+--- Flow Record #0042 ---
+Timestamp: 2026-04-05 01:02:56 UTC
+Src IP: 192.168.117.192
+Dst IP: 156.191.212.180
+Src Port: 37018
+Dst Port: 59822
+Protocol: UDP
+Bytes Transferred: 4603
+Duration (s): 4.03
+TLS JA3 Hash: 672eb231645ae36f2e1e4de1e90c8062
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0380 ---
+Timestamp: 2026-04-05 09:09:08 UTC
+Src IP: 192.168.90.96
+Dst IP: 73.217.88.243
+Src Port: 17152
+Dst Port: 16468
+Protocol: UDP
+Bytes Transferred: 1071
+Duration (s): 0.77
+TLS JA3 Hash: 8ed031133160d73ec82f5d103be3403a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0187 ---
+Timestamp: 2026-04-05 04:31:40 UTC
+Src IP: 10.0.191.126
+Dst IP: 104.212.202.249
+Src Port: 49664
+Dst Port: 24455
+Protocol: UDP
+Bytes Transferred: 4210
+Duration (s): 1.61
+TLS JA3 Hash: 2d13c56d8bfb1cd77f1b048e4875032c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0350 ---
+Timestamp: 2026-04-05 08:25:12 UTC
+Src IP: 192.168.194.191
+Dst IP: 207.41.42.177
+Src Port: 13503
+Dst Port: 31509
+Protocol: TCP
+Bytes Transferred: 3796
+Duration (s): 3.94
+TLS JA3 Hash: b104bac3998524f9f24591acf1de0110
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0341 ---
+Timestamp: 2026-04-05 08:15:26 UTC
+Src IP: 192.168.141.194
+Dst IP: 139.40.152.233
+Src Port: 37223
+Dst Port: 43117
+Protocol: UDP
+Bytes Transferred: 1022
+Duration (s): 4.49
+TLS JA3 Hash: 19d2a8142303f1fbc38572a5530f6457
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0170 ---
+Timestamp: 2026-04-05 04:09:13 UTC
+Src IP: 192.168.195.72
+Dst IP: 175.183.98.24
+Src Port: 54519
+Dst Port: 40203
+Protocol: TLS
+Bytes Transferred: 2683
+Duration (s): 4.06
+TLS JA3 Hash: 77fb18f606c38f5652424878608e0d1a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0317 ---
+Timestamp: 2026-04-05 07:40:43 UTC
+Src IP: 192.168.54.78
+Dst IP: 110.244.21.174
+Src Port: 33224
+Dst Port: 64030
+Protocol: TCP
+Bytes Transferred: 4295
+Duration (s): 1.67
+TLS JA3 Hash: 08fc3dbf0c1f2f82273eca7f1a9e6d30
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0379 ---
+Timestamp: 2026-04-05 09:06:32 UTC
+Src IP: 192.168.123.60
+Dst IP: 143.253.142.16
+Src Port: 11926
+Dst Port: 39261
+Protocol: TLS
+Bytes Transferred: 703
+Duration (s): 2.27
+TLS JA3 Hash: 2dd0d74493aa8507917130bcfebd92be
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0049 ---
+Timestamp: 2026-04-05 01:14:01 UTC
+Src IP: 192.168.245.153
+Dst IP: 102.167.15.163
+Src Port: 18936
+Dst Port: 51351
+Protocol: UDP
+Bytes Transferred: 4219
+Duration (s): 1.22
+TLS JA3 Hash: cd5c2972284c4cab3209eb83425ded30
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0277 ---
+Timestamp: 2026-04-05 06:46:43 UTC
+Src IP: 192.168.170.67
+Dst IP: 143.149.11.36
+Src Port: 51624
+Dst Port: 50457
+Protocol: TCP
+Bytes Transferred: 2771
+Duration (s): 4.79
+TLS JA3 Hash: be65ae7eba688043ddcf11b0d1af9a22
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0097 ---
+Timestamp: 2026-04-05 02:19:56 UTC
+Src IP: 192.168.98.149
+Dst IP: 26.166.185.157
+Src Port: 57505
+Dst Port: 17020
+Protocol: TCP
+Bytes Transferred: 4693
+Duration (s): 1.39
+TLS JA3 Hash: 8fab5fd6dbbc8e547387dc644f05df4a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0046 ---
+Timestamp: 2026-04-05 01:06:10 UTC
+Src IP: 192.168.226.128
+Dst IP: 120.50.240.195
+Src Port: 56056
+Dst Port: 20987
+Protocol: TCP
+Bytes Transferred: 3236
+Duration (s): 1.63
+TLS JA3 Hash: 17408d946a7c7fa8ffe5b54f511210d4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0464 ---
+Timestamp: 2026-04-05 11:29:05 UTC
+Src IP: 192.168.1.6
+Dst IP: 149.47.196.146
+Src Port: 50370
+Dst Port: 48588
+Protocol: TLS
+Bytes Transferred: 1447
+Duration (s): 4.12
+TLS JA3 Hash: 4f6ee1c0a92df8c7110877d337e232a2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0177 ---
+Timestamp: 2026-04-05 04:18:30 UTC
+Src IP: 192.168.120.132
+Dst IP: 160.172.218.116
+Src Port: 31665
+Dst Port: 28345
+Protocol: UDP
+Bytes Transferred: 3210
+Duration (s): 4.04
+TLS JA3 Hash: a8c05e782b29287332b16a6a89864809
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0241 ---
+Timestamp: 2026-04-05 05:53:07 UTC
+Src IP: 10.0.17.70
+Dst IP: 45.76.123.45
+Src Port: 64272
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1297
+Duration (s): 0.69
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 3YR9O
+------------------------------------------------------------
+
+--- Flow Record #0118 ---
+Timestamp: 2026-04-05 02:47:44 UTC
+Src IP: 192.168.10.200
+Dst IP: 52.47.227.130
+Src Port: 2658
+Dst Port: 52365
+Protocol: UDP
+Bytes Transferred: 4296
+Duration (s): 0.85
+TLS JA3 Hash: af9a43461ec30912ae139096a6698ae3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0344 ---
+Timestamp: 2026-04-05 08:20:20 UTC
+Src IP: 10.0.147.37
+Dst IP: 73.143.90.110
+Src Port: 51424
+Dst Port: 903
+Protocol: UDP
+Bytes Transferred: 4538
+Duration (s): 0.42
+TLS JA3 Hash: eb97e68fc85f7e407fc7438b8389c023
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0165 ---
+Timestamp: 2026-04-05 04:01:47 UTC
+Src IP: 192.168.29.31
+Dst IP: 95.148.20.134
+Src Port: 11070
+Dst Port: 7717
+Protocol: UDP
+Bytes Transferred: 2697
+Duration (s): 4.96
+TLS JA3 Hash: 99f044d19965f03b21df9eacf44eee4a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0505 ---
+Timestamp: 2026-04-05 12:30:44 UTC
+Src IP: 10.0.247.50
+Dst IP: 54.235.20.49
+Src Port: 20571
+Dst Port: 47957
+Protocol: TCP
+Bytes Transferred: 2607
+Duration (s): 4.27
+TLS JA3 Hash: 98e908fd0ed47a20fda22f1b2f75b28b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0369 ---
+Timestamp: 2026-04-05 08:55:41 UTC
+Src IP: 192.168.86.149
+Dst IP: 61.137.19.23
+Src Port: 55980
+Dst Port: 23870
+Protocol: TCP
+Bytes Transferred: 3431
+Duration (s): 1.61
+TLS JA3 Hash: a9e3aa6365b6df37dea10843921b5ec3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0100 ---
+Timestamp: 2026-04-05 02:23:49 UTC
+Src IP: 10.0.182.221
+Dst IP: 45.76.123.45
+Src Port: 58099
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1359
+Duration (s): 1.06
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: NVGFY
+------------------------------------------------------------
+
+--- Flow Record #0093 ---
+Timestamp: 2026-04-05 02:14:27 UTC
+Src IP: 192.168.40.110
+Dst IP: 167.129.133.219
+Src Port: 36158
+Dst Port: 27759
+Protocol: TLS
+Bytes Transferred: 3195
+Duration (s): 3.1
+TLS JA3 Hash: c6df5bf89bc437e536ca15c024fd2287
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0453 ---
+Timestamp: 2026-04-05 11:14:45 UTC
+Src IP: 192.168.177.136
+Dst IP: 45.76.123.45
+Src Port: 19597
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1820
+Duration (s): 0.63
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: ECVE6
+------------------------------------------------------------
+
+--- Flow Record #0029 ---
+Timestamp: 2026-04-05 00:42:22 UTC
+Src IP: 192.168.224.96
+Dst IP: 142.52.63.73
+Src Port: 6520
+Dst Port: 50012
+Protocol: TCP
+Bytes Transferred: 2434
+Duration (s): 2.3
+TLS JA3 Hash: 4d27eb0d1cb7c2b70a3a4419f4fe0208
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0147 ---
+Timestamp: 2026-04-05 03:33:02 UTC
+Src IP: 192.168.100.83
+Dst IP: 147.50.250.26
+Src Port: 46300
+Dst Port: 44245
+Protocol: TCP
+Bytes Transferred: 2952
+Duration (s): 2.53
+TLS JA3 Hash: a59bd6f269819c723a82fd6b299da6dc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0163 ---
+Timestamp: 2026-04-05 03:57:27 UTC
+Src IP: 10.0.226.179
+Dst IP: 89.207.101.226
+Src Port: 20785
+Dst Port: 5524
+Protocol: TCP
+Bytes Transferred: 4602
+Duration (s): 1.74
+TLS JA3 Hash: 49629a500879d31b8b313e90ea77b994
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0217 ---
+Timestamp: 2026-04-05 05:20:53 UTC
+Src IP: 192.168.77.43
+Dst IP: 51.178.214.124
+Src Port: 32186
+Dst Port: 35095
+Protocol: TLS
+Bytes Transferred: 1516
+Duration (s): 4.83
+TLS JA3 Hash: dbc0624aa04e4fa3d80e4e3166d5c6b6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0451 ---
+Timestamp: 2026-04-05 11:12:08 UTC
+Src IP: 192.168.147.90
+Dst IP: 194.64.56.216
+Src Port: 39843
+Dst Port: 3365
+Protocol: TCP
+Bytes Transferred: 1375
+Duration (s): 0.45
+TLS JA3 Hash: e2496e2e0a98a386df5c325606ad327f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0382 ---
+Timestamp: 2026-04-05 09:10:38 UTC
+Src IP: 192.168.228.101
+Dst IP: 112.76.40.91
+Src Port: 39372
+Dst Port: 4200
+Protocol: TLS
+Bytes Transferred: 2170
+Duration (s): 4.17
+TLS JA3 Hash: f0118cdd39a0231efe381087280a72a5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0142 ---
+Timestamp: 2026-04-05 03:24:27 UTC
+Src IP: 192.168.194.111
+Dst IP: 11.100.55.9
+Src Port: 52997
+Dst Port: 43240
+Protocol: TLS
+Bytes Transferred: 685
+Duration (s): 2.4
+TLS JA3 Hash: 8129033665b0248bb572306695036fb5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0125 ---
+Timestamp: 2026-04-05 02:59:18 UTC
+Src IP: 192.168.211.40
+Dst IP: 215.253.211.198
+Src Port: 26135
+Dst Port: 15595
+Protocol: TLS
+Bytes Transferred: 3805
+Duration (s): 3.66
+TLS JA3 Hash: 56b18315ecf9f7ccf84d09eca13bd8a8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0463 ---
+Timestamp: 2026-04-05 11:28:30 UTC
+Src IP: 192.168.244.11
+Dst IP: 130.80.60.58
+Src Port: 38647
+Dst Port: 63273
+Protocol: TLS
+Bytes Transferred: 3560
+Duration (s): 1.66
+TLS JA3 Hash: d5405256f40ba0660100c79ce7300238
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0173 ---
+Timestamp: 2026-04-05 04:13:57 UTC
+Src IP: 10.0.34.152
+Dst IP: 203.99.64.164
+Src Port: 34375
+Dst Port: 16796
+Protocol: UDP
+Bytes Transferred: 3648
+Duration (s): 2.46
+TLS JA3 Hash: e5741149db944f9a9b04171db6662a6f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0225 ---
+Timestamp: 2026-04-05 05:36:04 UTC
+Src IP: 10.0.160.127
+Dst IP: 157.24.201.77
+Src Port: 46667
+Dst Port: 64486
+Protocol: UDP
+Bytes Transferred: 4241
+Duration (s): 4.26
+TLS JA3 Hash: 3b3071043ad7526b018131928ac854e3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0308 ---
+Timestamp: 2026-04-05 07:25:16 UTC
+Src IP: 192.168.226.25
+Dst IP: 45.76.123.45
+Src Port: 35707
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1508
+Duration (s): 0.97
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: Q1ZXO
+------------------------------------------------------------
+
+--- Flow Record #0164 ---
+Timestamp: 2026-04-05 03:59:08 UTC
+Src IP: 192.168.64.27
+Dst IP: 84.98.184.117
+Src Port: 7445
+Dst Port: 9605
+Protocol: TLS
+Bytes Transferred: 3687
+Duration (s): 4.16
+TLS JA3 Hash: 221d4f6e2bcc8fdefd544fe436ef15b3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0368 ---
+Timestamp: 2026-04-05 08:53:23 UTC
+Src IP: 192.168.185.254
+Dst IP: 124.91.175.100
+Src Port: 12013
+Dst Port: 63481
+Protocol: TLS
+Bytes Transferred: 1607
+Duration (s): 2.08
+TLS JA3 Hash: 77ab373cbb0f8ca0af987069323ff516
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0235 ---
+Timestamp: 2026-04-05 05:46:00 UTC
+Src IP: 10.0.61.145
+Dst IP: 100.5.155.9
+Src Port: 43301
+Dst Port: 42627
+Protocol: TLS
+Bytes Transferred: 3841
+Duration (s): 0.31
+TLS JA3 Hash: b4ee805b6bc254bae489c2fcf584abc2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0472 ---
+Timestamp: 2026-04-05 11:40:16 UTC
+Src IP: 192.168.196.167
+Dst IP: 45.76.123.45
+Src Port: 50124
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1930
+Duration (s): 0.56
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: PR5N8
+------------------------------------------------------------
+
+--- Flow Record #0366 ---
+Timestamp: 2026-04-05 08:50:44 UTC
+Src IP: 10.0.177.116
+Dst IP: 161.234.18.178
+Src Port: 43939
+Dst Port: 28928
+Protocol: TCP
+Bytes Transferred: 3124
+Duration (s): 4.63
+TLS JA3 Hash: 7cecf650e8c22effc4df44a6f1a0c57b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0058 ---
+Timestamp: 2026-04-05 01:28:28 UTC
+Src IP: 192.168.180.194
+Dst IP: 45.76.123.45
+Src Port: 7261
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 2003
+Duration (s): 1.49
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: CBFNO
+------------------------------------------------------------
+
+--- Flow Record #0181 ---
+Timestamp: 2026-04-05 04:23:09 UTC
+Src IP: 10.0.80.71
+Dst IP: 161.149.34.179
+Src Port: 48638
+Dst Port: 47344
+Protocol: TCP
+Bytes Transferred: 4242
+Duration (s): 2.12
+TLS JA3 Hash: 3b23ade5861e02ecac6c10834aefe227
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0282 ---
+Timestamp: 2026-04-05 06:52:03 UTC
+Src IP: 192.168.119.252
+Dst IP: 107.225.68.220
+Src Port: 40559
+Dst Port: 53047
+Protocol: TLS
+Bytes Transferred: 205
+Duration (s): 1.63
+TLS JA3 Hash: f84ab3ff64744723c9377859ae84adb4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0297 ---
+Timestamp: 2026-04-05 07:10:49 UTC
+Src IP: 192.168.12.146
+Dst IP: 4.78.174.221
+Src Port: 63310
+Dst Port: 16437
+Protocol: TCP
+Bytes Transferred: 3068
+Duration (s): 2.36
+TLS JA3 Hash: 1cc492756ae0e27954a132d05ab14370
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0425 ---
+Timestamp: 2026-04-05 10:24:18 UTC
+Src IP: 192.168.97.70
+Dst IP: 73.233.145.123
+Src Port: 1475
+Dst Port: 46594
+Protocol: TCP
+Bytes Transferred: 209
+Duration (s): 0.79
+TLS JA3 Hash: ec99dfc9ee92d6cbd18a10d7ba7f61c8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0279 ---
+Timestamp: 2026-04-05 06:50:35 UTC
+Src IP: 10.0.13.137
+Dst IP: 155.20.65.139
+Src Port: 23864
+Dst Port: 62565
+Protocol: TCP
+Bytes Transferred: 2882
+Duration (s): 4.37
+TLS JA3 Hash: 76695d876b04e3c0e6c1eec66c325356
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0439 ---
+Timestamp: 2026-04-05 10:48:19 UTC
+Src IP: 192.168.25.167
+Dst IP: 42.101.56.189
+Src Port: 37039
+Dst Port: 1305
+Protocol: TCP
+Bytes Transferred: 1996
+Duration (s): 4.39
+TLS JA3 Hash: dd05010b65a6c630a1a58770b5d511ec
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0511 ---
+Timestamp: 2026-04-05 12:41:38 UTC
+Src IP: 10.0.220.12
+Dst IP: 35.237.178.235
+Src Port: 54417
+Dst Port: 62097
+Protocol: UDP
+Bytes Transferred: 2618
+Duration (s): 3.34
+TLS JA3 Hash: 8841a999a72303cbb699acc55b43ff1a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0106 ---
+Timestamp: 2026-04-05 02:33:19 UTC
+Src IP: 192.168.141.103
+Dst IP: 130.172.80.137
+Src Port: 40340
+Dst Port: 29034
+Protocol: UDP
+Bytes Transferred: 2781
+Duration (s): 2.8
+TLS JA3 Hash: abdda76c8beec0190490976a08431eb4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0178 ---
+Timestamp: 2026-04-05 04:19:47 UTC
+Src IP: 192.168.201.104
+Dst IP: 104.6.241.168
+Src Port: 34620
+Dst Port: 64834
+Protocol: TCP
+Bytes Transferred: 3456
+Duration (s): 1.22
+TLS JA3 Hash: 6f7eea2a6dd6ee0b4490fba7ddc9a014
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0055 ---
+Timestamp: 2026-04-05 01:22:34 UTC
+Src IP: 10.0.196.247
+Dst IP: 144.253.209.176
+Src Port: 33249
+Dst Port: 27239
+Protocol: TLS
+Bytes Transferred: 3836
+Duration (s): 2.49
+TLS JA3 Hash: 207918795ef338b1e6d3791e8b2e376b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0198 ---
+Timestamp: 2026-04-05 04:48:42 UTC
+Src IP: 192.168.142.70
+Dst IP: 156.50.24.44
+Src Port: 21864
+Dst Port: 62031
+Protocol: UDP
+Bytes Transferred: 1680
+Duration (s): 1.79
+TLS JA3 Hash: cf480444c81b7de5ebe98d7929da2227
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0069 ---
+Timestamp: 2026-04-05 01:40:11 UTC
+Src IP: 192.168.244.27
+Dst IP: 19.175.87.228
+Src Port: 25630
+Dst Port: 10546
+Protocol: TLS
+Bytes Transferred: 814
+Duration (s): 2.78
+TLS JA3 Hash: 2af0d5d513a66d899731cf41b0d29f63
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0077 ---
+Timestamp: 2026-04-05 01:50:04 UTC
+Src IP: 192.168.89.80
+Dst IP: 45.76.123.45
+Src Port: 39603
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1524
+Duration (s): 1.04
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 0O2RA
+------------------------------------------------------------
+
+--- Flow Record #0160 ---
+Timestamp: 2026-04-05 03:51:44 UTC
+Src IP: 192.168.60.130
+Dst IP: 57.173.239.34
+Src Port: 58903
+Dst Port: 19228
+Protocol: TLS
+Bytes Transferred: 3397
+Duration (s): 4.8
+TLS JA3 Hash: bf5692f4565f3df97610b8b5512ad373
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0012 ---
+Timestamp: 2026-04-05 00:19:41 UTC
+Src IP: 10.0.27.142
+Dst IP: 75.64.251.27
+Src Port: 58218
+Dst Port: 804
+Protocol: TLS
+Bytes Transferred: 2529
+Duration (s): 2.4
+TLS JA3 Hash: ea518f32cf21449273d7cee9d9136682
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0050 ---
+Timestamp: 2026-04-05 01:14:28 UTC
+Src IP: 192.168.24.153
+Dst IP: 154.166.197.4
+Src Port: 20150
+Dst Port: 27120
+Protocol: UDP
+Bytes Transferred: 893
+Duration (s): 3.65
+TLS JA3 Hash: 75c54898f425d8d9f2b87f6e3490caca
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0182 ---
+Timestamp: 2026-04-05 04:25:06 UTC
+Src IP: 10.0.142.216
+Dst IP: 42.87.9.156
+Src Port: 7611
+Dst Port: 11616
+Protocol: UDP
+Bytes Transferred: 1217
+Duration (s): 2.72
+TLS JA3 Hash: c52084eb5616e13c9e101c67b7620d00
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0063 ---
+Timestamp: 2026-04-05 01:34:28 UTC
+Src IP: 192.168.249.37
+Dst IP: 183.143.47.12
+Src Port: 61400
+Dst Port: 15170
+Protocol: TLS
+Bytes Transferred: 3583
+Duration (s): 3.53
+TLS JA3 Hash: be234c21d4798acaae872643435eead3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0006 ---
+Timestamp: 2026-04-05 00:08:26 UTC
+Src IP: 192.168.98.174
+Dst IP: 192.89.154.104
+Src Port: 36933
+Dst Port: 54640
+Protocol: TCP
+Bytes Transferred: 2689
+Duration (s): 1.51
+TLS JA3 Hash: daeee6f529a279764017f2ed6cfc7403
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0383 ---
+Timestamp: 2026-04-05 09:10:53 UTC
+Src IP: 10.0.19.207
+Dst IP: 45.76.123.45
+Src Port: 60830
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1624
+Duration (s): 1.02
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: AU5BH
+------------------------------------------------------------
+
+--- Flow Record #0017 ---
+Timestamp: 2026-04-05 00:26:59 UTC
+Src IP: 192.168.220.137
+Dst IP: 98.162.249.224
+Src Port: 36480
+Dst Port: 2353
+Protocol: TLS
+Bytes Transferred: 760
+Duration (s): 1.25
+TLS JA3 Hash: 972d33e5901a19bbd47d5552c7f47e8e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0011 ---
+Timestamp: 2026-04-05 00:18:26 UTC
+Src IP: 192.168.62.177
+Dst IP: 122.251.229.203
+Src Port: 2154
+Dst Port: 6099
+Protocol: UDP
+Bytes Transferred: 2015
+Duration (s): 2.08
+TLS JA3 Hash: 79bfbdabe898736a3566f893697b5904
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0189 ---
+Timestamp: 2026-04-05 04:34:18 UTC
+Src IP: 10.0.93.208
+Dst IP: 195.98.132.252
+Src Port: 60155
+Dst Port: 57123
+Protocol: UDP
+Bytes Transferred: 3810
+Duration (s): 3.17
+TLS JA3 Hash: 35292c382a07ff301801360c8ffadaba
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0251 ---
+Timestamp: 2026-04-05 06:06:37 UTC
+Src IP: 10.0.25.133
+Dst IP: 54.185.101.253
+Src Port: 11312
+Dst Port: 54929
+Protocol: TLS
+Bytes Transferred: 3440
+Duration (s): 4.31
+TLS JA3 Hash: 795bad670103cf1599077183cc48222d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0060 ---
+Timestamp: 2026-04-05 01:29:10 UTC
+Src IP: 192.168.243.203
+Dst IP: 102.146.212.109
+Src Port: 47017
+Dst Port: 26364
+Protocol: TCP
+Bytes Transferred: 4595
+Duration (s): 2.73
+TLS JA3 Hash: 4829264ac29d7172d3e19530405fb85b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0192 ---
+Timestamp: 2026-04-05 04:39:03 UTC
+Src IP: 10.0.148.23
+Dst IP: 29.45.174.190
+Src Port: 39834
+Dst Port: 61422
+Protocol: TCP
+Bytes Transferred: 1151
+Duration (s): 2.91
+TLS JA3 Hash: 4ac0916cdab473c0ea497fe4941a938f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0005 ---
+Timestamp: 2026-04-05 00:06:34 UTC
+Src IP: 192.168.248.198
+Dst IP: 72.179.204.174
+Src Port: 65324
+Dst Port: 55291
+Protocol: TLS
+Bytes Transferred: 2912
+Duration (s): 4.7
+TLS JA3 Hash: 385813dbad3c681d06bd2aa399dac946
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0503 ---
+Timestamp: 2026-04-05 12:25:49 UTC
+Src IP: 10.0.240.34
+Dst IP: 9.222.167.214
+Src Port: 45022
+Dst Port: 25150
+Protocol: UDP
+Bytes Transferred: 1508
+Duration (s): 3.74
+TLS JA3 Hash: 490a4157a70fdd38c41bc402fb70edd3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0499 ---
+Timestamp: 2026-04-05 12:19:39 UTC
+Src IP: 10.0.16.136
+Dst IP: 35.8.122.160
+Src Port: 8891
+Dst Port: 29904
+Protocol: TCP
+Bytes Transferred: 1635
+Duration (s): 4.97
+TLS JA3 Hash: d68886ac58af02509495b6d0247eb705
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0246 ---
+Timestamp: 2026-04-05 06:00:07 UTC
+Src IP: 192.168.103.179
+Dst IP: 143.123.150.31
+Src Port: 23097
+Dst Port: 58814
+Protocol: UDP
+Bytes Transferred: 1082
+Duration (s): 4.97
+TLS JA3 Hash: 12beded9f45240becae58379fa1d9aca
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0403 ---
+Timestamp: 2026-04-05 09:45:44 UTC
+Src IP: 192.168.204.185
+Dst IP: 132.72.242.52
+Src Port: 53765
+Dst Port: 20373
+Protocol: TLS
+Bytes Transferred: 877
+Duration (s): 1.14
+TLS JA3 Hash: 218a14bc752e96be87a4d1c8d1de6789
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0185 ---
+Timestamp: 2026-04-05 04:30:44 UTC
+Src IP: 10.0.162.165
+Dst IP: 202.20.212.166
+Src Port: 54285
+Dst Port: 18905
+Protocol: TCP
+Bytes Transferred: 2076
+Duration (s): 4.25
+TLS JA3 Hash: aa76177ca5e02f26146425672de9567d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0347 ---
+Timestamp: 2026-04-05 08:24:22 UTC
+Src IP: 192.168.59.237
+Dst IP: 148.142.0.110
+Src Port: 46661
+Dst Port: 22870
+Protocol: UDP
+Bytes Transferred: 3905
+Duration (s): 2.83
+TLS JA3 Hash: 5030865571566649e1e74136b9d425fc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0429 ---
+Timestamp: 2026-04-05 10:32:33 UTC
+Src IP: 192.168.249.207
+Dst IP: 21.111.35.67
+Src Port: 47280
+Dst Port: 23626
+Protocol: TLS
+Bytes Transferred: 2644
+Duration (s): 1.03
+TLS JA3 Hash: acc7227b16956d541769e958d63097ed
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0497 ---
+Timestamp: 2026-04-05 12:18:43 UTC
+Src IP: 10.0.194.154
+Dst IP: 46.32.174.210
+Src Port: 36322
+Dst Port: 28783
+Protocol: TCP
+Bytes Transferred: 216
+Duration (s): 1.9
+TLS JA3 Hash: 58787142e3df0cc873a13c842a06e13f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0076 ---
+Timestamp: 2026-04-05 01:49:02 UTC
+Src IP: 10.0.77.36
+Dst IP: 52.175.209.253
+Src Port: 38340
+Dst Port: 58514
+Protocol: UDP
+Bytes Transferred: 1373
+Duration (s): 1.65
+TLS JA3 Hash: 52fa5a10e8655f24ddcdfc016b0a6007
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0226 ---
+Timestamp: 2026-04-05 05:36:41 UTC
+Src IP: 192.168.38.193
+Dst IP: 150.211.228.172
+Src Port: 9043
+Dst Port: 34195
+Protocol: TLS
+Bytes Transferred: 2170
+Duration (s): 2.93
+TLS JA3 Hash: f8af72892b7622f1606ec6f3a6a9e434
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0285 ---
+Timestamp: 2026-04-05 06:57:39 UTC
+Src IP: 192.168.77.1
+Dst IP: 20.128.159.54
+Src Port: 61517
+Dst Port: 48069
+Protocol: TLS
+Bytes Transferred: 747
+Duration (s): 0.39
+TLS JA3 Hash: d44f57c5dc67b2784c346e48a0393f7e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0151 ---
+Timestamp: 2026-04-05 03:38:07 UTC
+Src IP: 10.0.41.211
+Dst IP: 200.251.241.189
+Src Port: 28087
+Dst Port: 60719
+Protocol: UDP
+Bytes Transferred: 3660
+Duration (s): 4.4
+TLS JA3 Hash: 3582bdae015e40c69a23574daef485a9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0351 ---
+Timestamp: 2026-04-05 08:28:06 UTC
+Src IP: 10.0.125.97
+Dst IP: 89.174.45.93
+Src Port: 48465
+Dst Port: 33810
+Protocol: UDP
+Bytes Transferred: 4542
+Duration (s): 0.83
+TLS JA3 Hash: c37d487ab1b95c11f1d67deb05421813
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0371 ---
+Timestamp: 2026-04-05 08:58:28 UTC
+Src IP: 10.0.3.226
+Dst IP: 11.21.79.206
+Src Port: 21133
+Dst Port: 24413
+Protocol: TLS
+Bytes Transferred: 2080
+Duration (s): 2.97
+TLS JA3 Hash: 72743aa260aaf16d53999ccf4f7dee9d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0384 ---
+Timestamp: 2026-04-05 09:11:15 UTC
+Src IP: 192.168.234.68
+Dst IP: 45.76.123.45
+Src Port: 15071
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1632
+Duration (s): 0.64
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: XTPDP
+------------------------------------------------------------
+
+--- Flow Record #0493 ---
+Timestamp: 2026-04-05 12:11:43 UTC
+Src IP: 192.168.57.123
+Dst IP: 137.39.134.173
+Src Port: 29030
+Dst Port: 3271
+Protocol: UDP
+Bytes Transferred: 4203
+Duration (s): 4.25
+TLS JA3 Hash: d397e886e1cc2ebd8de4c7c2b92b114e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0502 ---
+Timestamp: 2026-04-05 12:24:22 UTC
+Src IP: 192.168.112.4
+Dst IP: 78.62.126.66
+Src Port: 35442
+Dst Port: 11316
+Protocol: TCP
+Bytes Transferred: 4486
+Duration (s): 4.74
+TLS JA3 Hash: 873a66244c0002991ec429719269306f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0232 ---
+Timestamp: 2026-04-05 05:43:51 UTC
+Src IP: 192.168.91.64
+Dst IP: 208.197.216.103
+Src Port: 64391
+Dst Port: 59256
+Protocol: TCP
+Bytes Transferred: 2340
+Duration (s): 4.61
+TLS JA3 Hash: 95da4684d69929e5cd34eabebdedde00
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0290 ---
+Timestamp: 2026-04-05 07:04:21 UTC
+Src IP: 192.168.161.148
+Dst IP: 100.133.186.206
+Src Port: 53565
+Dst Port: 17273
+Protocol: UDP
+Bytes Transferred: 3232
+Duration (s): 1.89
+TLS JA3 Hash: 7ab24a743fa37b7e81eefd250e1bf42b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0438 ---
+Timestamp: 2026-04-05 10:45:47 UTC
+Src IP: 192.168.63.213
+Dst IP: 81.167.198.164
+Src Port: 27351
+Dst Port: 18467
+Protocol: UDP
+Bytes Transferred: 2746
+Duration (s): 3.9
+TLS JA3 Hash: 3d469534d452650921958639f32fe4d8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0236 ---
+Timestamp: 2026-04-05 05:46:16 UTC
+Src IP: 10.0.81.60
+Dst IP: 25.54.255.240
+Src Port: 45544
+Dst Port: 31223
+Protocol: UDP
+Bytes Transferred: 2096
+Duration (s): 4.91
+TLS JA3 Hash: 735cd218312eb05a3ec4668fe9765d62
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0469 ---
+Timestamp: 2026-04-05 11:36:04 UTC
+Src IP: 192.168.71.252
+Dst IP: 20.226.209.219
+Src Port: 36792
+Dst Port: 28967
+Protocol: TLS
+Bytes Transferred: 2408
+Duration (s): 3.97
+TLS JA3 Hash: 9fe2516b01d39f9447a86919dc4342ad
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0398 ---
+Timestamp: 2026-04-05 09:36:03 UTC
+Src IP: 192.168.230.172
+Dst IP: 45.76.123.45
+Src Port: 5862
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1329
+Duration (s): 1.1
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: II49K
+------------------------------------------------------------
+
+--- Flow Record #0410 ---
+Timestamp: 2026-04-05 09:59:10 UTC
+Src IP: 192.168.216.42
+Dst IP: 58.3.92.49
+Src Port: 29299
+Dst Port: 45903
+Protocol: TCP
+Bytes Transferred: 1010
+Duration (s): 3.27
+TLS JA3 Hash: 52b3f0b3d33d6ba2aef53c11a7f62c4f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0482 ---
+Timestamp: 2026-04-05 11:52:33 UTC
+Src IP: 192.168.57.189
+Dst IP: 155.115.65.119
+Src Port: 46946
+Dst Port: 10355
+Protocol: UDP
+Bytes Transferred: 1676
+Duration (s): 2.75
+TLS JA3 Hash: 253c7b19d14ddeca5e59b6f8b0e0d90d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0019 ---
+Timestamp: 2026-04-05 00:28:47 UTC
+Src IP: 10.0.151.84
+Dst IP: 192.212.89.52
+Src Port: 9685
+Dst Port: 51545
+Protocol: TLS
+Bytes Transferred: 3197
+Duration (s): 2.7
+TLS JA3 Hash: 858f9a3e247cb2c083eb8cb37f0a72e9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0423 ---
+Timestamp: 2026-04-05 10:20:15 UTC
+Src IP: 10.0.175.85
+Dst IP: 110.139.8.146
+Src Port: 62191
+Dst Port: 43944
+Protocol: TCP
+Bytes Transferred: 4920
+Duration (s): 3.63
+TLS JA3 Hash: 6aefb51f04085d502f34249267dceec1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0471 ---
+Timestamp: 2026-04-05 11:37:41 UTC
+Src IP: 10.0.189.80
+Dst IP: 51.142.42.206
+Src Port: 48616
+Dst Port: 12222
+Protocol: TCP
+Bytes Transferred: 440
+Duration (s): 0.68
+TLS JA3 Hash: c19d07f43c1165163e12281069f373f3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0458 ---
+Timestamp: 2026-04-05 11:21:24 UTC
+Src IP: 192.168.140.244
+Dst IP: 120.14.243.39
+Src Port: 49809
+Dst Port: 25545
+Protocol: UDP
+Bytes Transferred: 4904
+Duration (s): 2.09
+TLS JA3 Hash: 55b2f94590865d331169cd3c61f04ce5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0075 ---
+Timestamp: 2026-04-05 01:47:12 UTC
+Src IP: 192.168.104.100
+Dst IP: 189.18.97.88
+Src Port: 48639
+Dst Port: 46752
+Protocol: TCP
+Bytes Transferred: 4579
+Duration (s): 3.23
+TLS JA3 Hash: fb95593f485a27b79dab89e3f12f63c9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0034 ---
+Timestamp: 2026-04-05 00:48:51 UTC
+Src IP: 192.168.142.34
+Dst IP: 157.44.33.80
+Src Port: 27117
+Dst Port: 65510
+Protocol: TLS
+Bytes Transferred: 4121
+Duration (s): 2.68
+TLS JA3 Hash: d24a2eeb454d134955a7b92868492545
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0136 ---
+Timestamp: 2026-04-05 03:17:43 UTC
+Src IP: 10.0.104.134
+Dst IP: 161.11.150.107
+Src Port: 64566
+Dst Port: 44722
+Protocol: TLS
+Bytes Transferred: 1281
+Duration (s): 2.42
+TLS JA3 Hash: de096207adaafee949587fb914b9e559
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0405 ---
+Timestamp: 2026-04-05 09:48:33 UTC
+Src IP: 192.168.119.200
+Dst IP: 130.198.48.154
+Src Port: 46026
+Dst Port: 1252
+Protocol: TCP
+Bytes Transferred: 2891
+Duration (s): 4.05
+TLS JA3 Hash: ec1550cb7a8250245eab105d12a3a65b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0361 ---
+Timestamp: 2026-04-05 08:39:33 UTC
+Src IP: 10.0.33.97
+Dst IP: 136.28.142.21
+Src Port: 20228
+Dst Port: 41279
+Protocol: TLS
+Bytes Transferred: 799
+Duration (s): 4.3
+TLS JA3 Hash: a1ed56ed41b7880fee9c51e4cd44b02f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0470 ---
+Timestamp: 2026-04-05 11:37:13 UTC
+Src IP: 192.168.193.92
+Dst IP: 42.182.131.148
+Src Port: 52512
+Dst Port: 11277
+Protocol: TCP
+Bytes Transferred: 3474
+Duration (s): 3.33
+TLS JA3 Hash: 89233f624e70d797a9528d0cc80b3315
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0507 ---
+Timestamp: 2026-04-05 12:34:12 UTC
+Src IP: 192.168.197.241
+Dst IP: 45.76.123.45
+Src Port: 25386
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1476
+Duration (s): 0.7
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: MGG1W1
+------------------------------------------------------------
+
+--- Flow Record #0239 ---
+Timestamp: 2026-04-05 05:50:36 UTC
+Src IP: 192.168.225.249
+Dst IP: 59.10.28.7
+Src Port: 51723
+Dst Port: 51238
+Protocol: TCP
+Bytes Transferred: 4576
+Duration (s): 3.08
+TLS JA3 Hash: c0f1cc4dd43e3bb6ad177207d1071214
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0456 ---
+Timestamp: 2026-04-05 11:19:49 UTC
+Src IP: 10.0.121.213
+Dst IP: 213.168.232.35
+Src Port: 56458
+Dst Port: 32176
+Protocol: TCP
+Bytes Transferred: 3915
+Duration (s): 1.4
+TLS JA3 Hash: 60d33c816962f6feb776c9fe0837003b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0115 ---
+Timestamp: 2026-04-05 02:44:27 UTC
+Src IP: 192.168.171.148
+Dst IP: 215.152.169.236
+Src Port: 6771
+Dst Port: 3214
+Protocol: TCP
+Bytes Transferred: 3615
+Duration (s): 4.97
+TLS JA3 Hash: 595eb129abc2d29f438ad66132f9da8b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0506 ---
+Timestamp: 2026-04-05 12:32:27 UTC
+Src IP: 10.0.130.10
+Dst IP: 155.37.181.131
+Src Port: 1119
+Dst Port: 22565
+Protocol: UDP
+Bytes Transferred: 4661
+Duration (s): 3.74
+TLS JA3 Hash: 3ae88cb73c1ff0190709a9380745206c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0273 ---
+Timestamp: 2026-04-05 06:38:38 UTC
+Src IP: 10.0.136.142
+Dst IP: 72.46.97.188
+Src Port: 55464
+Dst Port: 60128
+Protocol: TCP
+Bytes Transferred: 1285
+Duration (s): 2.66
+TLS JA3 Hash: 1677fe31a26f3e2f636f90d3e6e08d8f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0014 ---
+Timestamp: 2026-04-05 00:21:29 UTC
+Src IP: 192.168.215.221
+Dst IP: 148.10.137.148
+Src Port: 3660
+Dst Port: 50012
+Protocol: TCP
+Bytes Transferred: 4054
+Duration (s): 2.64
+TLS JA3 Hash: e85df2fbdaa35adf9c1e2a8a3c0ed16b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0431 ---
+Timestamp: 2026-04-05 10:35:42 UTC
+Src IP: 10.0.78.160
+Dst IP: 204.119.4.35
+Src Port: 2088
+Dst Port: 8811
+Protocol: UDP
+Bytes Transferred: 3487
+Duration (s): 2.91
+TLS JA3 Hash: 366070768dee23deb0ed4fba7158b612
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0271 ---
+Timestamp: 2026-04-05 06:34:19 UTC
+Src IP: 10.0.227.85
+Dst IP: 45.76.123.45
+Src Port: 19065
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1406
+Duration (s): 0.88
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: N5Z3J
+------------------------------------------------------------
+
+--- Flow Record #0324 ---
+Timestamp: 2026-04-05 07:52:05 UTC
+Src IP: 192.168.73.111
+Dst IP: 62.118.112.159
+Src Port: 40585
+Dst Port: 37396
+Protocol: UDP
+Bytes Transferred: 4727
+Duration (s): 1.83
+TLS JA3 Hash: 740a75c60528f337d77e55783079dce6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0356 ---
+Timestamp: 2026-04-05 08:34:02 UTC
+Src IP: 192.168.194.105
+Dst IP: 50.87.80.242
+Src Port: 15152
+Dst Port: 39753
+Protocol: TLS
+Bytes Transferred: 4343
+Duration (s): 0.82
+TLS JA3 Hash: 7e8aad228194d1b0a7fcdd1334d01616
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0121 ---
+Timestamp: 2026-04-05 02:53:30 UTC
+Src IP: 10.0.220.201
+Dst IP: 112.175.120.45
+Src Port: 44448
+Dst Port: 43884
+Protocol: TCP
+Bytes Transferred: 4903
+Duration (s): 4.2
+TLS JA3 Hash: 3ea3e59c23caf1264044e9ce66a99db2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0395 ---
+Timestamp: 2026-04-05 09:32:51 UTC
+Src IP: 192.168.45.72
+Dst IP: 66.130.184.67
+Src Port: 18187
+Dst Port: 28017
+Protocol: TCP
+Bytes Transferred: 4555
+Duration (s): 1.13
+TLS JA3 Hash: b2f6e30a734e8cd419af4f38e48c712c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0045 ---
+Timestamp: 2026-04-05 01:04:59 UTC
+Src IP: 192.168.235.15
+Dst IP: 144.211.213.143
+Src Port: 35757
+Dst Port: 8788
+Protocol: UDP
+Bytes Transferred: 2189
+Duration (s): 1.35
+TLS JA3 Hash: a2eb2618c1266f6a90663f76c7a9ceb9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0265 ---
+Timestamp: 2026-04-05 06:25:06 UTC
+Src IP: 10.0.150.92
+Dst IP: 107.8.228.84
+Src Port: 20532
+Dst Port: 41680
+Protocol: TCP
+Bytes Transferred: 1114
+Duration (s): 1.85
+TLS JA3 Hash: 1c752344fd8be7e12ab143c2a9dc0582
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0091 ---
+Timestamp: 2026-04-05 02:12:29 UTC
+Src IP: 192.168.124.173
+Dst IP: 123.245.107.152
+Src Port: 11591
+Dst Port: 42419
+Protocol: UDP
+Bytes Transferred: 383
+Duration (s): 1.29
+TLS JA3 Hash: 454141585c0926eff57d4585ae27cc43
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0127 ---
+Timestamp: 2026-04-05 03:03:19 UTC
+Src IP: 192.168.71.197
+Dst IP: 45.76.123.45
+Src Port: 52190
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1761
+Duration (s): 0.53
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: GWWQC
+------------------------------------------------------------
+
+--- Flow Record #0370 ---
+Timestamp: 2026-04-05 08:58:17 UTC
+Src IP: 192.168.144.16
+Dst IP: 155.67.244.2
+Src Port: 18828
+Dst Port: 23658
+Protocol: TCP
+Bytes Transferred: 2125
+Duration (s): 4.24
+TLS JA3 Hash: bc54add1adee8954faa8adba954932da
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0490 ---
+Timestamp: 2026-04-05 12:08:00 UTC
+Src IP: 10.0.214.213
+Dst IP: 216.28.242.250
+Src Port: 29592
+Dst Port: 57037
+Protocol: TCP
+Bytes Transferred: 3402
+Duration (s): 1.48
+TLS JA3 Hash: b00a7e568d2ed47366d30892d9463cb8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0195 ---
+Timestamp: 2026-04-05 04:43:23 UTC
+Src IP: 192.168.172.233
+Dst IP: 131.115.11.151
+Src Port: 38574
+Dst Port: 64707
+Protocol: TLS
+Bytes Transferred: 4128
+Duration (s): 1.44
+TLS JA3 Hash: 35cfd943a25c0cf2363550ea31465281
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0193 ---
+Timestamp: 2026-04-05 04:41:49 UTC
+Src IP: 192.168.127.75
+Dst IP: 181.192.30.252
+Src Port: 54121
+Dst Port: 21833
+Protocol: TCP
+Bytes Transferred: 1925
+Duration (s): 4.26
+TLS JA3 Hash: 715fc950cadfbcc2996c34a19e54ef94
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0442 ---
+Timestamp: 2026-04-05 10:54:40 UTC
+Src IP: 192.168.36.83
+Dst IP: 115.104.157.158
+Src Port: 34265
+Dst Port: 38875
+Protocol: TLS
+Bytes Transferred: 1531
+Duration (s): 1.78
+TLS JA3 Hash: 78d0e940e8f4dd92ecf00e9f8b9c8269
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0436 ---
+Timestamp: 2026-04-05 10:42:05 UTC
+Src IP: 192.168.5.108
+Dst IP: 21.204.178.139
+Src Port: 6510
+Dst Port: 9291
+Protocol: TLS
+Bytes Transferred: 1296
+Duration (s): 0.24
+TLS JA3 Hash: b54932ad614aac7d7e4d5951dc2a80a3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0289 ---
+Timestamp: 2026-04-05 07:02:04 UTC
+Src IP: 192.168.20.51
+Dst IP: 24.46.207.219
+Src Port: 18284
+Dst Port: 9553
+Protocol: TLS
+Bytes Transferred: 2986
+Duration (s): 2.71
+TLS JA3 Hash: c4c392a7e17480f7777e640970fed6d5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0134 ---
+Timestamp: 2026-04-05 03:14:42 UTC
+Src IP: 192.168.178.188
+Dst IP: 105.111.67.92
+Src Port: 20408
+Dst Port: 15668
+Protocol: TLS
+Bytes Transferred: 943
+Duration (s): 0.18
+TLS JA3 Hash: 95e0ee4c5be02ca19d862a1b13cbe1bb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0238 ---
+Timestamp: 2026-04-05 05:49:14 UTC
+Src IP: 192.168.62.219
+Dst IP: 133.159.204.159
+Src Port: 4736
+Dst Port: 35779
+Protocol: TLS
+Bytes Transferred: 1108
+Duration (s): 2.96
+TLS JA3 Hash: 801ad86a146a17f21b2d2f48131f7bdf
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0171 ---
+Timestamp: 2026-04-05 04:11:08 UTC
+Src IP: 192.168.105.71
+Dst IP: 32.238.253.93
+Src Port: 34922
+Dst Port: 49744
+Protocol: TCP
+Bytes Transferred: 2039
+Duration (s): 0.33
+TLS JA3 Hash: dea0c6a207d2765a9230fd0a873f7a1a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0512 ---
+Timestamp: 2026-04-05 12:43:27 UTC
+Src IP: 192.168.61.249
+Dst IP: 208.209.52.208
+Src Port: 28549
+Dst Port: 55074
+Protocol: TCP
+Bytes Transferred: 2736
+Duration (s): 2.75
+TLS JA3 Hash: 0e09e4dc046b2bb02b602e72df3ad1be
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0085 ---
+Timestamp: 2026-04-05 02:03:48 UTC
+Src IP: 192.168.170.78
+Dst IP: 126.183.37.201
+Src Port: 47402
+Dst Port: 20832
+Protocol: TLS
+Bytes Transferred: 2001
+Duration (s): 4.79
+TLS JA3 Hash: 25dc2b76aab96f03be771ac3c890bef1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0072 ---
+Timestamp: 2026-04-05 01:43:06 UTC
+Src IP: 192.168.10.45
+Dst IP: 71.206.73.159
+Src Port: 40912
+Dst Port: 44618
+Protocol: TLS
+Bytes Transferred: 3490
+Duration (s): 0.29
+TLS JA3 Hash: a71f8b0a998f3749ea8d26e6dfb1529c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0244 ---
+Timestamp: 2026-04-05 05:57:49 UTC
+Src IP: 192.168.96.121
+Dst IP: 76.15.82.95
+Src Port: 3947
+Dst Port: 19063
+Protocol: TCP
+Bytes Transferred: 409
+Duration (s): 0.62
+TLS JA3 Hash: 6ab6c14c227d31fea8697a7b7ea37edb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0304 ---
+Timestamp: 2026-04-05 07:21:10 UTC
+Src IP: 10.0.46.1
+Dst IP: 111.119.107.13
+Src Port: 48011
+Dst Port: 5205
+Protocol: UDP
+Bytes Transferred: 2824
+Duration (s): 3.16
+TLS JA3 Hash: 6f6f5f91e502568463265a75c9d96d8b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0130 ---
+Timestamp: 2026-04-05 03:08:32 UTC
+Src IP: 192.168.214.252
+Dst IP: 189.205.166.31
+Src Port: 64977
+Dst Port: 44833
+Protocol: TLS
+Bytes Transferred: 4671
+Duration (s): 0.77
+TLS JA3 Hash: 615a2384d5b5e7143c50f200529df464
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0176 ---
+Timestamp: 2026-04-05 04:17:27 UTC
+Src IP: 192.168.248.150
+Dst IP: 126.107.41.201
+Src Port: 31869
+Dst Port: 51839
+Protocol: TLS
+Bytes Transferred: 731
+Duration (s): 0.92
+TLS JA3 Hash: cbfe5abfff8c1676e7c69dc5b82429eb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0116 ---
+Timestamp: 2026-04-05 02:45:05 UTC
+Src IP: 192.168.128.134
+Dst IP: 187.254.252.207
+Src Port: 12814
+Dst Port: 57912
+Protocol: TLS
+Bytes Transferred: 2106
+Duration (s): 3.57
+TLS JA3 Hash: 6030e36dd1ab60698299a03aac056aaf
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0508 ---
+Timestamp: 2026-04-05 12:36:49 UTC
+Src IP: 10.0.60.154
+Dst IP: 180.47.144.222
+Src Port: 15596
+Dst Port: 5169
+Protocol: TCP
+Bytes Transferred: 1835
+Duration (s): 3.44
+TLS JA3 Hash: 4cc33a8a1a5c7533c19e540a7f0ff8b8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0416 ---
+Timestamp: 2026-04-05 10:08:18 UTC
+Src IP: 192.168.239.187
+Dst IP: 153.195.32.111
+Src Port: 14696
+Dst Port: 59372
+Protocol: UDP
+Bytes Transferred: 1236
+Duration (s): 0.49
+TLS JA3 Hash: a9b00a92a5c4abcc9e5370e847b385c3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0322 ---
+Timestamp: 2026-04-05 07:46:41 UTC
+Src IP: 192.168.240.70
+Dst IP: 74.116.160.238
+Src Port: 60387
+Dst Port: 21245
+Protocol: TCP
+Bytes Transferred: 4836
+Duration (s): 1.04
+TLS JA3 Hash: 96ad88d6496ba6e53976a5fb7cf8ea48
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0092 ---
+Timestamp: 2026-04-05 02:12:38 UTC
+Src IP: 10.0.214.212
+Dst IP: 39.49.90.122
+Src Port: 60111
+Dst Port: 40289
+Protocol: TLS
+Bytes Transferred: 519
+Duration (s): 4.4
+TLS JA3 Hash: 32f40ddb1d7fcb3d48f729d860030c6a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0337 ---
+Timestamp: 2026-04-05 08:09:06 UTC
+Src IP: 192.168.11.57
+Dst IP: 211.230.122.102
+Src Port: 1171
+Dst Port: 28182
+Protocol: TCP
+Bytes Transferred: 823
+Duration (s): 4.03
+TLS JA3 Hash: 8d091f6937ca560d2a7f0348598d5d65
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0108 ---
+Timestamp: 2026-04-05 02:35:44 UTC
+Src IP: 10.0.172.22
+Dst IP: 122.25.204.68
+Src Port: 6599
+Dst Port: 26118
+Protocol: TLS
+Bytes Transferred: 3759
+Duration (s): 3.89
+TLS JA3 Hash: 44f6fc67728da23ddbb6ab095be4e176
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0051 ---
+Timestamp: 2026-04-05 01:16:25 UTC
+Src IP: 192.168.209.211
+Dst IP: 221.69.153.83
+Src Port: 40556
+Dst Port: 62081
+Protocol: TLS
+Bytes Transferred: 1845
+Duration (s): 2.45
+TLS JA3 Hash: 5ca9f7ac8cb3650e6e92df49784dc2ef
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0004 ---
+Timestamp: 2026-04-05 00:05:18 UTC
+Src IP: 10.0.189.150
+Dst IP: 142.75.220.33
+Src Port: 3765
+Dst Port: 20203
+Protocol: UDP
+Bytes Transferred: 526
+Duration (s): 4.5
+TLS JA3 Hash: 673bd4755d05ad7853c1f76eb97706ca
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0354 ---
+Timestamp: 2026-04-05 08:31:25 UTC
+Src IP: 10.0.110.54
+Dst IP: 196.181.99.213
+Src Port: 35509
+Dst Port: 16890
+Protocol: TLS
+Bytes Transferred: 2781
+Duration (s): 4.43
+TLS JA3 Hash: 3c74323ee316726f64ca71d122fac3ed
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0466 ---
+Timestamp: 2026-04-05 11:32:39 UTC
+Src IP: 192.168.132.115
+Dst IP: 153.147.0.39
+Src Port: 64002
+Dst Port: 58372
+Protocol: UDP
+Bytes Transferred: 1352
+Duration (s): 0.27
+TLS JA3 Hash: b2f8a4e7b6d957be0092534a33d25ab0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0291 ---
+Timestamp: 2026-04-05 07:04:42 UTC
+Src IP: 192.168.71.146
+Dst IP: 65.14.251.111
+Src Port: 47175
+Dst Port: 50094
+Protocol: TCP
+Bytes Transferred: 3446
+Duration (s): 1.15
+TLS JA3 Hash: e99a7d4a01b322d567550f3a23ccdcf4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0043 ---
+Timestamp: 2026-04-05 01:03:12 UTC
+Src IP: 192.168.180.17
+Dst IP: 139.30.35.253
+Src Port: 62219
+Dst Port: 30938
+Protocol: TCP
+Bytes Transferred: 2551
+Duration (s): 2.1
+TLS JA3 Hash: 4dbcecc24b35c47009edc77eb48631d0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0478 ---
+Timestamp: 2026-04-05 11:50:18 UTC
+Src IP: 192.168.77.12
+Dst IP: 115.213.219.65
+Src Port: 9943
+Dst Port: 675
+Protocol: UDP
+Bytes Transferred: 3290
+Duration (s): 3.45
+TLS JA3 Hash: 4f26a6cfd4b46df1d08c751ab780b04f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0364 ---
+Timestamp: 2026-04-05 08:45:31 UTC
+Src IP: 192.168.47.27
+Dst IP: 161.99.133.133
+Src Port: 62010
+Dst Port: 63811
+Protocol: UDP
+Bytes Transferred: 1605
+Duration (s): 2.91
+TLS JA3 Hash: afe7d7735ad0a7e0fdc3ef1cf7c40b0c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0031 ---
+Timestamp: 2026-04-05 00:44:01 UTC
+Src IP: 10.0.173.209
+Dst IP: 165.89.237.252
+Src Port: 46597
+Dst Port: 31362
+Protocol: TLS
+Bytes Transferred: 1693
+Duration (s): 4.08
+TLS JA3 Hash: 2e196161a9cf8169b1a83bdceca5ffb8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0419 ---
+Timestamp: 2026-04-05 10:12:57 UTC
+Src IP: 192.168.46.187
+Dst IP: 33.33.158.48
+Src Port: 21981
+Dst Port: 30351
+Protocol: TLS
+Bytes Transferred: 1796
+Duration (s): 0.69
+TLS JA3 Hash: 09736c2f51636cbb4c505f7b4bb67454
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0062 ---
+Timestamp: 2026-04-05 01:32:18 UTC
+Src IP: 192.168.129.173
+Dst IP: 14.91.114.206
+Src Port: 34825
+Dst Port: 64318
+Protocol: TCP
+Bytes Transferred: 3484
+Duration (s): 0.44
+TLS JA3 Hash: e99a2e0b6997ebf6740d07b0a0c9367d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0203 ---
+Timestamp: 2026-04-05 04:56:53 UTC
+Src IP: 192.168.79.180
+Dst IP: 163.118.113.87
+Src Port: 28947
+Dst Port: 31405
+Protocol: TCP
+Bytes Transferred: 4376
+Duration (s): 2.19
+TLS JA3 Hash: 1938b8bd7a15101a69f83d58fba93304
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0104 ---
+Timestamp: 2026-04-05 02:31:36 UTC
+Src IP: 192.168.144.76
+Dst IP: 139.250.97.146
+Src Port: 13254
+Dst Port: 35627
+Protocol: UDP
+Bytes Transferred: 2851
+Duration (s): 3.69
+TLS JA3 Hash: 8524e98be0c50b7a2c6f49ada3321451
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0079 ---
+Timestamp: 2026-04-05 01:52:16 UTC
+Src IP: 192.168.165.60
+Dst IP: 117.151.135.119
+Src Port: 4306
+Dst Port: 6542
+Protocol: TCP
+Bytes Transferred: 523
+Duration (s): 4.28
+TLS JA3 Hash: bad331045abe82ba53cce8cfd534153d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0276 ---
+Timestamp: 2026-04-05 06:44:12 UTC
+Src IP: 192.168.84.143
+Dst IP: 144.102.110.159
+Src Port: 33984
+Dst Port: 28843
+Protocol: UDP
+Bytes Transferred: 1075
+Duration (s): 0.46
+TLS JA3 Hash: 5aff1cf78c131a8be93f42ad44962e7a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0418 ---
+Timestamp: 2026-04-05 10:10:49 UTC
+Src IP: 192.168.167.228
+Dst IP: 174.255.24.29
+Src Port: 33609
+Dst Port: 12714
+Protocol: TLS
+Bytes Transferred: 1540
+Duration (s): 4.36
+TLS JA3 Hash: 0da47eee4dcad66e03811b4e20ba1104
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0124 ---
+Timestamp: 2026-04-05 02:58:36 UTC
+Src IP: 192.168.251.205
+Dst IP: 76.148.85.10
+Src Port: 46574
+Dst Port: 60481
+Protocol: TLS
+Bytes Transferred: 2690
+Duration (s): 3.66
+TLS JA3 Hash: 81f51909f2428848880354eb587f51a2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0450 ---
+Timestamp: 2026-04-05 11:10:39 UTC
+Src IP: 192.168.151.239
+Dst IP: 17.158.114.54
+Src Port: 54346
+Dst Port: 25956
+Protocol: TCP
+Bytes Transferred: 4915
+Duration (s): 1.36
+TLS JA3 Hash: cd8a10131af707a532d9959c89ebe5bf
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0494 ---
+Timestamp: 2026-04-05 12:13:49 UTC
+Src IP: 192.168.43.148
+Dst IP: 216.56.5.199
+Src Port: 34907
+Dst Port: 20190
+Protocol: UDP
+Bytes Transferred: 535
+Duration (s): 3.52
+TLS JA3 Hash: c097bdd1a177e8d760cfe60cf3455ddf
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0138 ---
+Timestamp: 2026-04-05 03:21:32 UTC
+Src IP: 192.168.79.7
+Dst IP: 103.112.228.92
+Src Port: 7084
+Dst Port: 21389
+Protocol: TCP
+Bytes Transferred: 1798
+Duration (s): 2.96
+TLS JA3 Hash: 78602e2c6fa1bc4dbcb09bb9e26ede95
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0228 ---
+Timestamp: 2026-04-05 05:38:36 UTC
+Src IP: 10.0.206.46
+Dst IP: 153.141.252.133
+Src Port: 29438
+Dst Port: 7156
+Protocol: TLS
+Bytes Transferred: 608
+Duration (s): 3.27
+TLS JA3 Hash: 37311872387ccc378f656b99035f975a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0424 ---
+Timestamp: 2026-04-05 10:22:44 UTC
+Src IP: 192.168.122.56
+Dst IP: 19.84.218.126
+Src Port: 59560
+Dst Port: 31712
+Protocol: TCP
+Bytes Transferred: 854
+Duration (s): 4.01
+TLS JA3 Hash: 54ec0eafdb769632ca960a57341532b0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0264 ---
+Timestamp: 2026-04-05 06:22:43 UTC
+Src IP: 192.168.103.109
+Dst IP: 198.27.155.109
+Src Port: 17974
+Dst Port: 48632
+Protocol: TLS
+Bytes Transferred: 1149
+Duration (s): 3.06
+TLS JA3 Hash: ebfab35dc240a86ed1e913feb1b8da90
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0167 ---
+Timestamp: 2026-04-05 04:03:56 UTC
+Src IP: 10.0.58.251
+Dst IP: 26.86.146.37
+Src Port: 12995
+Dst Port: 16749
+Protocol: TCP
+Bytes Transferred: 1463
+Duration (s): 1.6
+TLS JA3 Hash: d51a5019c3a4da8c31677fc381aed2f0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0013 ---
+Timestamp: 2026-04-05 00:20:26 UTC
+Src IP: 10.0.38.41
+Dst IP: 1.209.230.177
+Src Port: 39940
+Dst Port: 30797
+Protocol: UDP
+Bytes Transferred: 467
+Duration (s): 1.23
+TLS JA3 Hash: 9e2786d3748421599e3e9c8fe21da802
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0201 ---
+Timestamp: 2026-04-05 04:52:58 UTC
+Src IP: 10.0.219.229
+Dst IP: 47.137.55.254
+Src Port: 29766
+Dst Port: 43010
+Protocol: UDP
+Bytes Transferred: 1525
+Duration (s): 0.79
+TLS JA3 Hash: d0b636914cda156f83dff4acc433044b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0435 ---
+Timestamp: 2026-04-05 10:40:29 UTC
+Src IP: 192.168.76.78
+Dst IP: 114.9.156.129
+Src Port: 56114
+Dst Port: 33985
+Protocol: UDP
+Bytes Transferred: 4366
+Duration (s): 3.04
+TLS JA3 Hash: a08e050bcb2a6ef85cd65ad785effa55
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0275 ---
+Timestamp: 2026-04-05 06:42:18 UTC
+Src IP: 192.168.202.44
+Dst IP: 219.80.80.84
+Src Port: 63722
+Dst Port: 33848
+Protocol: UDP
+Bytes Transferred: 3615
+Duration (s): 3.92
+TLS JA3 Hash: 878f9b49abae9dcd0c1db4e806689b0a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0487 ---
+Timestamp: 2026-04-05 12:03:05 UTC
+Src IP: 192.168.152.47
+Dst IP: 189.3.154.198
+Src Port: 36592
+Dst Port: 31661
+Protocol: UDP
+Bytes Transferred: 539
+Duration (s): 2.21
+TLS JA3 Hash: c6675db3b15ae9d81ab65adf4c508cf4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0157 ---
+Timestamp: 2026-04-05 03:48:00 UTC
+Src IP: 10.0.79.239
+Dst IP: 127.42.148.120
+Src Port: 29686
+Dst Port: 5190
+Protocol: UDP
+Bytes Transferred: 2660
+Duration (s): 0.83
+TLS JA3 Hash: 497d91213dd3e8b8203e55c12d9aee8a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0475 ---
+Timestamp: 2026-04-05 11:44:56 UTC
+Src IP: 192.168.129.17
+Dst IP: 57.12.5.78
+Src Port: 60850
+Dst Port: 7022
+Protocol: TLS
+Bytes Transferred: 3682
+Duration (s): 3.04
+TLS JA3 Hash: 20a7143b2cfbc9c77a79220a038fd84f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0190 ---
+Timestamp: 2026-04-05 04:35:43 UTC
+Src IP: 192.168.241.93
+Dst IP: 171.204.193.157
+Src Port: 4775
+Dst Port: 63918
+Protocol: UDP
+Bytes Transferred: 2905
+Duration (s): 4.05
+TLS JA3 Hash: 0ec40387befd60a0b1ae7fc2bdf3c964
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0131 ---
+Timestamp: 2026-04-05 03:11:20 UTC
+Src IP: 10.0.230.106
+Dst IP: 62.89.19.153
+Src Port: 12820
+Dst Port: 47003
+Protocol: UDP
+Bytes Transferred: 921
+Duration (s): 3.17
+TLS JA3 Hash: 9bd07633b7e681634ff5511b96d8ae13
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0103 ---
+Timestamp: 2026-04-05 02:29:27 UTC
+Src IP: 192.168.222.171
+Dst IP: 56.57.120.163
+Src Port: 29477
+Dst Port: 21268
+Protocol: TCP
+Bytes Transferred: 1571
+Duration (s): 3.99
+TLS JA3 Hash: 3c701f4b275f2a11b434f7abe60cb481
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0377 ---
+Timestamp: 2026-04-05 09:04:16 UTC
+Src IP: 192.168.191.173
+Dst IP: 23.59.57.98
+Src Port: 27415
+Dst Port: 6849
+Protocol: TCP
+Bytes Transferred: 1680
+Duration (s): 0.31
+TLS JA3 Hash: 1e4ae766196dca605e934953290c4a0a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0197 ---
+Timestamp: 2026-04-05 04:46:11 UTC
+Src IP: 10.0.137.163
+Dst IP: 179.98.190.145
+Src Port: 44101
+Dst Port: 42453
+Protocol: TLS
+Bytes Transferred: 1543
+Duration (s): 2.16
+TLS JA3 Hash: 4adc072833d2a2ba847803c7c3359f3b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0026 ---
+Timestamp: 2026-04-05 00:39:56 UTC
+Src IP: 10.0.131.51
+Dst IP: 45.78.38.46
+Src Port: 63367
+Dst Port: 50650
+Protocol: TLS
+Bytes Transferred: 4247
+Duration (s): 2.37
+TLS JA3 Hash: eaa4e2fe981b29ee11b922ce1e6af41e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0428 ---
+Timestamp: 2026-04-05 10:30:06 UTC
+Src IP: 192.168.123.84
+Dst IP: 78.178.98.74
+Src Port: 42331
+Dst Port: 46515
+Protocol: UDP
+Bytes Transferred: 3235
+Duration (s): 1.75
+TLS JA3 Hash: 44170198d9c247104b3436eacbc6aaf0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0199 ---
+Timestamp: 2026-04-05 04:49:10 UTC
+Src IP: 10.0.29.22
+Dst IP: 191.146.252.207
+Src Port: 58325
+Dst Port: 701
+Protocol: UDP
+Bytes Transferred: 4367
+Duration (s): 4.67
+TLS JA3 Hash: 4ff3c060db71e5752b4b1dfc5b3a7399
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0035 ---
+Timestamp: 2026-04-05 00:51:44 UTC
+Src IP: 192.168.231.155
+Dst IP: 87.21.14.21
+Src Port: 4003
+Dst Port: 62164
+Protocol: TLS
+Bytes Transferred: 4924
+Duration (s): 1.4
+TLS JA3 Hash: 6d0f99f7c9e215edfe6a4aabc4b3a7e3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0149 ---
+Timestamp: 2026-04-05 03:36:39 UTC
+Src IP: 192.168.109.166
+Dst IP: 10.103.81.70
+Src Port: 9965
+Dst Port: 1910
+Protocol: UDP
+Bytes Transferred: 2475
+Duration (s): 3.33
+TLS JA3 Hash: 51f012a92db2c47338f273aac7d64356
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0387 ---
+Timestamp: 2026-04-05 09:16:51 UTC
+Src IP: 192.168.137.179
+Dst IP: 129.116.21.226
+Src Port: 29591
+Dst Port: 9009
+Protocol: UDP
+Bytes Transferred: 3437
+Duration (s): 2.45
+TLS JA3 Hash: e2d02292637b56d376fd0a5718a3ca05
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0338 ---
+Timestamp: 2026-04-05 08:10:43 UTC
+Src IP: 10.0.147.80
+Dst IP: 139.35.39.252
+Src Port: 11219
+Dst Port: 57228
+Protocol: TCP
+Bytes Transferred: 227
+Duration (s): 4.77
+TLS JA3 Hash: 2853ea3e3f82b2b5c6802254a56fb0ac
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0030 ---
+Timestamp: 2026-04-05 00:43:22 UTC
+Src IP: 192.168.141.241
+Dst IP: 187.216.56.199
+Src Port: 19905
+Dst Port: 15574
+Protocol: UDP
+Bytes Transferred: 1198
+Duration (s): 0.33
+TLS JA3 Hash: de23f0749d0b7d52b20cf1cb80b2b73a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0248 ---
+Timestamp: 2026-04-05 06:01:30 UTC
+Src IP: 192.168.236.217
+Dst IP: 31.227.221.127
+Src Port: 18263
+Dst Port: 5693
+Protocol: TCP
+Bytes Transferred: 2481
+Duration (s): 3.69
+TLS JA3 Hash: 3b272a5a8e2a1d3a61074c768f4f5f94
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0280 ---
+Timestamp: 2026-04-05 06:51:10 UTC
+Src IP: 192.168.190.155
+Dst IP: 92.162.212.49
+Src Port: 14808
+Dst Port: 64563
+Protocol: TCP
+Bytes Transferred: 4352
+Duration (s): 1.86
+TLS JA3 Hash: 83e00cdc3bb92d972cf08a14750444f1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0375 ---
+Timestamp: 2026-04-05 09:02:56 UTC
+Src IP: 10.0.167.36
+Dst IP: 45.76.123.45
+Src Port: 2864
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1382
+Duration (s): 0.73
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: JXK87
+------------------------------------------------------------
+
+--- Flow Record #0327 ---
+Timestamp: 2026-04-05 07:54:06 UTC
+Src IP: 192.168.60.224
+Dst IP: 45.76.123.45
+Src Port: 36933
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1119
+Duration (s): 1.15
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: YY37Q
+------------------------------------------------------------
+
+--- Flow Record #0485 ---
+Timestamp: 2026-04-05 11:59:39 UTC
+Src IP: 192.168.20.124
+Dst IP: 118.158.190.72
+Src Port: 11513
+Dst Port: 4297
+Protocol: TCP
+Bytes Transferred: 3345
+Duration (s): 0.99
+TLS JA3 Hash: 826ea345ce273fb7c4d8fa4c8c340d3e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0355 ---
+Timestamp: 2026-04-05 08:33:51 UTC
+Src IP: 192.168.135.229
+Dst IP: 3.5.94.54
+Src Port: 54786
+Dst Port: 1742
+Protocol: TCP
+Bytes Transferred: 1074
+Duration (s): 1.74
+TLS JA3 Hash: d3407caff893d06cbb41292393977cfa
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0073 ---
+Timestamp: 2026-04-05 01:43:45 UTC
+Src IP: 192.168.135.226
+Dst IP: 146.14.88.50
+Src Port: 58379
+Dst Port: 54587
+Protocol: TCP
+Bytes Transferred: 672
+Duration (s): 1.32
+TLS JA3 Hash: e1b68bec307bfe5fbb58290c1567768d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0270 ---
+Timestamp: 2026-04-05 06:32:47 UTC
+Src IP: 192.168.105.222
+Dst IP: 134.240.197.19
+Src Port: 52341
+Dst Port: 27335
+Protocol: UDP
+Bytes Transferred: 4601
+Duration (s): 0.69
+TLS JA3 Hash: 0ef19c1bced334835bda47f683a2ef78
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0257 ---
+Timestamp: 2026-04-05 06:11:44 UTC
+Src IP: 10.0.184.135
+Dst IP: 50.2.158.85
+Src Port: 7191
+Dst Port: 59706
+Protocol: UDP
+Bytes Transferred: 2278
+Duration (s): 2.56
+TLS JA3 Hash: 0818fc18810fef5f31b04542d31e1a38
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0263 ---
+Timestamp: 2026-04-05 06:19:51 UTC
+Src IP: 192.168.1.157
+Dst IP: 154.203.39.166
+Src Port: 16102
+Dst Port: 9050
+Protocol: UDP
+Bytes Transferred: 1739
+Duration (s): 0.32
+TLS JA3 Hash: 9d2ac5d499cf18d55c3e2b3c05a4ce0f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0033 ---
+Timestamp: 2026-04-05 00:46:47 UTC
+Src IP: 192.168.81.167
+Dst IP: 72.127.58.7
+Src Port: 49237
+Dst Port: 12193
+Protocol: UDP
+Bytes Transferred: 4441
+Duration (s): 2.0
+TLS JA3 Hash: 388e69f6342e5e2ab29955b73647f0bb
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0252 ---
+Timestamp: 2026-04-05 06:06:47 UTC
+Src IP: 10.0.77.25
+Dst IP: 45.76.123.45
+Src Port: 40718
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1359
+Duration (s): 0.82
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: UDOCU
+------------------------------------------------------------
+
+--- Flow Record #0259 ---
+Timestamp: 2026-04-05 06:13:26 UTC
+Src IP: 192.168.56.164
+Dst IP: 96.235.41.225
+Src Port: 48490
+Dst Port: 61817
+Protocol: TCP
+Bytes Transferred: 2721
+Duration (s): 4.2
+TLS JA3 Hash: 6491c9584ad7686598e82fbbbe51c46d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0237 ---
+Timestamp: 2026-04-05 05:48:50 UTC
+Src IP: 10.0.49.53
+Dst IP: 9.71.2.93
+Src Port: 51774
+Dst Port: 26741
+Protocol: TLS
+Bytes Transferred: 4677
+Duration (s): 4.34
+TLS JA3 Hash: a5f66fbb42edc224933f71a0798cb259
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0476 ---
+Timestamp: 2026-04-05 11:47:10 UTC
+Src IP: 192.168.150.202
+Dst IP: 109.62.163.121
+Src Port: 17197
+Dst Port: 36164
+Protocol: UDP
+Bytes Transferred: 2829
+Duration (s): 3.75
+TLS JA3 Hash: 342efa347bf3ab84c1e57c0499db8dee
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0175 ---
+Timestamp: 2026-04-05 04:16:50 UTC
+Src IP: 10.0.134.185
+Dst IP: 45.173.125.46
+Src Port: 13868
+Dst Port: 1409
+Protocol: TCP
+Bytes Transferred: 2344
+Duration (s): 4.56
+TLS JA3 Hash: 04c3a69e7bb5d234466cbad71694a718
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0083 ---
+Timestamp: 2026-04-05 01:58:13 UTC
+Src IP: 192.168.180.227
+Dst IP: 192.153.160.183
+Src Port: 49312
+Dst Port: 61310
+Protocol: TLS
+Bytes Transferred: 1980
+Duration (s): 1.08
+TLS JA3 Hash: 9b45a3bfd9d030c4116859841961be37
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0089 ---
+Timestamp: 2026-04-05 02:09:56 UTC
+Src IP: 192.168.28.45
+Dst IP: 166.41.143.220
+Src Port: 55185
+Dst Port: 9176
+Protocol: TLS
+Bytes Transferred: 1809
+Duration (s): 1.39
+TLS JA3 Hash: 2200c618f4bc794e2cb0754e554fb17f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0154 ---
+Timestamp: 2026-04-05 03:41:24 UTC
+Src IP: 192.168.34.23
+Dst IP: 82.221.72.67
+Src Port: 8681
+Dst Port: 20531
+Protocol: TCP
+Bytes Transferred: 1247
+Duration (s): 2.55
+TLS JA3 Hash: 8bd988ad5af4e1641751f85ed3f1ebfe
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0255 ---
+Timestamp: 2026-04-05 06:10:56 UTC
+Src IP: 10.0.48.138
+Dst IP: 118.169.48.16
+Src Port: 41982
+Dst Port: 30717
+Protocol: TLS
+Bytes Transferred: 1481
+Duration (s): 0.43
+TLS JA3 Hash: 7b0689d9bc86243685834ca8f6507624
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0452 ---
+Timestamp: 2026-04-05 11:14:30 UTC
+Src IP: 10.0.172.148
+Dst IP: 3.11.85.214
+Src Port: 7929
+Dst Port: 29183
+Protocol: UDP
+Bytes Transferred: 4927
+Duration (s): 0.33
+TLS JA3 Hash: a4dd67b2a0e0a64c03372074f94ab37d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0272 ---
+Timestamp: 2026-04-05 06:36:37 UTC
+Src IP: 192.168.222.238
+Dst IP: 45.76.123.45
+Src Port: 32743
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1923
+Duration (s): 0.76
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: QIP98
+------------------------------------------------------------
+
+--- Flow Record #0352 ---
+Timestamp: 2026-04-05 08:29:51 UTC
+Src IP: 10.0.63.228
+Dst IP: 143.2.133.161
+Src Port: 49080
+Dst Port: 16952
+Protocol: TLS
+Bytes Transferred: 1653
+Duration (s): 2.78
+TLS JA3 Hash: ff76c62c87424c959d9507d4bd63982e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0099 ---
+Timestamp: 2026-04-05 02:23:37 UTC
+Src IP: 10.0.162.168
+Dst IP: 75.136.202.70
+Src Port: 59199
+Dst Port: 29157
+Protocol: UDP
+Bytes Transferred: 4467
+Duration (s): 4.83
+TLS JA3 Hash: d550478265c332f10c23842c9779e445
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0421 ---
+Timestamp: 2026-04-05 10:16:12 UTC
+Src IP: 192.168.127.171
+Dst IP: 204.222.134.137
+Src Port: 57354
+Dst Port: 16927
+Protocol: UDP
+Bytes Transferred: 4119
+Duration (s): 1.08
+TLS JA3 Hash: e8446644503984b455bc1c5a6b1c7f72
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0084 ---
+Timestamp: 2026-04-05 02:01:03 UTC
+Src IP: 192.168.61.131
+Dst IP: 201.147.24.238
+Src Port: 26031
+Dst Port: 25399
+Protocol: UDP
+Bytes Transferred: 2761
+Duration (s): 4.83
+TLS JA3 Hash: 1086e7b669e52553c1d884580ae414a1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0386 ---
+Timestamp: 2026-04-05 09:15:38 UTC
+Src IP: 192.168.46.125
+Dst IP: 73.114.170.186
+Src Port: 25756
+Dst Port: 23203
+Protocol: TCP
+Bytes Transferred: 3970
+Duration (s): 2.95
+TLS JA3 Hash: c591d9cc78d08e942e04a3c45b7d8407
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0489 ---
+Timestamp: 2026-04-05 12:06:13 UTC
+Src IP: 10.0.204.1
+Dst IP: 68.175.26.247
+Src Port: 39081
+Dst Port: 23679
+Protocol: UDP
+Bytes Transferred: 1790
+Duration (s): 1.01
+TLS JA3 Hash: f910721277b65459e227c01d04ef1ac8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0094 ---
+Timestamp: 2026-04-05 02:16:06 UTC
+Src IP: 10.0.19.186
+Dst IP: 99.205.146.183
+Src Port: 64169
+Dst Port: 39156
+Protocol: TCP
+Bytes Transferred: 1635
+Duration (s): 3.24
+TLS JA3 Hash: e06961751b70528cbcc60229bb876ec0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0038 ---
+Timestamp: 2026-04-05 00:57:18 UTC
+Src IP: 192.168.204.231
+Dst IP: 186.13.242.68
+Src Port: 64401
+Dst Port: 42965
+Protocol: TLS
+Bytes Transferred: 4931
+Duration (s): 1.21
+TLS JA3 Hash: 1f5c471360ead4d6df146afca5eab8f6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0003 ---
+Timestamp: 2026-04-05 00:02:54 UTC
+Src IP: 192.168.226.63
+Dst IP: 95.145.80.113
+Src Port: 55664
+Dst Port: 35601
+Protocol: TLS
+Bytes Transferred: 2678
+Duration (s): 3.1
+TLS JA3 Hash: 09348334896a68f812d810a485ed0324
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0009 ---
+Timestamp: 2026-04-05 00:14:02 UTC
+Src IP: 10.0.41.121
+Dst IP: 5.26.179.58
+Src Port: 43631
+Dst Port: 4497
+Protocol: TLS
+Bytes Transferred: 529
+Duration (s): 3.8
+TLS JA3 Hash: 760474f36e8b5359309cc6273931bdb2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0129 ---
+Timestamp: 2026-04-05 03:06:38 UTC
+Src IP: 10.0.199.17
+Dst IP: 203.157.255.137
+Src Port: 64263
+Dst Port: 54674
+Protocol: UDP
+Bytes Transferred: 334
+Duration (s): 0.28
+TLS JA3 Hash: 1a1c36e47214f0f17405193e5233f726
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0117 ---
+Timestamp: 2026-04-05 02:47:11 UTC
+Src IP: 192.168.166.35
+Dst IP: 124.79.235.229
+Src Port: 57727
+Dst Port: 35191
+Protocol: UDP
+Bytes Transferred: 3988
+Duration (s): 3.94
+TLS JA3 Hash: d19a06ab2480ac5c539a18d2f7be9695
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0174 ---
+Timestamp: 2026-04-05 04:16:01 UTC
+Src IP: 192.168.85.219
+Dst IP: 149.171.153.108
+Src Port: 22560
+Dst Port: 10636
+Protocol: TCP
+Bytes Transferred: 3921
+Duration (s): 4.39
+TLS JA3 Hash: 1f7077e67fac6c50b02b0349e6b10669
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0288 ---
+Timestamp: 2026-04-05 07:00:18 UTC
+Src IP: 192.168.179.254
+Dst IP: 163.134.82.54
+Src Port: 37624
+Dst Port: 50516
+Protocol: TLS
+Bytes Transferred: 2836
+Duration (s): 3.73
+TLS JA3 Hash: b5f2ab7a932caf5c68fbaeb55a036995
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0449 ---
+Timestamp: 2026-04-05 11:08:03 UTC
+Src IP: 192.168.45.208
+Dst IP: 143.34.180.204
+Src Port: 12433
+Dst Port: 31452
+Protocol: TLS
+Bytes Transferred: 4092
+Duration (s): 1.06
+TLS JA3 Hash: 9d5a2a53e9da6a7f133bdf698cf2fec5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0316 ---
+Timestamp: 2026-04-05 07:39:11 UTC
+Src IP: 192.168.101.57
+Dst IP: 148.179.208.177
+Src Port: 50278
+Dst Port: 64747
+Protocol: TCP
+Bytes Transferred: 2049
+Duration (s): 3.24
+TLS JA3 Hash: e4603f4297c96360009365228e3dbc09
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0169 ---
+Timestamp: 2026-04-05 04:08:12 UTC
+Src IP: 192.168.225.111
+Dst IP: 54.162.175.163
+Src Port: 18152
+Dst Port: 64202
+Protocol: TLS
+Bytes Transferred: 3908
+Duration (s): 1.44
+TLS JA3 Hash: aa6ea040f005dfc220e3bcbc503eb6e0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0390 ---
+Timestamp: 2026-04-05 09:23:26 UTC
+Src IP: 192.168.84.96
+Dst IP: 154.28.194.125
+Src Port: 1527
+Dst Port: 3222
+Protocol: TCP
+Bytes Transferred: 4889
+Duration (s): 1.58
+TLS JA3 Hash: 498519cc8ddfd1ad8509adbfea0e9a76
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0402 ---
+Timestamp: 2026-04-05 09:45:17 UTC
+Src IP: 192.168.28.252
+Dst IP: 209.44.161.48
+Src Port: 29034
+Dst Port: 5300
+Protocol: TLS
+Bytes Transferred: 557
+Duration (s): 3.74
+TLS JA3 Hash: 7e14611e2da00f829a974ed6db488f3d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0483 ---
+Timestamp: 2026-04-05 11:54:44 UTC
+Src IP: 192.168.193.106
+Dst IP: 217.11.86.12
+Src Port: 36783
+Dst Port: 671
+Protocol: TLS
+Bytes Transferred: 1046
+Duration (s): 2.87
+TLS JA3 Hash: 51552b971881755b6765057b214bab13
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0334 ---
+Timestamp: 2026-04-05 08:05:20 UTC
+Src IP: 192.168.132.25
+Dst IP: 128.114.145.9
+Src Port: 26805
+Dst Port: 55847
+Protocol: UDP
+Bytes Transferred: 1533
+Duration (s): 3.51
+TLS JA3 Hash: eb99cd79a67e44121343e4429aa7fdd3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0274 ---
+Timestamp: 2026-04-05 06:41:24 UTC
+Src IP: 10.0.247.132
+Dst IP: 73.153.135.223
+Src Port: 35901
+Dst Port: 16320
+Protocol: UDP
+Bytes Transferred: 2455
+Duration (s): 3.42
+TLS JA3 Hash: 9e35f0aff552d93ea5637699af3964a5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0300 ---
+Timestamp: 2026-04-05 07:16:59 UTC
+Src IP: 192.168.45.70
+Dst IP: 191.79.205.148
+Src Port: 52263
+Dst Port: 52484
+Protocol: TCP
+Bytes Transferred: 1434
+Duration (s): 2.12
+TLS JA3 Hash: e74fa1322001a2ab64692baefa599354
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0281 ---
+Timestamp: 2026-04-05 06:51:30 UTC
+Src IP: 192.168.54.222
+Dst IP: 190.150.190.159
+Src Port: 28213
+Dst Port: 53953
+Protocol: TCP
+Bytes Transferred: 3634
+Duration (s): 0.94
+TLS JA3 Hash: 45b350f69cb8a00a0f14d1c5530b72d2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0081 ---
+Timestamp: 2026-04-05 01:57:17 UTC
+Src IP: 192.168.104.210
+Dst IP: 61.40.235.114
+Src Port: 53535
+Dst Port: 37555
+Protocol: UDP
+Bytes Transferred: 921
+Duration (s): 4.3
+TLS JA3 Hash: ea3f03cd10296eab17eafbe3370ab9b3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0349 ---
+Timestamp: 2026-04-05 08:24:46 UTC
+Src IP: 192.168.138.225
+Dst IP: 60.64.123.233
+Src Port: 4350
+Dst Port: 33320
+Protocol: TLS
+Bytes Transferred: 4653
+Duration (s): 4.43
+TLS JA3 Hash: 72a288a451df64724e2d2ae58a010000
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0067 ---
+Timestamp: 2026-04-05 01:39:10 UTC
+Src IP: 10.0.112.6
+Dst IP: 135.244.0.85
+Src Port: 61179
+Dst Port: 40248
+Protocol: TCP
+Bytes Transferred: 1268
+Duration (s): 1.77
+TLS JA3 Hash: 5a10443b2bc3a9a45dfa5b75c99450c1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0052 ---
+Timestamp: 2026-04-05 01:18:59 UTC
+Src IP: 192.168.130.237
+Dst IP: 223.214.18.203
+Src Port: 64490
+Dst Port: 23563
+Protocol: TLS
+Bytes Transferred: 4598
+Duration (s): 3.01
+TLS JA3 Hash: 237b51cad303877ebce4b0f39d234b9a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0196 ---
+Timestamp: 2026-04-05 04:43:49 UTC
+Src IP: 192.168.130.77
+Dst IP: 94.87.216.251
+Src Port: 62970
+Dst Port: 43134
+Protocol: TCP
+Bytes Transferred: 2234
+Duration (s): 1.57
+TLS JA3 Hash: 9e4fab63171649646b84d288c5ce28d4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0376 ---
+Timestamp: 2026-04-05 09:03:42 UTC
+Src IP: 192.168.224.187
+Dst IP: 147.47.11.200
+Src Port: 10802
+Dst Port: 42134
+Protocol: TLS
+Bytes Transferred: 1571
+Duration (s): 3.92
+TLS JA3 Hash: b0296f86160df26f234c1443653ede41
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0303 ---
+Timestamp: 2026-04-05 07:20:45 UTC
+Src IP: 192.168.206.132
+Dst IP: 219.217.208.182
+Src Port: 23445
+Dst Port: 8674
+Protocol: UDP
+Bytes Transferred: 2342
+Duration (s): 2.81
+TLS JA3 Hash: f982e2a3043725b2472200a24ea33146
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0114 ---
+Timestamp: 2026-04-05 02:43:45 UTC
+Src IP: 192.168.234.86
+Dst IP: 145.76.83.223
+Src Port: 10500
+Dst Port: 11723
+Protocol: TLS
+Bytes Transferred: 620
+Duration (s): 2.16
+TLS JA3 Hash: 9e95346080eff0f76fede207861541b1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0437 ---
+Timestamp: 2026-04-05 10:42:59 UTC
+Src IP: 10.0.54.58
+Dst IP: 168.20.22.70
+Src Port: 38634
+Dst Port: 35025
+Protocol: TCP
+Bytes Transferred: 1486
+Duration (s): 0.41
+TLS JA3 Hash: 254352b93b4ddfc9033a81c99401c5fe
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0491 ---
+Timestamp: 2026-04-05 12:09:18 UTC
+Src IP: 10.0.100.118
+Dst IP: 46.237.240.169
+Src Port: 59662
+Dst Port: 25452
+Protocol: TLS
+Bytes Transferred: 3165
+Duration (s): 2.44
+TLS JA3 Hash: d1d689518d2faa3e02f65951597e9882
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0111 ---
+Timestamp: 2026-04-05 02:40:47 UTC
+Src IP: 192.168.233.155
+Dst IP: 85.229.67.53
+Src Port: 43784
+Dst Port: 9082
+Protocol: TLS
+Bytes Transferred: 4634
+Duration (s): 3.45
+TLS JA3 Hash: 6494d45a235a40add9e846345087770b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0152 ---
+Timestamp: 2026-04-05 03:39:02 UTC
+Src IP: 10.0.188.47
+Dst IP: 101.193.114.6
+Src Port: 63159
+Dst Port: 1506
+Protocol: TLS
+Bytes Transferred: 2073
+Duration (s): 4.54
+TLS JA3 Hash: e6851cd842b530def376689fc4d6696d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0224 ---
+Timestamp: 2026-04-05 05:34:17 UTC
+Src IP: 10.0.38.147
+Dst IP: 166.215.222.82
+Src Port: 54330
+Dst Port: 20980
+Protocol: TCP
+Bytes Transferred: 1814
+Duration (s): 0.34
+TLS JA3 Hash: ff18d33e5ac70900e94c11a02f3d98ab
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0214 ---
+Timestamp: 2026-04-05 05:16:06 UTC
+Src IP: 192.168.111.11
+Dst IP: 183.198.122.54
+Src Port: 41026
+Dst Port: 39773
+Protocol: TCP
+Bytes Transferred: 1448
+Duration (s): 2.88
+TLS JA3 Hash: f30492f3ea59528bb225e8f8e43f1b9c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0074 ---
+Timestamp: 2026-04-05 01:46:01 UTC
+Src IP: 10.0.4.122
+Dst IP: 34.88.4.58
+Src Port: 17564
+Dst Port: 39869
+Protocol: UDP
+Bytes Transferred: 2455
+Duration (s): 2.18
+TLS JA3 Hash: cbe86e9c30b993f2a8a8896471ca40f9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0391 ---
+Timestamp: 2026-04-05 09:25:40 UTC
+Src IP: 192.168.8.109
+Dst IP: 34.124.189.67
+Src Port: 53382
+Dst Port: 26506
+Protocol: UDP
+Bytes Transferred: 1271
+Duration (s): 4.29
+TLS JA3 Hash: 5da913cab710d5535495edff9c4a2c03
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0339 ---
+Timestamp: 2026-04-05 08:12:38 UTC
+Src IP: 10.0.206.55
+Dst IP: 45.76.123.45
+Src Port: 39451
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1410
+Duration (s): 0.57
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 6GT6M
+------------------------------------------------------------
+
+--- Flow Record #0360 ---
+Timestamp: 2026-04-05 08:39:22 UTC
+Src IP: 192.168.97.89
+Dst IP: 105.37.110.4
+Src Port: 37841
+Dst Port: 31584
+Protocol: UDP
+Bytes Transferred: 1004
+Duration (s): 3.39
+TLS JA3 Hash: 46aa3868c4798105f700dcc213c6226a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0306 ---
+Timestamp: 2026-04-05 07:23:00 UTC
+Src IP: 10.0.197.108
+Dst IP: 7.71.162.98
+Src Port: 58056
+Dst Port: 41432
+Protocol: TCP
+Bytes Transferred: 3472
+Duration (s): 1.89
+TLS JA3 Hash: d545630cf48a60fc59876ffdd5f1b32a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0400 ---
+Timestamp: 2026-04-05 09:40:28 UTC
+Src IP: 192.168.201.20
+Dst IP: 25.74.143.24
+Src Port: 40906
+Dst Port: 46713
+Protocol: TLS
+Bytes Transferred: 3499
+Duration (s): 4.71
+TLS JA3 Hash: d8554fa2e18b843b9bf1ad4044bf0012
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0415 ---
+Timestamp: 2026-04-05 10:07:04 UTC
+Src IP: 10.0.173.207
+Dst IP: 45.76.123.45
+Src Port: 31231
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1681
+Duration (s): 0.83
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 72HPO
+------------------------------------------------------------
+
+--- Flow Record #0457 ---
+Timestamp: 2026-04-05 11:20:43 UTC
+Src IP: 192.168.164.224
+Dst IP: 108.11.95.140
+Src Port: 9394
+Dst Port: 25946
+Protocol: TCP
+Bytes Transferred: 3056
+Duration (s): 1.4
+TLS JA3 Hash: 51825721bee4088201f83658b721f934
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0396 ---
+Timestamp: 2026-04-05 09:34:00 UTC
+Src IP: 10.0.67.232
+Dst IP: 53.115.230.42
+Src Port: 35198
+Dst Port: 15432
+Protocol: TCP
+Bytes Transferred: 4853
+Duration (s): 3.98
+TLS JA3 Hash: 43f0c56516543130575002cedc310fc3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0318 ---
+Timestamp: 2026-04-05 07:43:43 UTC
+Src IP: 10.0.14.240
+Dst IP: 130.227.35.129
+Src Port: 12901
+Dst Port: 30355
+Protocol: UDP
+Bytes Transferred: 4828
+Duration (s): 2.0
+TLS JA3 Hash: 183f5e9519ad3426ff70c5c1957af7e3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0302 ---
+Timestamp: 2026-04-05 07:19:04 UTC
+Src IP: 192.168.243.202
+Dst IP: 22.181.253.5
+Src Port: 41778
+Dst Port: 58396
+Protocol: TLS
+Bytes Transferred: 3622
+Duration (s): 4.96
+TLS JA3 Hash: b8680fa51798eda18e2a14009c6fcc18
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0460 ---
+Timestamp: 2026-04-05 11:24:12 UTC
+Src IP: 10.0.241.227
+Dst IP: 20.199.253.37
+Src Port: 13189
+Dst Port: 7862
+Protocol: TCP
+Bytes Transferred: 2279
+Duration (s): 1.65
+TLS JA3 Hash: 8d3f352f0e897d1479945b42c04a5682
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0219 ---
+Timestamp: 2026-04-05 05:24:41 UTC
+Src IP: 10.0.215.55
+Dst IP: 45.76.123.45
+Src Port: 13840
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1853
+Duration (s): 0.71
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: KXWNR
+------------------------------------------------------------
+
+--- Flow Record #0426 ---
+Timestamp: 2026-04-05 10:26:47 UTC
+Src IP: 192.168.48.247
+Dst IP: 119.225.40.29
+Src Port: 58874
+Dst Port: 41615
+Protocol: TLS
+Bytes Transferred: 3133
+Duration (s): 0.77
+TLS JA3 Hash: c7a61be05bb355ed6d972a9acb9dd79a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0412 ---
+Timestamp: 2026-04-05 10:00:37 UTC
+Src IP: 10.0.224.128
+Dst IP: 92.65.52.63
+Src Port: 25464
+Dst Port: 47046
+Protocol: TCP
+Bytes Transferred: 539
+Duration (s): 4.5
+TLS JA3 Hash: 42da1d8c601b7eeebc3742052d2f9c15
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0378 ---
+Timestamp: 2026-04-05 09:04:55 UTC
+Src IP: 10.0.146.97
+Dst IP: 33.8.99.180
+Src Port: 56524
+Dst Port: 24034
+Protocol: UDP
+Bytes Transferred: 3317
+Duration (s): 4.21
+TLS JA3 Hash: 206b4f037e3486dbabc946082404f1d3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0132 ---
+Timestamp: 2026-04-05 03:11:38 UTC
+Src IP: 192.168.46.41
+Dst IP: 202.14.248.132
+Src Port: 8630
+Dst Port: 4644
+Protocol: TCP
+Bytes Transferred: 3843
+Duration (s): 3.0
+TLS JA3 Hash: ad6a73a737d6c72ff1d46e5cb4e6b86a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0040 ---
+Timestamp: 2026-04-05 01:01:25 UTC
+Src IP: 192.168.2.247
+Dst IP: 141.80.208.168
+Src Port: 62302
+Dst Port: 57715
+Protocol: UDP
+Bytes Transferred: 4111
+Duration (s): 3.29
+TLS JA3 Hash: 9a912715d51cf591093a9ef4e863a5e8
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0307 ---
+Timestamp: 2026-04-05 07:25:07 UTC
+Src IP: 192.168.37.61
+Dst IP: 133.253.110.107
+Src Port: 33169
+Dst Port: 850
+Protocol: UDP
+Bytes Transferred: 1499
+Duration (s): 1.76
+TLS JA3 Hash: 9d349ab4bf20ebd76a7af8aa64a777ff
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0143 ---
+Timestamp: 2026-04-05 03:26:24 UTC
+Src IP: 192.168.28.47
+Dst IP: 214.181.194.109
+Src Port: 15066
+Dst Port: 33702
+Protocol: TCP
+Bytes Transferred: 3538
+Duration (s): 0.65
+TLS JA3 Hash: a3e34fb912af3c9e9e7d9d62fb50f3ce
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0441 ---
+Timestamp: 2026-04-05 10:52:08 UTC
+Src IP: 192.168.196.189
+Dst IP: 180.10.207.244
+Src Port: 59721
+Dst Port: 31607
+Protocol: UDP
+Bytes Transferred: 3359
+Duration (s): 0.57
+TLS JA3 Hash: 1db5038724eed3e3bd79bf504ccbcc5b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0278 ---
+Timestamp: 2026-04-05 06:49:12 UTC
+Src IP: 10.0.57.137
+Dst IP: 41.44.239.157
+Src Port: 43633
+Dst Port: 65074
+Protocol: TCP
+Bytes Transferred: 798
+Duration (s): 3.86
+TLS JA3 Hash: d8ee4a25aed0c90c007ad487ae6b4646
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0295 ---
+Timestamp: 2026-04-05 07:09:28 UTC
+Src IP: 192.168.147.164
+Dst IP: 157.7.23.237
+Src Port: 26025
+Dst Port: 13503
+Protocol: TLS
+Bytes Transferred: 1152
+Duration (s): 4.63
+TLS JA3 Hash: 07a5c7bc14478d968d0ddc86f80c1e47
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0394 ---
+Timestamp: 2026-04-05 09:30:58 UTC
+Src IP: 192.168.191.43
+Dst IP: 126.86.15.50
+Src Port: 57883
+Dst Port: 54566
+Protocol: TLS
+Bytes Transferred: 4614
+Duration (s): 1.96
+TLS JA3 Hash: 52fb012c718a61c7a487a790132cef92
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0348 ---
+Timestamp: 2026-04-05 08:24:28 UTC
+Src IP: 10.0.17.137
+Dst IP: 45.215.55.22
+Src Port: 51120
+Dst Port: 10325
+Protocol: TCP
+Bytes Transferred: 799
+Duration (s): 0.85
+TLS JA3 Hash: 3d758ae56ed5e8a8606c9ce234173fc4
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0293 ---
+Timestamp: 2026-04-05 07:07:04 UTC
+Src IP: 192.168.209.210
+Dst IP: 114.15.19.240
+Src Port: 36255
+Dst Port: 58212
+Protocol: TCP
+Bytes Transferred: 2753
+Duration (s): 4.68
+TLS JA3 Hash: 3b553f64aece32a7b47f6c1b1f32ac69
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0358 ---
+Timestamp: 2026-04-05 08:35:55 UTC
+Src IP: 10.0.191.158
+Dst IP: 186.63.27.27
+Src Port: 44738
+Dst Port: 24286
+Protocol: UDP
+Bytes Transferred: 347
+Duration (s): 3.07
+TLS JA3 Hash: 1b29950e85cdc9e294bc74a390965635
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0392 ---
+Timestamp: 2026-04-05 09:26:05 UTC
+Src IP: 10.0.51.24
+Dst IP: 96.128.198.16
+Src Port: 1425
+Dst Port: 49840
+Protocol: TLS
+Bytes Transferred: 322
+Duration (s): 0.63
+TLS JA3 Hash: cff4625be08e4d85d24351687fa7dbc1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0486 ---
+Timestamp: 2026-04-05 12:00:42 UTC
+Src IP: 10.0.81.169
+Dst IP: 190.137.161.224
+Src Port: 10030
+Dst Port: 17727
+Protocol: TCP
+Bytes Transferred: 1765
+Duration (s): 0.91
+TLS JA3 Hash: 32b7ab0a386433971efe48e4b844278a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0268 ---
+Timestamp: 2026-04-05 06:29:53 UTC
+Src IP: 192.168.55.254
+Dst IP: 29.148.91.222
+Src Port: 11451
+Dst Port: 50258
+Protocol: TLS
+Bytes Transferred: 3485
+Duration (s): 2.8
+TLS JA3 Hash: b6d8ab3ac7cfe9e55c90ae53cddd6074
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0054 ---
+Timestamp: 2026-04-05 01:21:55 UTC
+Src IP: 192.168.68.172
+Dst IP: 221.250.160.153
+Src Port: 26493
+Dst Port: 40063
+Protocol: UDP
+Bytes Transferred: 1135
+Duration (s): 1.8
+TLS JA3 Hash: e5924a37935b4cd4cd5f55f945ae1b0f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0467 ---
+Timestamp: 2026-04-05 11:33:57 UTC
+Src IP: 192.168.229.102
+Dst IP: 30.16.31.119
+Src Port: 40451
+Dst Port: 11331
+Protocol: TCP
+Bytes Transferred: 653
+Duration (s): 1.4
+TLS JA3 Hash: d012474e202564d2b2408b0fdda789c1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0301 ---
+Timestamp: 2026-04-05 07:17:45 UTC
+Src IP: 192.168.137.234
+Dst IP: 159.209.81.144
+Src Port: 37220
+Dst Port: 41202
+Protocol: UDP
+Bytes Transferred: 2503
+Duration (s): 3.48
+TLS JA3 Hash: 734e314cfcf50be5e0fba2b2549c436a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0331 ---
+Timestamp: 2026-04-05 08:00:57 UTC
+Src IP: 192.168.146.66
+Dst IP: 45.76.123.45
+Src Port: 57308
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1216
+Duration (s): 0.52
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: VHS1K
+------------------------------------------------------------
+
+--- Flow Record #0249 ---
+Timestamp: 2026-04-05 06:02:25 UTC
+Src IP: 192.168.23.244
+Dst IP: 133.109.1.112
+Src Port: 5432
+Dst Port: 32158
+Protocol: TLS
+Bytes Transferred: 1908
+Duration (s): 3.58
+TLS JA3 Hash: 1d8c7bf5979ffcbf93739dea7d35ea3b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0305 ---
+Timestamp: 2026-04-05 07:22:16 UTC
+Src IP: 192.168.168.228
+Dst IP: 175.128.144.194
+Src Port: 11592
+Dst Port: 4238
+Protocol: TCP
+Bytes Transferred: 714
+Duration (s): 2.52
+TLS JA3 Hash: 1d2e02ab28aebfbf9fa6751bdeeaceee
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0162 ---
+Timestamp: 2026-04-05 03:54:38 UTC
+Src IP: 10.0.212.93
+Dst IP: 162.125.77.193
+Src Port: 50405
+Dst Port: 34712
+Protocol: UDP
+Bytes Transferred: 2069
+Duration (s): 0.78
+TLS JA3 Hash: dddeb0e4022aac5d1c1419dc9ab084ce
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0137 ---
+Timestamp: 2026-04-05 03:18:34 UTC
+Src IP: 192.168.215.182
+Dst IP: 178.78.82.61
+Src Port: 8686
+Dst Port: 2697
+Protocol: UDP
+Bytes Transferred: 4906
+Duration (s): 0.72
+TLS JA3 Hash: 8b561ab4be5930cf4ea40a9f94ea3f14
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0230 ---
+Timestamp: 2026-04-05 05:43:05 UTC
+Src IP: 192.168.199.170
+Dst IP: 220.247.57.70
+Src Port: 45967
+Dst Port: 34034
+Protocol: TLS
+Bytes Transferred: 369
+Duration (s): 0.82
+TLS JA3 Hash: d74bf07db626c38e58bacd8961a3deb9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0294 ---
+Timestamp: 2026-04-05 07:08:31 UTC
+Src IP: 10.0.101.75
+Dst IP: 161.218.206.112
+Src Port: 25735
+Dst Port: 5400
+Protocol: UDP
+Bytes Transferred: 395
+Duration (s): 2.51
+TLS JA3 Hash: afc9f9116295a1019c6b1d5b163e57a2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0145 ---
+Timestamp: 2026-04-05 03:30:24 UTC
+Src IP: 192.168.84.40
+Dst IP: 78.49.39.170
+Src Port: 50281
+Dst Port: 34076
+Protocol: UDP
+Bytes Transferred: 4017
+Duration (s): 1.09
+TLS JA3 Hash: ff8a01d3ceacee11595fd49cf3fff51c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0037 ---
+Timestamp: 2026-04-05 00:55:27 UTC
+Src IP: 192.168.93.142
+Dst IP: 74.37.197.130
+Src Port: 30538
+Dst Port: 50096
+Protocol: TLS
+Bytes Transferred: 2491
+Duration (s): 4.14
+TLS JA3 Hash: 343cbab46c1114afe44aa5c9af9f0ba3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0473 ---
+Timestamp: 2026-04-05 11:40:48 UTC
+Src IP: 192.168.142.177
+Dst IP: 132.56.240.250
+Src Port: 55732
+Dst Port: 10134
+Protocol: TCP
+Bytes Transferred: 1861
+Duration (s): 3.42
+TLS JA3 Hash: c8ff36fa71ed30590bbe10589646c553
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0211 ---
+Timestamp: 2026-04-05 05:09:38 UTC
+Src IP: 192.168.180.28
+Dst IP: 170.37.244.215
+Src Port: 39947
+Dst Port: 57048
+Protocol: TCP
+Bytes Transferred: 447
+Duration (s): 0.82
+TLS JA3 Hash: 42720d45f49fdae093411550cde897d5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0135 ---
+Timestamp: 2026-04-05 03:15:31 UTC
+Src IP: 192.168.181.18
+Dst IP: 144.104.70.252
+Src Port: 22973
+Dst Port: 15640
+Protocol: TLS
+Bytes Transferred: 1130
+Duration (s): 3.28
+TLS JA3 Hash: 67ab8d812bbef3f9eb26e22c59235834
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0207 ---
+Timestamp: 2026-04-05 05:02:21 UTC
+Src IP: 192.168.46.49
+Dst IP: 146.251.92.166
+Src Port: 19508
+Dst Port: 1380
+Protocol: UDP
+Bytes Transferred: 1534
+Duration (s): 4.44
+TLS JA3 Hash: c6242d7ec3403cc030147284003a264f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0325 ---
+Timestamp: 2026-04-05 07:53:09 UTC
+Src IP: 10.0.41.105
+Dst IP: 183.227.226.39
+Src Port: 49465
+Dst Port: 58204
+Protocol: UDP
+Bytes Transferred: 3314
+Duration (s): 0.21
+TLS JA3 Hash: 86fdaa0fce6b42c5c66abc8797cf072e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0183 ---
+Timestamp: 2026-04-05 04:26:37 UTC
+Src IP: 192.168.175.172
+Dst IP: 17.112.49.205
+Src Port: 55771
+Dst Port: 54425
+Protocol: TLS
+Bytes Transferred: 1575
+Duration (s): 3.65
+TLS JA3 Hash: 1d3aa66cd3763ba50ca0c6e728b126d9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0340 ---
+Timestamp: 2026-04-05 08:14:02 UTC
+Src IP: 192.168.109.76
+Dst IP: 10.54.28.241
+Src Port: 20698
+Dst Port: 43570
+Protocol: TCP
+Bytes Transferred: 2315
+Duration (s): 4.1
+TLS JA3 Hash: 48ad2b2f99d009a5243b338aa3562718
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0261 ---
+Timestamp: 2026-04-05 06:16:56 UTC
+Src IP: 192.168.117.152
+Dst IP: 148.222.204.122
+Src Port: 55687
+Dst Port: 15964
+Protocol: UDP
+Bytes Transferred: 3257
+Duration (s): 3.04
+TLS JA3 Hash: fc9173dd8c0559644a1294bec5e04659
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0098 ---
+Timestamp: 2026-04-05 02:22:05 UTC
+Src IP: 192.168.144.220
+Dst IP: 146.24.203.26
+Src Port: 46279
+Dst Port: 10705
+Protocol: TCP
+Bytes Transferred: 1965
+Duration (s): 4.09
+TLS JA3 Hash: f3ea8bb8b0d3b659bafe2c9e45adc225
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0208 ---
+Timestamp: 2026-04-05 05:04:50 UTC
+Src IP: 192.168.209.42
+Dst IP: 79.169.245.40
+Src Port: 17002
+Dst Port: 3662
+Protocol: TLS
+Bytes Transferred: 2391
+Duration (s): 3.17
+TLS JA3 Hash: 301393d40707dc4b97c3f53739b2a3b2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0362 ---
+Timestamp: 2026-04-05 08:42:18 UTC
+Src IP: 192.168.237.99
+Dst IP: 13.82.34.197
+Src Port: 51993
+Dst Port: 17272
+Protocol: TCP
+Bytes Transferred: 3454
+Duration (s): 4.69
+TLS JA3 Hash: 82666e724ab56bc3e2e0653250c37d7a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0504 ---
+Timestamp: 2026-04-05 12:28:08 UTC
+Src IP: 192.168.86.251
+Dst IP: 123.78.148.218
+Src Port: 56508
+Dst Port: 441
+Protocol: UDP
+Bytes Transferred: 2230
+Duration (s): 4.0
+TLS JA3 Hash: 9f835a726fac301fff652fb17d2514a2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0021 ---
+Timestamp: 2026-04-05 00:32:00 UTC
+Src IP: 192.168.142.54
+Dst IP: 151.110.119.85
+Src Port: 51773
+Dst Port: 9671
+Protocol: TLS
+Bytes Transferred: 223
+Duration (s): 1.46
+TLS JA3 Hash: 44853040b7a05814d32feb3e719e01fc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0008 ---
+Timestamp: 2026-04-05 00:12:10 UTC
+Src IP: 10.0.215.100
+Dst IP: 45.76.123.45
+Src Port: 1410
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1124
+Duration (s): 1.19
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: HBRPO
+------------------------------------------------------------
+
+--- Flow Record #0082 ---
+Timestamp: 2026-04-05 01:57:33 UTC
+Src IP: 192.168.127.36
+Dst IP: 45.76.123.45
+Src Port: 41056
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1229
+Duration (s): 1.36
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: K1VRJ
+------------------------------------------------------------
+
+--- Flow Record #0221 ---
+Timestamp: 2026-04-05 05:27:02 UTC
+Src IP: 192.168.153.32
+Dst IP: 28.72.144.68
+Src Port: 59652
+Dst Port: 11838
+Protocol: TCP
+Bytes Transferred: 833
+Duration (s): 2.52
+TLS JA3 Hash: b6c3f0d2f26dcae5590513abf0583600
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0492 ---
+Timestamp: 2026-04-05 12:11:30 UTC
+Src IP: 10.0.137.89
+Dst IP: 110.171.100.129
+Src Port: 55020
+Dst Port: 25476
+Protocol: TLS
+Bytes Transferred: 2293
+Duration (s): 2.3
+TLS JA3 Hash: 05b9b7c4d18e56d8200a7aaf852c87a0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0292 ---
+Timestamp: 2026-04-05 07:06:14 UTC
+Src IP: 10.0.159.91
+Dst IP: 46.220.129.128
+Src Port: 6970
+Dst Port: 12096
+Protocol: UDP
+Bytes Transferred: 3488
+Duration (s): 1.08
+TLS JA3 Hash: b2ae38011b35000ac90b256f56b34b5e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0191 ---
+Timestamp: 2026-04-05 04:38:01 UTC
+Src IP: 192.168.201.220
+Dst IP: 184.16.65.128
+Src Port: 53244
+Dst Port: 5708
+Protocol: UDP
+Bytes Transferred: 4695
+Duration (s): 4.94
+TLS JA3 Hash: e5e3f776523d05ac878f34f2a72accd7
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0071 ---
+Timestamp: 2026-04-05 01:40:35 UTC
+Src IP: 192.168.231.133
+Dst IP: 205.75.61.244
+Src Port: 50647
+Dst Port: 29429
+Protocol: TCP
+Bytes Transferred: 1569
+Duration (s): 4.86
+TLS JA3 Hash: 641d2d648a22cca8e0d3d443339bd8cf
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0216 ---
+Timestamp: 2026-04-05 05:19:21 UTC
+Src IP: 192.168.155.125
+Dst IP: 55.243.58.72
+Src Port: 30815
+Dst Port: 2509
+Protocol: TLS
+Bytes Transferred: 1475
+Duration (s): 4.75
+TLS JA3 Hash: 46a1c1bdf6160d8852428c29ed68512d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0233 ---
+Timestamp: 2026-04-05 05:45:43 UTC
+Src IP: 10.0.71.158
+Dst IP: 78.124.191.33
+Src Port: 41714
+Dst Port: 35604
+Protocol: TLS
+Bytes Transferred: 2603
+Duration (s): 0.36
+TLS JA3 Hash: c4c0ee12183a39fa13164f474990f632
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0220 ---
+Timestamp: 2026-04-05 05:26:29 UTC
+Src IP: 192.168.133.41
+Dst IP: 45.76.123.45
+Src Port: 53529
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1105
+Duration (s): 0.79
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: EK8PK
+------------------------------------------------------------
+
+--- Flow Record #0086 ---
+Timestamp: 2026-04-05 02:05:08 UTC
+Src IP: 192.168.50.83
+Dst IP: 132.42.49.43
+Src Port: 64700
+Dst Port: 62671
+Protocol: TLS
+Bytes Transferred: 4568
+Duration (s): 0.14
+TLS JA3 Hash: 266d36d240ea122158278dcecda0c302
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0479 ---
+Timestamp: 2026-04-05 11:51:14 UTC
+Src IP: 192.168.191.22
+Dst IP: 45.76.123.45
+Src Port: 17891
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1166
+Duration (s): 0.82
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: I4P40
+------------------------------------------------------------
+
+--- Flow Record #0188 ---
+Timestamp: 2026-04-05 04:33:26 UTC
+Src IP: 192.168.250.231
+Dst IP: 21.96.216.43
+Src Port: 55402
+Dst Port: 27976
+Protocol: UDP
+Bytes Transferred: 2675
+Duration (s): 2.55
+TLS JA3 Hash: c9d23b486c905f032dd9d55b546f53e6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0498 ---
+Timestamp: 2026-04-05 12:19:01 UTC
+Src IP: 192.168.251.40
+Dst IP: 106.152.21.115
+Src Port: 58684
+Dst Port: 3141
+Protocol: TCP
+Bytes Transferred: 454
+Duration (s): 2.61
+TLS JA3 Hash: 12e5c45d599a00e4a5e822d0d3c35fcc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0401 ---
+Timestamp: 2026-04-05 09:43:14 UTC
+Src IP: 192.168.237.181
+Dst IP: 88.209.140.244
+Src Port: 4486
+Dst Port: 30105
+Protocol: TCP
+Bytes Transferred: 1930
+Duration (s): 4.15
+TLS JA3 Hash: 8f55a8012f558e724d2cb0f21b123b05
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0443 ---
+Timestamp: 2026-04-05 10:55:13 UTC
+Src IP: 192.168.63.74
+Dst IP: 215.234.175.53
+Src Port: 27151
+Dst Port: 48043
+Protocol: TLS
+Bytes Transferred: 4594
+Duration (s): 4.06
+TLS JA3 Hash: 3c9089a05c0a5315c4e1cc910588b370
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0223 ---
+Timestamp: 2026-04-05 05:31:49 UTC
+Src IP: 192.168.230.162
+Dst IP: 210.32.230.43
+Src Port: 59314
+Dst Port: 2213
+Protocol: TLS
+Bytes Transferred: 2273
+Duration (s): 2.98
+TLS JA3 Hash: 9bc035ad5b726bb4a30a0a6ea72c9663
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0332 ---
+Timestamp: 2026-04-05 08:02:05 UTC
+Src IP: 192.168.40.238
+Dst IP: 26.185.211.191
+Src Port: 27228
+Dst Port: 27479
+Protocol: TLS
+Bytes Transferred: 2913
+Duration (s): 1.57
+TLS JA3 Hash: 75f2a1dcd4df0ab397ffc6cd7975a5ac
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0346 ---
+Timestamp: 2026-04-05 08:23:55 UTC
+Src IP: 192.168.60.106
+Dst IP: 222.22.104.120
+Src Port: 28048
+Dst Port: 35061
+Protocol: TLS
+Bytes Transferred: 794
+Duration (s): 0.6
+TLS JA3 Hash: e4766b3180d38e62a732871f850f6da3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0010 ---
+Timestamp: 2026-04-05 00:16:16 UTC
+Src IP: 192.168.4.218
+Dst IP: 108.250.54.111
+Src Port: 63990
+Dst Port: 23737
+Protocol: TLS
+Bytes Transferred: 3966
+Duration (s): 3.57
+TLS JA3 Hash: d58fed8a728e7eca0fa5f6b8a880627d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0139 ---
+Timestamp: 2026-04-05 03:23:25 UTC
+Src IP: 192.168.107.36
+Dst IP: 214.44.73.54
+Src Port: 20896
+Dst Port: 31105
+Protocol: TLS
+Bytes Transferred: 2947
+Duration (s): 0.42
+TLS JA3 Hash: c20d8d5e465c9f199fe700489f39d5f7
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0254 ---
+Timestamp: 2026-04-05 06:10:03 UTC
+Src IP: 10.0.58.10
+Dst IP: 109.253.87.161
+Src Port: 53659
+Dst Port: 34380
+Protocol: UDP
+Bytes Transferred: 1345
+Duration (s): 3.77
+TLS JA3 Hash: dc093d98ab5496b8fe6a45f0ad54f209
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0068 ---
+Timestamp: 2026-04-05 01:40:01 UTC
+Src IP: 192.168.236.208
+Dst IP: 157.113.53.240
+Src Port: 33541
+Dst Port: 9218
+Protocol: UDP
+Bytes Transferred: 837
+Duration (s): 1.27
+TLS JA3 Hash: a52ae08672b8301ced5dfcbc3f75e219
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0028 ---
+Timestamp: 2026-04-05 00:42:04 UTC
+Src IP: 192.168.244.55
+Dst IP: 88.248.98.58
+Src Port: 10039
+Dst Port: 10155
+Protocol: TCP
+Bytes Transferred: 2623
+Duration (s): 4.24
+TLS JA3 Hash: 31a4c4555e1db7e9e779f6bee9cd5648
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0447 ---
+Timestamp: 2026-04-05 11:03:11 UTC
+Src IP: 192.168.169.48
+Dst IP: 24.34.241.61
+Src Port: 61522
+Dst Port: 51040
+Protocol: TLS
+Bytes Transferred: 1372
+Duration (s): 3.2
+TLS JA3 Hash: ef5d87baaa5595b4a3c3afb2e21a11b9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0474 ---
+Timestamp: 2026-04-05 11:42:33 UTC
+Src IP: 192.168.203.99
+Dst IP: 155.195.180.217
+Src Port: 30901
+Dst Port: 17012
+Protocol: UDP
+Bytes Transferred: 4067
+Duration (s): 0.2
+TLS JA3 Hash: eb2d37b42a13d94c20f066b185963749
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0363 ---
+Timestamp: 2026-04-05 08:42:56 UTC
+Src IP: 192.168.140.147
+Dst IP: 89.192.62.49
+Src Port: 15327
+Dst Port: 29327
+Protocol: TCP
+Bytes Transferred: 4666
+Duration (s): 1.55
+TLS JA3 Hash: 815a14c913d8917e683cf34ef552052f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0406 ---
+Timestamp: 2026-04-05 09:51:25 UTC
+Src IP: 192.168.151.67
+Dst IP: 45.76.123.45
+Src Port: 19539
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1042
+Duration (s): 1.39
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: Q71N8
+------------------------------------------------------------
+
+--- Flow Record #0243 ---
+Timestamp: 2026-04-05 05:56:00 UTC
+Src IP: 192.168.71.67
+Dst IP: 223.253.65.59
+Src Port: 42333
+Dst Port: 11436
+Protocol: TCP
+Bytes Transferred: 606
+Duration (s): 1.24
+TLS JA3 Hash: 15ea171880b17b32e3276abd2d940aba
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0328 ---
+Timestamp: 2026-04-05 07:54:55 UTC
+Src IP: 192.168.183.64
+Dst IP: 45.76.123.45
+Src Port: 25758
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1397
+Duration (s): 0.64
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: 9AH8R
+------------------------------------------------------------
+
+--- Flow Record #0020 ---
+Timestamp: 2026-04-05 00:31:38 UTC
+Src IP: 192.168.36.12
+Dst IP: 10.155.252.30
+Src Port: 7393
+Dst Port: 15388
+Protocol: TLS
+Bytes Transferred: 1311
+Duration (s): 2.0
+TLS JA3 Hash: bd4d3fd81b6ee7b3bb1c863e2601a746
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0422 ---
+Timestamp: 2026-04-05 10:19:02 UTC
+Src IP: 10.0.28.70
+Dst IP: 102.251.141.27
+Src Port: 55266
+Dst Port: 15488
+Protocol: TCP
+Bytes Transferred: 4177
+Duration (s): 3.38
+TLS JA3 Hash: 793a4027c5c19c7fbc2a8f1ba8252b2d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0373 ---
+Timestamp: 2026-04-05 09:01:18 UTC
+Src IP: 192.168.67.192
+Dst IP: 93.136.247.35
+Src Port: 25856
+Dst Port: 10143
+Protocol: TLS
+Bytes Transferred: 467
+Duration (s): 1.69
+TLS JA3 Hash: 2ec73c15e3f52e66e650a5546d53da29
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0044 ---
+Timestamp: 2026-04-05 01:04:18 UTC
+Src IP: 10.0.51.153
+Dst IP: 9.228.24.63
+Src Port: 49556
+Dst Port: 2900
+Protocol: UDP
+Bytes Transferred: 3795
+Duration (s): 1.25
+TLS JA3 Hash: 61497aa7947d9815df1bcadd49c5f779
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0148 ---
+Timestamp: 2026-04-05 03:34:11 UTC
+Src IP: 192.168.117.172
+Dst IP: 196.92.9.161
+Src Port: 47117
+Dst Port: 33832
+Protocol: TCP
+Bytes Transferred: 4925
+Duration (s): 2.55
+TLS JA3 Hash: e8d16be4749dda26d89587c7346079ef
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0323 ---
+Timestamp: 2026-04-05 07:49:21 UTC
+Src IP: 10.0.63.248
+Dst IP: 97.201.1.18
+Src Port: 13405
+Dst Port: 53215
+Protocol: UDP
+Bytes Transferred: 4255
+Duration (s): 2.33
+TLS JA3 Hash: 8d681df3fdca3453b11283843d61103a
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0070 ---
+Timestamp: 2026-04-05 01:40:22 UTC
+Src IP: 10.0.149.251
+Dst IP: 21.242.59.79
+Src Port: 52461
+Dst Port: 26049
+Protocol: UDP
+Bytes Transferred: 4206
+Duration (s): 4.48
+TLS JA3 Hash: 82c5bcb5e18ee8781432bd71cdf7f92c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0156 ---
+Timestamp: 2026-04-05 03:45:02 UTC
+Src IP: 192.168.191.19
+Dst IP: 141.195.47.103
+Src Port: 17746
+Dst Port: 11667
+Protocol: TCP
+Bytes Transferred: 3467
+Duration (s): 0.54
+TLS JA3 Hash: 65cc9439fd94b3b6fecf8d2db5dd21ae
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0408 ---
+Timestamp: 2026-04-05 09:56:27 UTC
+Src IP: 192.168.195.218
+Dst IP: 45.76.123.45
+Src Port: 1551
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 2013
+Duration (s): 1.3
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: MTZX2
+------------------------------------------------------------
+
+--- Flow Record #0258 ---
+Timestamp: 2026-04-05 06:12:38 UTC
+Src IP: 192.168.189.5
+Dst IP: 86.162.86.232
+Src Port: 39483
+Dst Port: 47326
+Protocol: UDP
+Bytes Transferred: 4429
+Duration (s): 0.17
+TLS JA3 Hash: cd1264825e186d5098b3ae2e232525a0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0320 ---
+Timestamp: 2026-04-05 07:45:17 UTC
+Src IP: 10.0.153.35
+Dst IP: 192.200.5.96
+Src Port: 4955
+Dst Port: 33437
+Protocol: TCP
+Bytes Transferred: 1123
+Duration (s): 2.67
+TLS JA3 Hash: 8094a7f66fff635c24442f257db78d1d
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0087 ---
+Timestamp: 2026-04-05 02:07:42 UTC
+Src IP: 10.0.37.92
+Dst IP: 129.54.148.202
+Src Port: 45973
+Dst Port: 19750
+Protocol: TLS
+Bytes Transferred: 908
+Duration (s): 1.48
+TLS JA3 Hash: ecc0f574c949b04310c296b6d4557863
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0161 ---
+Timestamp: 2026-04-05 03:54:12 UTC
+Src IP: 10.0.132.88
+Dst IP: 201.181.23.198
+Src Port: 58545
+Dst Port: 36506
+Protocol: UDP
+Bytes Transferred: 1438
+Duration (s): 4.28
+TLS JA3 Hash: 31ee33313536b59ef34ba436ed07fa95
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0315 ---
+Timestamp: 2026-04-05 07:36:53 UTC
+Src IP: 192.168.120.252
+Dst IP: 45.76.123.45
+Src Port: 45107
+Dst Port: 443
+Protocol: TLS
+Bytes Transferred: 1716
+Duration (s): 0.72
+TLS JA3 Hash: d2b4c6a8f0e1d3c5b7a9f2e4d6c8b0a1
+Payload Fragment: HJK1E
+------------------------------------------------------------
+
+--- Flow Record #0172 ---
+Timestamp: 2026-04-05 04:13:26 UTC
+Src IP: 192.168.242.19
+Dst IP: 199.224.48.161
+Src Port: 30282
+Dst Port: 37942
+Protocol: TCP
+Bytes Transferred: 900
+Duration (s): 4.88
+TLS JA3 Hash: 1ca241e19d23119cc3d70eced3a0ea63
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0477 ---
+Timestamp: 2026-04-05 11:47:51 UTC
+Src IP: 10.0.33.114
+Dst IP: 27.13.235.53
+Src Port: 5031
+Dst Port: 54193
+Protocol: TLS
+Bytes Transferred: 3999
+Duration (s): 0.7
+TLS JA3 Hash: c8f7f163fa9705e929ae5c155a8cc4e5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0409 ---
+Timestamp: 2026-04-05 09:58:42 UTC
+Src IP: 10.0.7.39
+Dst IP: 30.45.196.101
+Src Port: 30126
+Dst Port: 14415
+Protocol: TCP
+Bytes Transferred: 253
+Duration (s): 1.48
+TLS JA3 Hash: aeaea525d95c177d504ebb528ee040e3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0194 ---
+Timestamp: 2026-04-05 04:42:47 UTC
+Src IP: 10.0.100.189
+Dst IP: 167.4.185.186
+Src Port: 57132
+Dst Port: 37728
+Protocol: TCP
+Bytes Transferred: 1409
+Duration (s): 1.95
+TLS JA3 Hash: d513bf513ad4c7137cf95c2ec8eb0332
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0122 ---
+Timestamp: 2026-04-05 02:56:04 UTC
+Src IP: 10.0.206.217
+Dst IP: 33.150.31.95
+Src Port: 60076
+Dst Port: 35972
+Protocol: TCP
+Bytes Transferred: 206
+Duration (s): 3.55
+TLS JA3 Hash: b3907dcacccd65f46cbd49440204fd42
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0027 ---
+Timestamp: 2026-04-05 00:40:27 UTC
+Src IP: 192.168.215.88
+Dst IP: 183.43.88.11
+Src Port: 17260
+Dst Port: 46375
+Protocol: UDP
+Bytes Transferred: 3799
+Duration (s): 2.67
+TLS JA3 Hash: 5bb9cda1a2a3c984a24b9c429ca42db0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0186 ---
+Timestamp: 2026-04-05 04:31:34 UTC
+Src IP: 192.168.78.74
+Dst IP: 148.229.103.70
+Src Port: 57543
+Dst Port: 51203
+Protocol: UDP
+Bytes Transferred: 855
+Duration (s): 4.76
+TLS JA3 Hash: bcc5fedd4f0cd29458ce9e9cf2a4f646
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0286 ---
+Timestamp: 2026-04-05 06:59:00 UTC
+Src IP: 192.168.139.191
+Dst IP: 157.232.78.19
+Src Port: 58710
+Dst Port: 64160
+Protocol: TLS
+Bytes Transferred: 2996
+Duration (s): 4.39
+TLS JA3 Hash: 1c83ed5f9732b7fdd13888ad8b203f7f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0107 ---
+Timestamp: 2026-04-05 02:33:59 UTC
+Src IP: 10.0.127.60
+Dst IP: 66.153.47.147
+Src Port: 27225
+Dst Port: 37295
+Protocol: TCP
+Bytes Transferred: 832
+Duration (s): 3.65
+TLS JA3 Hash: f5f391c21abdd370c191a4a741ce27d9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0510 ---
+Timestamp: 2026-04-05 12:39:53 UTC
+Src IP: 192.168.13.85
+Dst IP: 209.26.201.61
+Src Port: 3745
+Dst Port: 25968
+Protocol: UDP
+Bytes Transferred: 2155
+Duration (s): 2.23
+TLS JA3 Hash: 0b142d803061351704b408a56ebeb735
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0227 ---
+Timestamp: 2026-04-05 05:37:42 UTC
+Src IP: 192.168.99.250
+Dst IP: 116.103.204.49
+Src Port: 5522
+Dst Port: 18209
+Protocol: UDP
+Bytes Transferred: 1545
+Duration (s): 3.46
+TLS JA3 Hash: 34e3370e580feb832bd64cda1e8b31cd
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0411 ---
+Timestamp: 2026-04-05 09:59:59 UTC
+Src IP: 192.168.71.85
+Dst IP: 80.27.49.132
+Src Port: 10074
+Dst Port: 11019
+Protocol: TLS
+Bytes Transferred: 4105
+Duration (s): 0.9
+TLS JA3 Hash: 1569474418288f86432db60404161847
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0015 ---
+Timestamp: 2026-04-05 00:24:13 UTC
+Src IP: 192.168.161.114
+Dst IP: 195.26.104.69
+Src Port: 37017
+Dst Port: 8587
+Protocol: UDP
+Bytes Transferred: 3789
+Duration (s): 4.42
+TLS JA3 Hash: f307590d273e34f98dff7e4c6428da80
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0245 ---
+Timestamp: 2026-04-05 05:58:14 UTC
+Src IP: 192.168.130.20
+Dst IP: 93.247.117.115
+Src Port: 52555
+Dst Port: 27450
+Protocol: TCP
+Bytes Transferred: 4864
+Duration (s): 4.16
+TLS JA3 Hash: 47d489aa32dd4f65e053d8f341d0524c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0374 ---
+Timestamp: 2026-04-05 09:02:23 UTC
+Src IP: 192.168.37.61
+Dst IP: 43.166.186.180
+Src Port: 64210
+Dst Port: 16025
+Protocol: TLS
+Bytes Transferred: 4625
+Duration (s): 1.1
+TLS JA3 Hash: 98d3fef75c970a88f35ee055e251a7ef
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0153 ---
+Timestamp: 2026-04-05 03:39:53 UTC
+Src IP: 192.168.38.8
+Dst IP: 75.134.120.159
+Src Port: 30579
+Dst Port: 59463
+Protocol: TCP
+Bytes Transferred: 3228
+Duration (s): 2.96
+TLS JA3 Hash: e20f4ac6cd82311a7fb108c9cb41585f
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0206 ---
+Timestamp: 2026-04-05 05:01:29 UTC
+Src IP: 192.168.155.249
+Dst IP: 95.166.42.243
+Src Port: 47257
+Dst Port: 57933
+Protocol: TLS
+Bytes Transferred: 2363
+Duration (s): 3.64
+TLS JA3 Hash: d9a10b785803c86e7a86c4e7db4f2f5e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0204 ---
+Timestamp: 2026-04-05 04:58:22 UTC
+Src IP: 192.168.208.93
+Dst IP: 191.190.121.167
+Src Port: 19108
+Dst Port: 13765
+Protocol: TLS
+Bytes Transferred: 3346
+Duration (s): 0.53
+TLS JA3 Hash: 343166e32a9f64146d8bbe3d2fd05849
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0018 ---
+Timestamp: 2026-04-05 00:28:09 UTC
+Src IP: 192.168.231.206
+Dst IP: 120.147.80.19
+Src Port: 29973
+Dst Port: 61947
+Protocol: UDP
+Bytes Transferred: 2650
+Duration (s): 3.23
+TLS JA3 Hash: d8e96cf37cb990c801f97b7684319e1b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0359 ---
+Timestamp: 2026-04-05 08:36:57 UTC
+Src IP: 10.0.72.199
+Dst IP: 111.206.28.105
+Src Port: 41801
+Dst Port: 45855
+Protocol: TCP
+Bytes Transferred: 4770
+Duration (s): 2.42
+TLS JA3 Hash: c3ed0e56977ab74090bd34da04cb4d82
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0260 ---
+Timestamp: 2026-04-05 06:14:59 UTC
+Src IP: 192.168.175.204
+Dst IP: 74.106.175.180
+Src Port: 64494
+Dst Port: 33015
+Protocol: TLS
+Bytes Transferred: 2403
+Duration (s): 0.54
+TLS JA3 Hash: 686e8135f4eabc1a3b05dfaa35b95e50
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0495 ---
+Timestamp: 2026-04-05 12:16:21 UTC
+Src IP: 192.168.199.21
+Dst IP: 158.8.231.131
+Src Port: 43428
+Dst Port: 33232
+Protocol: UDP
+Bytes Transferred: 2895
+Duration (s): 1.17
+TLS JA3 Hash: a1cf6d695fc0aa09443e18d2ce0dc651
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0454 ---
+Timestamp: 2026-04-05 11:16:26 UTC
+Src IP: 10.0.249.146
+Dst IP: 48.182.177.203
+Src Port: 58513
+Dst Port: 7582
+Protocol: TCP
+Bytes Transferred: 3311
+Duration (s): 1.52
+TLS JA3 Hash: c147ff5e05dcd0a7952c882d213ea6a9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0213 ---
+Timestamp: 2026-04-05 05:13:22 UTC
+Src IP: 192.168.145.253
+Dst IP: 203.247.23.13
+Src Port: 21640
+Dst Port: 6109
+Protocol: UDP
+Bytes Transferred: 269
+Duration (s): 4.9
+TLS JA3 Hash: 9c6acb43ad340cf1954e227645ae4a9b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0039 ---
+Timestamp: 2026-04-05 00:58:26 UTC
+Src IP: 10.0.152.58
+Dst IP: 77.147.106.177
+Src Port: 47226
+Dst Port: 32048
+Protocol: UDP
+Bytes Transferred: 4130
+Duration (s): 1.81
+TLS JA3 Hash: 893ccb49192be8f6688437717713daf3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0481 ---
+Timestamp: 2026-04-05 11:52:01 UTC
+Src IP: 192.168.227.228
+Dst IP: 195.9.110.207
+Src Port: 6292
+Dst Port: 26219
+Protocol: TCP
+Bytes Transferred: 3850
+Duration (s): 4.45
+TLS JA3 Hash: 1a019665de588c73e58ed7071ca815ba
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0105 ---
+Timestamp: 2026-04-05 02:32:32 UTC
+Src IP: 10.0.98.26
+Dst IP: 9.198.250.135
+Src Port: 41916
+Dst Port: 45962
+Protocol: TLS
+Bytes Transferred: 2296
+Duration (s): 0.34
+TLS JA3 Hash: 7206f2e1bdb1812926337c6675d3bed3
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0112 ---
+Timestamp: 2026-04-05 02:41:12 UTC
+Src IP: 192.168.123.35
+Dst IP: 129.240.191.48
+Src Port: 56869
+Dst Port: 25393
+Protocol: UDP
+Bytes Transferred: 4081
+Duration (s): 0.77
+TLS JA3 Hash: 671d08d76625efae7dc1cac13ee17c1c
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0488 ---
+Timestamp: 2026-04-05 12:05:58 UTC
+Src IP: 192.168.44.93
+Dst IP: 79.110.163.189
+Src Port: 25484
+Dst Port: 5253
+Protocol: TLS
+Bytes Transferred: 3409
+Duration (s): 0.93
+TLS JA3 Hash: 555b035bc59e5d68502557829500dc5e
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0240 ---
+Timestamp: 2026-04-05 05:52:33 UTC
+Src IP: 10.0.22.81
+Dst IP: 90.125.149.34
+Src Port: 40746
+Dst Port: 26072
+Protocol: UDP
+Bytes Transferred: 1202
+Duration (s): 3.32
+TLS JA3 Hash: 286fb7e9b978a31bdf82647963b417ee
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0231 ---
+Timestamp: 2026-04-05 05:43:38 UTC
+Src IP: 192.168.128.238
+Dst IP: 176.75.238.175
+Src Port: 10869
+Dst Port: 34288
+Protocol: UDP
+Bytes Transferred: 4772
+Duration (s): 3.36
+TLS JA3 Hash: 9f9290e16931f90db0184b942846d297
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0253 ---
+Timestamp: 2026-04-05 06:09:16 UTC
+Src IP: 10.0.159.86
+Dst IP: 37.42.48.144
+Src Port: 12116
+Dst Port: 13611
+Protocol: UDP
+Bytes Transferred: 2247
+Duration (s): 0.51
+TLS JA3 Hash: cf71f8d9a41ad086ffa7aef23d2c4053
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0066 ---
+Timestamp: 2026-04-05 01:38:42 UTC
+Src IP: 192.168.92.123
+Dst IP: 140.248.176.234
+Src Port: 38094
+Dst Port: 32925
+Protocol: UDP
+Bytes Transferred: 3381
+Duration (s): 1.43
+TLS JA3 Hash: 0a7081fb75377817cb557ab0b46f95f1
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0468 ---
+Timestamp: 2026-04-05 11:35:20 UTC
+Src IP: 192.168.229.37
+Dst IP: 113.214.112.219
+Src Port: 42574
+Dst Port: 19651
+Protocol: UDP
+Bytes Transferred: 406
+Duration (s): 0.62
+TLS JA3 Hash: 2a70bf69f487bd2fd55a34e5ce0cdcbc
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0078 ---
+Timestamp: 2026-04-05 01:51:46 UTC
+Src IP: 10.0.129.122
+Dst IP: 180.78.105.178
+Src Port: 45964
+Dst Port: 41309
+Protocol: TCP
+Bytes Transferred: 2666
+Duration (s): 2.16
+TLS JA3 Hash: 384d33933f6686bd951f6fa70023f422
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0399 ---
+Timestamp: 2026-04-05 09:38:45 UTC
+Src IP: 10.0.15.95
+Dst IP: 206.219.92.93
+Src Port: 30746
+Dst Port: 55306
+Protocol: TCP
+Bytes Transferred: 4864
+Duration (s): 2.33
+TLS JA3 Hash: c074024dbe5c0920b42ebaa3efe924f9
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0372 ---
+Timestamp: 2026-04-05 08:59:11 UTC
+Src IP: 192.168.34.94
+Dst IP: 217.85.188.74
+Src Port: 14730
+Dst Port: 62240
+Protocol: TCP
+Bytes Transferred: 4507
+Duration (s): 1.17
+TLS JA3 Hash: 534624640921c027d8f56eb05fc2e55b
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0321 ---
+Timestamp: 2026-04-05 07:45:32 UTC
+Src IP: 192.168.200.102
+Dst IP: 8.98.191.101
+Src Port: 30503
+Dst Port: 39744
+Protocol: TCP
+Bytes Transferred: 1243
+Duration (s): 2.45
+TLS JA3 Hash: d579f2d0d2241b8c8ea9a9ffc4fa2fa2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0222 ---
+Timestamp: 2026-04-05 05:29:19 UTC
+Src IP: 192.168.40.56
+Dst IP: 222.186.58.231
+Src Port: 15242
+Dst Port: 1934
+Protocol: UDP
+Bytes Transferred: 1335
+Duration (s): 1.18
+TLS JA3 Hash: 488f62b9efdc68568c3956fded8a3cd6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0389 ---
+Timestamp: 2026-04-05 09:21:10 UTC
+Src IP: 192.168.159.207
+Dst IP: 64.202.225.80
+Src Port: 61992
+Dst Port: 33209
+Protocol: UDP
+Bytes Transferred: 4846
+Duration (s): 1.63
+TLS JA3 Hash: 2aa8a133451fb7c1b32f2d17c6da7d43
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0397 ---
+Timestamp: 2026-04-05 09:34:07 UTC
+Src IP: 192.168.210.76
+Dst IP: 49.190.196.204
+Src Port: 7114
+Dst Port: 18925
+Protocol: TCP
+Bytes Transferred: 2127
+Duration (s): 4.5
+TLS JA3 Hash: 9a721f8d46a9da31060ec50b8ace2a01
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0095 ---
+Timestamp: 2026-04-05 02:17:17 UTC
+Src IP: 10.0.54.144
+Dst IP: 19.150.174.243
+Src Port: 8692
+Dst Port: 52622
+Protocol: TLS
+Bytes Transferred: 2311
+Duration (s): 4.39
+TLS JA3 Hash: 8ecf7aee0f382c77adb08792ca25fab6
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0080 ---
+Timestamp: 2026-04-05 01:54:52 UTC
+Src IP: 192.168.146.174
+Dst IP: 113.92.194.200
+Src Port: 24525
+Dst Port: 40066
+Protocol: TCP
+Bytes Transferred: 1270
+Duration (s): 2.47
+TLS JA3 Hash: f3de128a07a3d7fbc4105ff52fa7a817
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0345 ---
+Timestamp: 2026-04-05 08:21:26 UTC
+Src IP: 192.168.65.208
+Dst IP: 63.93.254.251
+Src Port: 35648
+Dst Port: 221
+Protocol: TCP
+Bytes Transferred: 360
+Duration (s): 1.7
+TLS JA3 Hash: da0f6539d886cb3cf67a1abf7af7d023
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0110 ---
+Timestamp: 2026-04-05 02:38:53 UTC
+Src IP: 10.0.197.60
+Dst IP: 98.50.161.125
+Src Port: 57828
+Dst Port: 39132
+Protocol: TLS
+Bytes Transferred: 921
+Duration (s): 1.01
+TLS JA3 Hash: e0179afc50bbb97818c0874ac42c7d74
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0126 ---
+Timestamp: 2026-04-05 03:00:31 UTC
+Src IP: 192.168.66.168
+Dst IP: 150.200.236.198
+Src Port: 45279
+Dst Port: 49093
+Protocol: TCP
+Bytes Transferred: 1796
+Duration (s): 2.65
+TLS JA3 Hash: 5a0020d33eb7986102163324c53589e2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0146 ---
+Timestamp: 2026-04-05 03:31:36 UTC
+Src IP: 192.168.249.97
+Dst IP: 158.180.145.83
+Src Port: 5049
+Dst Port: 1845
+Protocol: TLS
+Bytes Transferred: 569
+Duration (s): 0.73
+TLS JA3 Hash: bb0ac3dbbdb177792293a50a1edd80f0
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0404 ---
+Timestamp: 2026-04-05 09:48:07 UTC
+Src IP: 192.168.141.78
+Dst IP: 46.162.116.98
+Src Port: 61391
+Dst Port: 64317
+Protocol: TLS
+Bytes Transferred: 2640
+Duration (s): 2.09
+TLS JA3 Hash: 41aa1ee81cbeab2bc56501aa31f90373
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0202 ---
+Timestamp: 2026-04-05 04:55:11 UTC
+Src IP: 10.0.121.14
+Dst IP: 174.175.219.250
+Src Port: 40154
+Dst Port: 48329
+Protocol: TCP
+Bytes Transferred: 3758
+Duration (s): 2.45
+TLS JA3 Hash: 9f2d74578387d6f3564734c1864d0621
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0427 ---
+Timestamp: 2026-04-05 10:27:59 UTC
+Src IP: 192.168.242.237
+Dst IP: 75.113.157.182
+Src Port: 17892
+Dst Port: 51483
+Protocol: TCP
+Bytes Transferred: 2701
+Duration (s): 3.1
+TLS JA3 Hash: c7788e978d805471ad4f6837530e4153
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0367 ---
+Timestamp: 2026-04-05 08:51:02 UTC
+Src IP: 192.168.227.8
+Dst IP: 170.184.199.98
+Src Port: 48713
+Dst Port: 40603
+Protocol: UDP
+Bytes Transferred: 3940
+Duration (s): 2.89
+TLS JA3 Hash: 03585ab885cec64b95748c763ac582a5
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0002 ---
+Timestamp: 2026-04-05 00:01:20 UTC
+Src IP: 10.0.29.149
+Dst IP: 189.31.160.15
+Src Port: 4310
+Dst Port: 38285
+Protocol: UDP
+Bytes Transferred: 4319
+Duration (s): 4.6
+TLS JA3 Hash: 5125227c3712da86a78c49ea20e32684
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0016 ---
+Timestamp: 2026-04-05 00:25:30 UTC
+Src IP: 192.168.215.151
+Dst IP: 149.250.76.115
+Src Port: 36320
+Dst Port: 31742
+Protocol: UDP
+Bytes Transferred: 2923
+Duration (s): 2.8
+TLS JA3 Hash: cea67c7d1afcc4f14a3e3e04d42f8ac2
+Payload Fragment: -
+------------------------------------------------------------
+
+--- Flow Record #0128 ---
+Timestamp: 2026-04-05 03:04:02 UTC
+Src IP: 192.168.232.101
+Dst IP: 148.1.251.123
+Src Port: 29601
+Dst Port: 26471
+Protocol: TLS
+Bytes Transferred: 774
+Duration (s): 2.75
+TLS JA3 Hash: 0cf3ba9c12ba2e9651c69c3bf2e64160
+Payload Fragment: -
+------------------------------------------------------------
+
+=== End of Report ===

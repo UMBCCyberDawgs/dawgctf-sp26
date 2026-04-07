@@ -1,0 +1,1207 @@
+=== Malware Attack Vector Depth Analysis Tool v1.1 Validation Report ===
+Analyzed 120 labeled malware samples for threat depth classification.
+Format: Known (ground truth) Threat Depth vs Detected Threat Depth.
+========================================================================
+
+--- Sample Analysis #001 ---
+Sample ID: sample_001
+SHA256: 00000001deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000011
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.84
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 22:30:00 UTC
+----------------------------------------
+
+--- Sample Analysis #002 ---
+Sample ID: sample_002
+SHA256: 00000002deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000022
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.99
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-02 16:23:00 UTC
+----------------------------------------
+
+--- Sample Analysis #003 ---
+Sample ID: sample_003
+SHA256: 00000003deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000033
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.79
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-04 21:50:00 UTC
+----------------------------------------
+
+--- Sample Analysis #004 ---
+Sample ID: sample_004
+SHA256: 00000004deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000044
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 1.0
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-02 15:42:00 UTC
+----------------------------------------
+
+--- Sample Analysis #005 ---
+Sample ID: sample_005
+SHA256: 00000005deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000055
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.83
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 20:21:00 UTC
+----------------------------------------
+
+--- Sample Analysis #006 ---
+Sample ID: sample_006
+SHA256: 00000006deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000066
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.99
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-03 13:25:00 UTC
+----------------------------------------
+
+--- Sample Analysis #007 ---
+Sample ID: sample_007
+SHA256: 00000007deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000077
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.69
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-02 17:26:00 UTC
+----------------------------------------
+
+--- Sample Analysis #008 ---
+Sample ID: sample_008
+SHA256: 00000008deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000088
+Known Threat Depth: medium
+Detected Threat Depth: minor
+Confidence Score: 0.8
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-03 10:55:00 UTC
+----------------------------------------
+
+--- Sample Analysis #009 ---
+Sample ID: sample_009
+SHA256: 00000009deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000099
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.86
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-02 19:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #010 ---
+Sample ID: sample_010
+SHA256: 0000000adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000aa
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.76
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-04 15:46:00 UTC
+----------------------------------------
+
+--- Sample Analysis #011 ---
+Sample ID: sample_011
+SHA256: 0000000bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000bb
+Known Threat Depth: medium
+Detected Threat Depth: minor
+Confidence Score: 0.7
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-02 19:51:00 UTC
+----------------------------------------
+
+--- Sample Analysis #012 ---
+Sample ID: sample_012
+SHA256: 0000000cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000cc
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.98
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 23:35:00 UTC
+----------------------------------------
+
+--- Sample Analysis #013 ---
+Sample ID: sample_013
+SHA256: 0000000ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000dd
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.81
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-01 10:15:00 UTC
+----------------------------------------
+
+--- Sample Analysis #014 ---
+Sample ID: sample_014
+SHA256: 0000000edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000ee
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.93
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-04 12:50:00 UTC
+----------------------------------------
+
+--- Sample Analysis #015 ---
+Sample ID: sample_015
+SHA256: 0000000fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000000ff
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.83
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 15:43:00 UTC
+----------------------------------------
+
+--- Sample Analysis #016 ---
+Sample ID: sample_016
+SHA256: 00000010deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000110
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.85
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 16:57:00 UTC
+----------------------------------------
+
+--- Sample Analysis #017 ---
+Sample ID: sample_017
+SHA256: 00000011deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000121
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.93
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 12:50:00 UTC
+----------------------------------------
+
+--- Sample Analysis #018 ---
+Sample ID: sample_018
+SHA256: 00000012deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000132
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.83
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-02 16:31:00 UTC
+----------------------------------------
+
+--- Sample Analysis #019 ---
+Sample ID: sample_019
+SHA256: 00000013deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000143
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.96
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 17:41:00 UTC
+----------------------------------------
+
+--- Sample Analysis #020 ---
+Sample ID: sample_020
+SHA256: 00000014deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000154
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.8
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-03 14:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #021 ---
+Sample ID: sample_021
+SHA256: 00000015deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000165
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.83
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 18:25:00 UTC
+----------------------------------------
+
+--- Sample Analysis #022 ---
+Sample ID: sample_022
+SHA256: 00000016deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000176
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.96
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-04 14:24:00 UTC
+----------------------------------------
+
+--- Sample Analysis #023 ---
+Sample ID: sample_023
+SHA256: 00000017deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000187
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.85
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 16:35:00 UTC
+----------------------------------------
+
+--- Sample Analysis #024 ---
+Sample ID: sample_024
+SHA256: 00000018deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000198
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.89
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 14:14:00 UTC
+----------------------------------------
+
+--- Sample Analysis #025 ---
+Sample ID: sample_025
+SHA256: 00000019deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001a9
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.97
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-03 11:23:00 UTC
+----------------------------------------
+
+--- Sample Analysis #026 ---
+Sample ID: sample_026
+SHA256: 0000001adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001ba
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.8
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-02 19:32:00 UTC
+----------------------------------------
+
+--- Sample Analysis #027 ---
+Sample ID: sample_027
+SHA256: 0000001bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001cb
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.69
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 11:55:00 UTC
+----------------------------------------
+
+--- Sample Analysis #028 ---
+Sample ID: sample_028
+SHA256: 0000001cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001dc
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.89
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-03 19:52:00 UTC
+----------------------------------------
+
+--- Sample Analysis #029 ---
+Sample ID: sample_029
+SHA256: 0000001ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001ed
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.7
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 18:50:00 UTC
+----------------------------------------
+
+--- Sample Analysis #030 ---
+Sample ID: sample_030
+SHA256: 0000001edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000001fe
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.72
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-03 10:33:00 UTC
+----------------------------------------
+
+--- Sample Analysis #031 ---
+Sample ID: sample_031
+SHA256: 0000001fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000020f
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.67
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 16:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #032 ---
+Sample ID: sample_032
+SHA256: 00000020deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000220
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.85
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-01 21:59:00 UTC
+----------------------------------------
+
+--- Sample Analysis #033 ---
+Sample ID: sample_033
+SHA256: 00000021deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000231
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.7
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-01 16:20:00 UTC
+----------------------------------------
+
+--- Sample Analysis #034 ---
+Sample ID: sample_034
+SHA256: 00000022deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000242
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.74
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 19:40:00 UTC
+----------------------------------------
+
+--- Sample Analysis #035 ---
+Sample ID: sample_035
+SHA256: 00000023deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000253
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.71
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 13:15:00 UTC
+----------------------------------------
+
+--- Sample Analysis #036 ---
+Sample ID: sample_036
+SHA256: 00000024deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000264
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.69
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 19:25:00 UTC
+----------------------------------------
+
+--- Sample Analysis #037 ---
+Sample ID: sample_037
+SHA256: 00000025deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000275
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.84
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-02 15:37:00 UTC
+----------------------------------------
+
+--- Sample Analysis #038 ---
+Sample ID: sample_038
+SHA256: 00000026deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000286
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.71
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 22:14:00 UTC
+----------------------------------------
+
+--- Sample Analysis #039 ---
+Sample ID: sample_039
+SHA256: 00000027deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000297
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.7
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 19:27:00 UTC
+----------------------------------------
+
+--- Sample Analysis #040 ---
+Sample ID: sample_040
+SHA256: 00000028deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002a8
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.8
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 17:35:00 UTC
+----------------------------------------
+
+--- Sample Analysis #041 ---
+Sample ID: sample_041
+SHA256: 00000029deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002b9
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.86
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 20:55:00 UTC
+----------------------------------------
+
+--- Sample Analysis #042 ---
+Sample ID: sample_042
+SHA256: 0000002adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002ca
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 1.0
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 19:58:00 UTC
+----------------------------------------
+
+--- Sample Analysis #043 ---
+Sample ID: sample_043
+SHA256: 0000002bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002db
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.8
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 14:56:00 UTC
+----------------------------------------
+
+--- Sample Analysis #044 ---
+Sample ID: sample_044
+SHA256: 0000002cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002ec
+Known Threat Depth: medium
+Detected Threat Depth: minor
+Confidence Score: 0.95
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 20:34:00 UTC
+----------------------------------------
+
+--- Sample Analysis #045 ---
+Sample ID: sample_045
+SHA256: 0000002ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000002fd
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.78
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-03 15:25:00 UTC
+----------------------------------------
+
+--- Sample Analysis #046 ---
+Sample ID: sample_046
+SHA256: 0000002edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000030e
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.98
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 18:21:00 UTC
+----------------------------------------
+
+--- Sample Analysis #047 ---
+Sample ID: sample_047
+SHA256: 0000002fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000031f
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.9
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 21:11:00 UTC
+----------------------------------------
+
+--- Sample Analysis #048 ---
+Sample ID: sample_048
+SHA256: 00000030deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000330
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.76
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 18:16:00 UTC
+----------------------------------------
+
+--- Sample Analysis #049 ---
+Sample ID: sample_049
+SHA256: 00000031deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000341
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.73
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 17:56:00 UTC
+----------------------------------------
+
+--- Sample Analysis #050 ---
+Sample ID: sample_050
+SHA256: 00000032deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000352
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.8
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-01 10:53:00 UTC
+----------------------------------------
+
+--- Sample Analysis #051 ---
+Sample ID: sample_051
+SHA256: 00000033deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000363
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.87
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-03 19:45:00 UTC
+----------------------------------------
+
+--- Sample Analysis #052 ---
+Sample ID: sample_052
+SHA256: 00000034deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000374
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 1.0
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-04 15:34:00 UTC
+----------------------------------------
+
+--- Sample Analysis #053 ---
+Sample ID: sample_053
+SHA256: 00000035deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000385
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.68
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 20:58:00 UTC
+----------------------------------------
+
+--- Sample Analysis #054 ---
+Sample ID: sample_054
+SHA256: 00000036deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000396
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.88
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 22:38:00 UTC
+----------------------------------------
+
+--- Sample Analysis #055 ---
+Sample ID: sample_055
+SHA256: 00000037deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003a7
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.89
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-01 12:28:00 UTC
+----------------------------------------
+
+--- Sample Analysis #056 ---
+Sample ID: sample_056
+SHA256: 00000038deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003b8
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.71
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 17:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #057 ---
+Sample ID: sample_057
+SHA256: 00000039deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003c9
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.9
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 19:58:00 UTC
+----------------------------------------
+
+--- Sample Analysis #058 ---
+Sample ID: sample_058
+SHA256: 0000003adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003da
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.99
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-02 18:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #059 ---
+Sample ID: sample_059
+SHA256: 0000003bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003eb
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.94
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 22:27:00 UTC
+----------------------------------------
+
+--- Sample Analysis #060 ---
+Sample ID: sample_060
+SHA256: 0000003cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000003fc
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.79
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 19:22:00 UTC
+----------------------------------------
+
+--- Sample Analysis #061 ---
+Sample ID: sample_061
+SHA256: 0000003ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000040d
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.71
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 18:24:00 UTC
+----------------------------------------
+
+--- Sample Analysis #062 ---
+Sample ID: sample_062
+SHA256: 0000003edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000041e
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.75
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 21:38:00 UTC
+----------------------------------------
+
+--- Sample Analysis #063 ---
+Sample ID: sample_063
+SHA256: 0000003fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000042f
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.92
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 13:34:00 UTC
+----------------------------------------
+
+--- Sample Analysis #064 ---
+Sample ID: sample_064
+SHA256: 00000040deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000440
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.82
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-04 21:42:00 UTC
+----------------------------------------
+
+--- Sample Analysis #065 ---
+Sample ID: sample_065
+SHA256: 00000041deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000451
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.89
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 10:40:00 UTC
+----------------------------------------
+
+--- Sample Analysis #066 ---
+Sample ID: sample_066
+SHA256: 00000042deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000462
+Known Threat Depth: major
+Detected Threat Depth: minor
+Confidence Score: 0.75
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-04 19:19:00 UTC
+----------------------------------------
+
+--- Sample Analysis #067 ---
+Sample ID: sample_067
+SHA256: 00000043deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000473
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.76
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 18:57:00 UTC
+----------------------------------------
+
+--- Sample Analysis #068 ---
+Sample ID: sample_068
+SHA256: 00000044deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000484
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.99
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-04 18:34:00 UTC
+----------------------------------------
+
+--- Sample Analysis #069 ---
+Sample ID: sample_069
+SHA256: 00000045deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000495
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.95
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-03 12:59:00 UTC
+----------------------------------------
+
+--- Sample Analysis #070 ---
+Sample ID: sample_070
+SHA256: 00000046deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004a6
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 1.0
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-04 11:45:00 UTC
+----------------------------------------
+
+--- Sample Analysis #071 ---
+Sample ID: sample_071
+SHA256: 00000047deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004b7
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.95
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-01 20:59:00 UTC
+----------------------------------------
+
+--- Sample Analysis #072 ---
+Sample ID: sample_072
+SHA256: 00000048deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004c8
+Known Threat Depth: minor
+Detected Threat Depth: major
+Confidence Score: 0.9
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 22:43:00 UTC
+----------------------------------------
+
+--- Sample Analysis #073 ---
+Sample ID: sample_073
+SHA256: 00000049deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004d9
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 1.0
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-03 14:31:00 UTC
+----------------------------------------
+
+--- Sample Analysis #074 ---
+Sample ID: sample_074
+SHA256: 0000004adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004ea
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.71
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-03 18:24:00 UTC
+----------------------------------------
+
+--- Sample Analysis #075 ---
+Sample ID: sample_075
+SHA256: 0000004bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000004fb
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.69
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-01 15:16:00 UTC
+----------------------------------------
+
+--- Sample Analysis #076 ---
+Sample ID: sample_076
+SHA256: 0000004cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000050c
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.87
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-02 23:49:00 UTC
+----------------------------------------
+
+--- Sample Analysis #077 ---
+Sample ID: sample_077
+SHA256: 0000004ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000051d
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.82
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 23:11:00 UTC
+----------------------------------------
+
+--- Sample Analysis #078 ---
+Sample ID: sample_078
+SHA256: 0000004edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000052e
+Known Threat Depth: major
+Detected Threat Depth: medium
+Confidence Score: 0.76
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 11:29:00 UTC
+----------------------------------------
+
+--- Sample Analysis #079 ---
+Sample ID: sample_079
+SHA256: 0000004fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000053f
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.74
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-01 13:49:00 UTC
+----------------------------------------
+
+--- Sample Analysis #080 ---
+Sample ID: sample_080
+SHA256: 00000050deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000550
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.78
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-01 14:48:00 UTC
+----------------------------------------
+
+--- Sample Analysis #081 ---
+Sample ID: sample_081
+SHA256: 00000051deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000561
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.87
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-04 16:23:00 UTC
+----------------------------------------
+
+--- Sample Analysis #082 ---
+Sample ID: sample_082
+SHA256: 00000052deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000572
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.84
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 22:23:00 UTC
+----------------------------------------
+
+--- Sample Analysis #083 ---
+Sample ID: sample_083
+SHA256: 00000053deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000583
+Known Threat Depth: minor
+Detected Threat Depth: major
+Confidence Score: 0.94
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-03 14:34:00 UTC
+----------------------------------------
+
+--- Sample Analysis #084 ---
+Sample ID: sample_084
+SHA256: 00000054deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000594
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.99
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 13:38:00 UTC
+----------------------------------------
+
+--- Sample Analysis #085 ---
+Sample ID: sample_085
+SHA256: 00000055deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005a5
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.96
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 20:50:00 UTC
+----------------------------------------
+
+--- Sample Analysis #086 ---
+Sample ID: sample_086
+SHA256: 00000056deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005b6
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.7
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-04 22:33:00 UTC
+----------------------------------------
+
+--- Sample Analysis #087 ---
+Sample ID: sample_087
+SHA256: 00000057deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005c7
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.72
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-03 22:40:00 UTC
+----------------------------------------
+
+--- Sample Analysis #088 ---
+Sample ID: sample_088
+SHA256: 00000058deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005d8
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.67
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-03 19:58:00 UTC
+----------------------------------------
+
+--- Sample Analysis #089 ---
+Sample ID: sample_089
+SHA256: 00000059deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005e9
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.84
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-03 10:12:00 UTC
+----------------------------------------
+
+--- Sample Analysis #090 ---
+Sample ID: sample_090
+SHA256: 0000005adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000005fa
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.95
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-04 15:23:00 UTC
+----------------------------------------
+
+--- Sample Analysis #091 ---
+Sample ID: sample_091
+SHA256: 0000005bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000060b
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.94
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-02 12:54:00 UTC
+----------------------------------------
+
+--- Sample Analysis #092 ---
+Sample ID: sample_092
+SHA256: 0000005cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000061c
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.73
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-01 11:16:00 UTC
+----------------------------------------
+
+--- Sample Analysis #093 ---
+Sample ID: sample_093
+SHA256: 0000005ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000062d
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.72
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 15:47:00 UTC
+----------------------------------------
+
+--- Sample Analysis #094 ---
+Sample ID: sample_094
+SHA256: 0000005edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000063e
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 1.0
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-01 18:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #095 ---
+Sample ID: sample_095
+SHA256: 0000005fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000064f
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.73
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 17:28:00 UTC
+----------------------------------------
+
+--- Sample Analysis #096 ---
+Sample ID: sample_096
+SHA256: 00000060deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000660
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.78
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-01 14:39:00 UTC
+----------------------------------------
+
+--- Sample Analysis #097 ---
+Sample ID: sample_097
+SHA256: 00000061deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000671
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.93
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-03 20:30:00 UTC
+----------------------------------------
+
+--- Sample Analysis #098 ---
+Sample ID: sample_098
+SHA256: 00000062deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000682
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.91
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-03 23:42:00 UTC
+----------------------------------------
+
+--- Sample Analysis #099 ---
+Sample ID: sample_099
+SHA256: 00000063deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000693
+Known Threat Depth: medium
+Detected Threat Depth: major
+Confidence Score: 0.75
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-02 23:53:00 UTC
+----------------------------------------
+
+--- Sample Analysis #100 ---
+Sample ID: sample_100
+SHA256: 00000064deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006a4
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.69
+Behaviors Detected: suspicious API calls, registry modification
+Analysis Timestamp: 2026-04-01 12:10:00 UTC
+----------------------------------------
+
+--- Sample Analysis #101 ---
+Sample ID: sample_101
+SHA256: 00000065deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006b5
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.69
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 13:47:00 UTC
+----------------------------------------
+
+--- Sample Analysis #102 ---
+Sample ID: sample_102
+SHA256: 00000066deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006c6
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.65
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 14:48:00 UTC
+----------------------------------------
+
+--- Sample Analysis #103 ---
+Sample ID: sample_103
+SHA256: 00000067deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006d7
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.67
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-04 12:17:00 UTC
+----------------------------------------
+
+--- Sample Analysis #104 ---
+Sample ID: sample_104
+SHA256: 00000068deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006e8
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.66
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-03 10:22:00 UTC
+----------------------------------------
+
+--- Sample Analysis #105 ---
+Sample ID: sample_105
+SHA256: 00000069deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000006f9
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.76
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-02 22:13:00 UTC
+----------------------------------------
+
+--- Sample Analysis #106 ---
+Sample ID: sample_106
+SHA256: 0000006adeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000070a
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.75
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 11:49:00 UTC
+----------------------------------------
+
+--- Sample Analysis #107 ---
+Sample ID: sample_107
+SHA256: 0000006bdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000071b
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.68
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-02 20:38:00 UTC
+----------------------------------------
+
+--- Sample Analysis #108 ---
+Sample ID: sample_108
+SHA256: 0000006cdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000072c
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.69
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 18:22:00 UTC
+----------------------------------------
+
+--- Sample Analysis #109 ---
+Sample ID: sample_109
+SHA256: 0000006ddeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000073d
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.79
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-02 22:37:00 UTC
+----------------------------------------
+
+--- Sample Analysis #110 ---
+Sample ID: sample_110
+SHA256: 0000006edeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000074e
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.68
+Behaviors Detected: credential dumping, lateral movement attempt
+Analysis Timestamp: 2026-04-04 18:16:00 UTC
+----------------------------------------
+
+--- Sample Analysis #111 ---
+Sample ID: sample_111
+SHA256: 0000006fdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef0000075f
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.91
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-01 15:14:00 UTC
+----------------------------------------
+
+--- Sample Analysis #112 ---
+Sample ID: sample_112
+SHA256: 00000070deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000770
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.85
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-04 21:27:00 UTC
+----------------------------------------
+
+--- Sample Analysis #113 ---
+Sample ID: sample_113
+SHA256: 00000071deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000781
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.75
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-02 22:39:00 UTC
+----------------------------------------
+
+--- Sample Analysis #114 ---
+Sample ID: sample_114
+SHA256: 00000072deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef00000792
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.65
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-02 23:19:00 UTC
+----------------------------------------
+
+--- Sample Analysis #115 ---
+Sample ID: sample_115
+SHA256: 00000073deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007a3
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.87
+Behaviors Detected: obfuscated PowerShell, anti-VM techniques
+Analysis Timestamp: 2026-04-02 12:46:00 UTC
+----------------------------------------
+
+--- Sample Analysis #116 ---
+Sample ID: sample_116
+SHA256: 00000074deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007b4
+Known Threat Depth: minor
+Detected Threat Depth: minor
+Confidence Score: 0.95
+Behaviors Detected: ransomware-like file changes, exfiltration
+Analysis Timestamp: 2026-04-01 16:35:00 UTC
+----------------------------------------
+
+--- Sample Analysis #117 ---
+Sample ID: sample_117
+SHA256: 00000075deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007c5
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.69
+Behaviors Detected: process injection, persistence via scheduled task
+Analysis Timestamp: 2026-04-02 18:25:00 UTC
+----------------------------------------
+
+--- Sample Analysis #118 ---
+Sample ID: sample_118
+SHA256: 00000076deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007d6
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.71
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-02 21:47:00 UTC
+----------------------------------------
+
+--- Sample Analysis #119 ---
+Sample ID: sample_119
+SHA256: 00000077deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007e7
+Known Threat Depth: medium
+Detected Threat Depth: medium
+Confidence Score: 0.89
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-04 13:28:00 UTC
+----------------------------------------
+
+--- Sample Analysis #120 ---
+Sample ID: sample_120
+SHA256: 00000078deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef000007f8
+Known Threat Depth: major
+Detected Threat Depth: major
+Confidence Score: 0.71
+Behaviors Detected: network beacon to C2 server, file encryption attempt
+Analysis Timestamp: 2026-04-03 14:47:00 UTC
+----------------------------------------
+
+=== End of Report ===
+Total samples processed: 120

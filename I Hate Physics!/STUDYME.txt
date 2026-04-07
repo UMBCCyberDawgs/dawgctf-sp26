@@ -1,0 +1,71 @@
+D=1/2mv^2 (force * displacement) = 1/2 * mass * velocity^2 + alpha
+w=fd (force * displacement) with respect to displacement lag
+Cp=20.79 J/K/Mol for a constant pressure ONLY FOR OUTPUT
+FINAL TEMPERATURE ALWAYS COMES FIRST BECAUSE THE TEMPERATURE DELTA IS INSIDE {
+temperature min, temperature max}, like with
+e=u+pVr
+m=0
+dU=mcdT and remember that sometimes mcdT can be a dy
+nA is number of moles of gas A/B^4
+mA*cA*∆T=cB*cB*∆T when two things are equalizing i.e and indirect carnot cycli
+c, such as with the following equation: 2500kg*cA*(500-400)=cB*cB*∆T*5
+s=ksubb * ln * omega * tau
+cv=12.47J/K/Mol for a constant vol, Klevin is k
+s=integral from vi to vf of (1/T *dU) for a general delta!
+}]\d\wa\dT
+h=W/ti (Power) = Work / time elapsed in seconds i
+sv=dx/dm, aka momentum i
+singleton particles are usually carrying a charged ion
+0*pe=mgh aka potential energy with respect to gravity zeroed to t
+p=x^8/fd+a
+radial work=fd force * displacement
+overall pv=nrt (pressure * volume) = (quantity of gas) * (avagadro's num) * temp f
+the equilibrium pos of a container filled with ideal gas h
+extended to a near symmetrical distribution of constant mass f
+less than with uniform distribution=(nA/(na+nB))*L where L=na
+g+nA is number of moles of gas A/B!
+Total num of states = (Volf/Voli)^n
+mA*cA*∆T=cB*cB*∆T when two things are equalizing via direct conduction
+Qa=Qb (heat lost equals heat gained, because of conservation of energy,
+ use this to solve for etc)
+∆T=(Tf-Ti) (when temperature is decreasing, this becomes (Ti - Tf))
+When we have a material that changes states, i.e ice to water,
+our equation should look something like this:
+Q=m*cA*(Tm-Ti) + m*cB*(T-Tm) + m*L (where cA is the specific heat of the initi
+al state, cB is the specific heat of the state it transforms into, and
+L is the latent heat of fusion for that state change, and Tm is the temp
+at which the state change occurs)
+REMEMBER - YOU CAN SET FUNCTIONS EQUAL TO ANOTHER AND CANCEL LIKE TERMS
+(for instance, if kinetic energy is converted completely to heat, you can
+set K=mC∆T and solve even without knowing m)
+REMEMBER - When a material is initially at it's state change point, and
+then is equalized or heated, you ignore 
+U = f/2nRT where R is the gas constant and f is the degrees of freedom
+p is pascals, v is volume in m, n is moles, R is 8.314, T is kelvin temp
+∆S = Change in entropy
+∆U = n Cp ∆T where U is internal energy of an ideal gas
+KE=3/2nRT
+Avg Kinetic Energy per Molecule
+KE=3/2KbT
+Average velocity of atoms in an ideal gas
+V = sqrt(3RT/m) (Where R is 8.314, and m is atomic mass * Avagadro)
+∆L=L0α(∆T) 
+∆Q = m * Csteel * (∆T)
+W=P*∆V
+Cv=12.47J/K/Mol for a constant vol
+Cp=20.79 J/K/Mol for a constant pressure
+avagadro's number - 8.314
+In general, ∆S=integral from vi to vf of (1/T *dU)
+for constant temp, this is ∆S = ∆U/T
+for changing temp, this is ∆S = m*c*ln(Tf/Ti)
+USE KELVIN FOR ENTROPY
+∆U=Q=mc∆T
+dU=mcdT
+
+Lice*Mice+MiWater*CiWater*(T-273.15)=Mwater*Cwater*(363.15-T)
+100*333500+100*4200*(T-273.15)=500*4200*(363.15-T)
+
+Eice=33350000/273=122000
+Eiwater=100*4200*ln(334.9/273.15)=85600.5716825
+Ewater=500*4200*ln(334.9/363.15)=-510199.151188
+T=334.915873016
